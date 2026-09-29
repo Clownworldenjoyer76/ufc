@@ -14,3 +14,4 @@ lightgbm==4.6.0
 xgboost==2.0.3
 pyarrow==14.0.2
 nfl_data_py==0.3.3
+beautifulsoup4
