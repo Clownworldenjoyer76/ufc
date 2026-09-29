@@ -272,8 +272,8 @@ def add_to_agg(a: dict, g: dict) -> None:
 
 def render_row(bucket_dim: str, bucket_label: str, a: dict) -> dict:
     decided = a["wins"] + a["losses"]
-    win_pct = (a["wins"] / decided) if decided else ""
-    roi = (a["units"] / a["bets"]) if a["bets"] else ""
+    win_pct = float(a["wins"] / decided) if decided else None
+    roi = float(a["units"] / a["bets"]) if a["bets"] else None
 
     return {
         "league": LEAGUE,
@@ -285,9 +285,9 @@ def render_row(bucket_dim: str, bucket_label: str, a: dict) -> dict:
         "losses": a["losses"],
         "pushes": a["pushes"],
         "total": a["bets"],
-        "win_pct": f"{win_pct:.4f}" if win_pct != "" else "",
+        "win_pct": f"{win_pct:.4f}" if win_pct is not None else "",
         "units_flat": f"{a['units']:.4f}",
-        "roi_flat": f"{roi:.4f}" if roi != "" else "",
+        "roi_flat": f"{roi:.4f}" if roi is not None else "",
         "avg_implied_prob": f"{(a['sum_implied'] / a['n_implied']):.4f}" if a["n_implied"] else "",
         "avg_model_prob": f"{(a['sum_model'] / a['n_model']):.4f}" if a["n_model"] else "",
         "avg_dratings_prob": f"{(a['sum_dr'] / a['n_dr']):.4f}" if a["n_dr"] else "",
@@ -332,7 +332,7 @@ def write_summary(path: str, graded: list[dict]) -> None:
         add_to_agg(a, g)
 
     decided = a["wins"] + a["losses"]
-    win_pct = (a["wins"] / decided) if decided else ""
+    win_pct = float(a["wins"] / decided) if decided else None
 
     with open(path, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(
@@ -355,7 +355,7 @@ def write_summary(path: str, graded: list[dict]) -> None:
             "Loss": a["losses"],
             "Push": a["pushes"],
             "Total": a["bets"],
-            "Win_Pct": f"{win_pct:.4f}" if win_pct != "" else "",
+            "Win_Pct": f"{win_pct:.4f}" if win_pct is not None else "",
         })
 
 

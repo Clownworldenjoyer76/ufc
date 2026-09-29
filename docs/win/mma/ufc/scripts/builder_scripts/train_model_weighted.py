@@ -94,8 +94,13 @@ for fold, (tr_idx, val_idx) in enumerate(tscv.split(X_train)):
     cv_brier.append(brier_score_loss(y_train.iloc[val_idx], preds))
     cv_logloss.append(log_loss(y_train.iloc[val_idx], preds))
     print(f"  Fold {fold+1}: Brier={cv_brier[-1]:.4f}  LogLoss={cv_logloss[-1]:.4f}")
-print(f"\nCV Mean Brier:   {np.mean(cv_brier):.4f} (+/- {np.std(cv_brier):.4f})")
-print(f"CV Mean LogLoss: {np.mean(cv_logloss):.4f} (+/- {np.std(cv_logloss):.4f})")
+cv_brier_mean = float(np.mean(cv_brier))
+cv_brier_std = float(np.std(cv_brier))
+cv_logloss_mean = float(np.mean(cv_logloss))
+cv_logloss_std = float(np.std(cv_logloss))
+
+print(f"\nCV Mean Brier:   {cv_brier_mean:.4f} (+/- {cv_brier_std:.4f})")
+print(f"CV Mean LogLoss: {cv_logloss_mean:.4f} (+/- {cv_logloss_std:.4f})")
 
 # --- Final XGBoost ---
 print("\n--- FINAL XGBOOST: Full train -> test ---")
