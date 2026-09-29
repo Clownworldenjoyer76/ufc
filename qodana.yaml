@@ -1,10 +1,19 @@
-####################################################################################################################
+﻿####################################################################################################################
 # WARNING: Do not store sensitive information in this file, as its contents will be included in the Qodana report. #
 ####################################################################################################################
 
 version: "1.0"
 linter: qodana-python
+
 profile:
   name: qodana.recommended
+
+onlyDirectory: docs/win/mma/ufc/scripts
+
+bootstrap: |
+  set -eu
+  python -m pip install --upgrade pip
+  python -m pip install --retries 5 pandas==1.5.3 numpy==1.26.4 pyyaml==6.0.2 requests beautifulsoup4 scikit-learn==1.5.0 xgboost==2.0.3 pyarrow==14.0.2
+
 include:
   - name: CheckDependencyLicenses
