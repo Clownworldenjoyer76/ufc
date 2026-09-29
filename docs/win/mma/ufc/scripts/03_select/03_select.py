@@ -155,7 +155,7 @@ def passes_filters(ml, edge, ev, kelly, model_prob, dratings_prob):
     return True
 
 
-def make_candidate(row: dict, fighter_key: str) -> dict:
+def make_candidate(source_row: dict, fighter_key: str) -> dict:
     """
     Build one fighter candidate (legacy format) from a fight row.
 
@@ -165,44 +165,44 @@ def make_candidate(row: dict, fighter_key: str) -> dict:
     """
     if fighter_key == "f1":
         return {
-            "match_date": row["match_date"],
-            "fighter": row["fighter_1"],
-            "opponent": row["fighter_2"],
-            "moneyline": row["moneyline_f1"],
-            "implied_prob": row["implied_prob_f1"],
-            "model_prob": row["model_prob_f1"],
-            "dratings_prob": row["dratings_prob_f1"],
-            "edge": row["edge_f1"],
-            "ev": row["ev_f1"],
-            "kelly": row["kelly_f1"],
+            "match_date": source_row["match_date"],
+            "fighter": source_row["fighter_1"],
+            "opponent": source_row["fighter_2"],
+            "moneyline": source_row["moneyline_f1"],
+            "implied_prob": source_row["implied_prob_f1"],
+            "model_prob": source_row["model_prob_f1"],
+            "dratings_prob": source_row["dratings_prob_f1"],
+            "edge": source_row["edge_f1"],
+            "ev": source_row["ev_f1"],
+            "kelly": source_row["kelly_f1"],
         }
 
     return {
-        "match_date": row["match_date"],
-        "fighter": row["fighter_2"],
-        "opponent": row["fighter_1"],
-        "moneyline": row["moneyline_f2"],
-        "implied_prob": row["implied_prob_f2"],
-        "model_prob": row["model_prob_f2"],
-        "dratings_prob": row["dratings_prob_f2"],
-        "edge": row["edge_f2"],
-        "ev": row["ev_f2"],
-        "kelly": row["kelly_f2"],
+        "match_date": source_row["match_date"],
+        "fighter": source_row["fighter_2"],
+        "opponent": source_row["fighter_1"],
+        "moneyline": source_row["moneyline_f2"],
+        "implied_prob": source_row["implied_prob_f2"],
+        "model_prob": source_row["model_prob_f2"],
+        "dratings_prob": source_row["dratings_prob_f2"],
+        "edge": source_row["edge_f2"],
+        "ev": source_row["ev_f2"],
+        "kelly": source_row["kelly_f2"],
     }
 
 
-def candidate_passes(row: dict, fighter_key: str) -> bool:
+def candidate_passes(source_row: dict, fighter_key: str) -> bool:
     """
     Apply filters to one fighter side from the raw edge row.
     """
     suffix = "_f1" if fighter_key == "f1" else "_f2"
 
-    ml = ml_to_float(row.get(f"moneyline{suffix}"))
-    edge = safe_float(row.get(f"edge{suffix}"))
-    ev = safe_float(row.get(f"ev{suffix}"))
-    kelly = safe_float(row.get(f"kelly{suffix}"))
-    model_prob = safe_float(row.get(f"model_prob{suffix}"))
-    dratings_prob = safe_float(row.get(f"dratings_prob{suffix}"))
+    ml = ml_to_float(source_row.get(f"moneyline{suffix}"))
+    edge = safe_float(source_row.get(f"edge{suffix}"))
+    ev = safe_float(source_row.get(f"ev{suffix}"))
+    kelly = safe_float(source_row.get(f"kelly{suffix}"))
+    model_prob = safe_float(source_row.get(f"model_prob{suffix}"))
+    dratings_prob = safe_float(source_row.get(f"dratings_prob{suffix}"))
 
     return passes_filters(
         ml=ml,
@@ -214,32 +214,32 @@ def candidate_passes(row: dict, fighter_key: str) -> bool:
     )
 
 
-def make_detailed_row(row: dict, bet_value: str) -> dict:
+def make_detailed_row(source_row: dict, bet_label: str) -> dict:
     """
     Build one detailed (audit) row from a fight row.
 
-    bet_value:
+    bet_label:
         'fighter_1' | 'fighter_2' | 'no_bet'
     """
     return {
-        "match_date": row["match_date"],
-        "fighter_1": row["fighter_1"],
-        "fighter_2": row["fighter_2"],
-        "moneyline_f1": row["moneyline_f1"],
-        "moneyline_f2": row["moneyline_f2"],
-        "implied_prob_f1": row["implied_prob_f1"],
-        "implied_prob_f2": row["implied_prob_f2"],
-        "model_prob_f1": row["model_prob_f1"],
-        "model_prob_f2": row["model_prob_f2"],
-        "dratings_prob_f1": row["dratings_prob_f1"],
-        "dratings_prob_f2": row["dratings_prob_f2"],
-        "edge_f1": row["edge_f1"],
-        "edge_f2": row["edge_f2"],
-        "ev_f1": row["ev_f1"],
-        "ev_f2": row["ev_f2"],
-        "kelly_f1": row["kelly_f1"],
-        "kelly_f2": row["kelly_f2"],
-        "bet": bet_value,
+        "match_date": source_row["match_date"],
+        "fighter_1": source_row["fighter_1"],
+        "fighter_2": source_row["fighter_2"],
+        "moneyline_f1": source_row["moneyline_f1"],
+        "moneyline_f2": source_row["moneyline_f2"],
+        "implied_prob_f1": source_row["implied_prob_f1"],
+        "implied_prob_f2": source_row["implied_prob_f2"],
+        "model_prob_f1": source_row["model_prob_f1"],
+        "model_prob_f2": source_row["model_prob_f2"],
+        "dratings_prob_f1": source_row["dratings_prob_f1"],
+        "dratings_prob_f2": source_row["dratings_prob_f2"],
+        "edge_f1": source_row["edge_f1"],
+        "edge_f2": source_row["edge_f2"],
+        "ev_f1": source_row["ev_f1"],
+        "ev_f2": source_row["ev_f2"],
+        "kelly_f1": source_row["kelly_f1"],
+        "kelly_f2": source_row["kelly_f2"],
+        "bet": bet_label,
     }
 
 

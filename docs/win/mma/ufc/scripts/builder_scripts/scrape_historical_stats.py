@@ -40,11 +40,11 @@ MANUAL = {
 }
 lower_index = {k.lower(): v for k, v in name_to_url.items()}
 
-def find_url(name):
-    if name in name_to_url: return name_to_url[name]
-    mapped = MANUAL.get(name)
+def find_url(fighter_name):
+    if fighter_name in name_to_url: return name_to_url[fighter_name]
+    mapped = MANUAL.get(fighter_name)
     if mapped and mapped in name_to_url: return name_to_url[mapped]
-    return lower_index.get(name.lower())
+    return lower_index.get(fighter_name.lower())
 
 def parse_date(date_str):
     date_str = date_str.strip().replace(".", "")
@@ -59,7 +59,7 @@ def safe_int(val):
     try: return int(val.strip())
     except: return 0
 
-def scrape_fighter_history(url):
+def scrape_fighter_history(fighter_url):
     """
     Column mapping (confirmed):
       col[0]: result
@@ -74,13 +74,13 @@ def scrape_fighter_history(url):
       col[9]: time
     """
     try:
-        r = requests.get(url, headers=HEADERS, timeout=10)
+        r = requests.get(fighter_url, headers=HEADERS, timeout=10)
         soup = BeautifulSoup(r.text, "html.parser")
         fights = []
         rows = soup.select("tr.b-fight-details__table-row")
 
-        for row in rows:
-            cols = row.select("td")
+        for fight_row in rows:
+            cols = fight_row.select("td")
             if len(cols) < 9:
                 continue
             result = cols[0].get_text(strip=True).lower()

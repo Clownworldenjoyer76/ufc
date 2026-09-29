@@ -90,8 +90,8 @@ for idx, row in df.iterrows():
             h1 = {k.replace("f2_", ""): v for k, v in hdata.items() if k.startswith("f2_h_")}
             h2 = {k.replace("f1_", ""): v for k, v in hdata.items() if k.startswith("f1_h_")}
 
-    def hget(d, key, default=None):
-        val = d.get(key, default)
+    def hget(d, field_name, default=None):
+        val = d.get(field_name, default)
         if pd.isna(val) if val is not None else False: return default
         return val
 

@@ -78,9 +78,9 @@ def find_url(our_name):
     if mapped and mapped in name_to_url:
         return name_to_url[mapped]
     # 3. Lowercase match
-    url = lower_index.get(our_name.lower())
-    if url:
-        return url
+    matched_url = lower_index.get(our_name.lower())
+    if matched_url:
+        return matched_url
     return None
 
 with open("fighter_attributes.json") as f:

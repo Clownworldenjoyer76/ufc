@@ -62,22 +62,22 @@ rolling_history, opponent_history = build_master_indexes(master)
 
 
 # --- Historical stats (time-gated) ---
-def get_historical_stats(fighter, fight_date):
+def get_historical_stats(fighter, target_date):
     fights = [
         fight
         for fight in fighter_history.get(fighter, [])
-        if fight["date"] < fight_date
+        if fight["date"] < target_date
     ]
     return summarize_historical_fights(fights, cap_accuracy=True)
 
 
 # --- Implied probability ---
-def vig_removed(ip1, ip2):
-    if ip1 and ip2:
-        total = ip1 + ip2
-        return ip1 / total, ip2 / total
+def vig_removed(prob1, prob2):
+    if prob1 and prob2:
+        total = prob1 + prob2
+        return prob1 / total, prob2 / total
 
-    return ip1, ip2
+    return prob1, prob2
 
 
 

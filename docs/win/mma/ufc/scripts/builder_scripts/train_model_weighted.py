@@ -113,9 +113,9 @@ best_name = "XGBoost" if xgb_brier < lr_brier else "Logistic Regression"
 print(f"\nBest model: {best_name}")
 
 # --- ROI Simulation (capped Kelly) ---
-def simulate_roi(test_df, preds, threshold, kelly_fraction=0.25, max_stake_pct=0.10):
+def simulate_roi(test_df, prediction_values, threshold, kelly_fraction=0.25, max_stake_pct=0.10):
     df_sim = test_df.copy().reset_index(drop=True)
-    df_sim["model_prob"] = preds
+    df_sim["model_prob"] = prediction_values
     df_sim["edge"] = df_sim["model_prob"] - df_sim["implied_prob_f1"]
     bets = df_sim[df_sim["edge"] > threshold].copy()
     if len(bets) == 0:

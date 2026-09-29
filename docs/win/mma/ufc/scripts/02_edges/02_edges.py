@@ -58,17 +58,20 @@ def compute_kelly(model_prob: float, implied_prob: float, fraction: float = 0.25
     kelly = (model_prob * (odds + 1) - 1) / odds
     return round(max(0, kelly * fraction), 4)
 
-def load_dratings(date_str: str) -> dict:
-    path = PREDICTIONS_DIR / f"{date_str}_ufc_predictions.csv"
+def load_dratings(target_date: str) -> dict:
+    path = PREDICTIONS_DIR / f"{target_date}_ufc_predictions.csv"
     lookup = {}
     if not path.exists():
         return lookup
-    with path.open(encoding="utf-8") as f:
-        for row in csv.DictReader(f):
-            key = (row["fighter_1"].strip(), row["fighter_2"].strip())
+    with path.open(encoding="utf-8") as prediction_file:
+        for prediction_row in csv.DictReader(prediction_file):
+            key = (
+                prediction_row["fighter_1"].strip(),
+                prediction_row["fighter_2"].strip(),
+            )
             lookup[key] = {
-                "dratings_prob_f1": float(row["fighter_1_win_prob"]),
-                "dratings_prob_f2": float(row["fighter_2_win_prob"]),
+                "dratings_prob_f1": float(prediction_row["fighter_1_win_prob"]),
+                "dratings_prob_f2": float(prediction_row["fighter_2_win_prob"]),
             }
     return lookup
 
