@@ -1,34 +1,15 @@
 # docs/win/mma/ufc/scripts/builder_scripts/fix_unmatched_fighters.py
 
-import requests
-from bs4 import BeautifulSoup
 import json
 import time
+
+from ufcstats_common import build_fighter_index, scrape_fighter_stats
 
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
 # Build the full index first
 print("Building index...")
-name_to_url = {}
-for char in "abcdefghijklmnopqrstuvwxyz":
-    url = f"http://ufcstats.com/statistics/fighters?char={char}&page=all"
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=10)
-        soup = BeautifulSoup(r.text, "html.parser")
-        rows = soup.select("tr.b-statistics__table-row")
-        for row in rows:
-            cols = row.select("td")
-            a_tag = row.select_one("a")
-            if not cols or not a_tag:
-                continue
-            first = cols[0].get_text(strip=True)
-            last = cols[1].get_text(strip=True)
-            if first and last:
-                name_to_url[f"{first} {last}"] = a_tag["href"]
-    except Exception as e:
-        print(f"  Error {char}: {e}")
-    time.sleep(0.8)
-print(f"Index: {len(name_to_url)} fighters")
+name_to_url = build_fighter_index(HEADERS, delay=0.8)
 
 # Manual mappings: our_name -> ufcstats_name
 MANUAL = {
@@ -102,46 +83,6 @@ def find_url(our_name):
         return url
     return None
 
-def scrape_fighter_stats(url):
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=10)
-        soup = BeautifulSoup(r.text, "html.parser")
-        data = {}
-        record_el = soup.select_one("span.b-content__title-record")
-        if record_el:
-            try:
-                parts = record_el.get_text(strip=True).replace("Record:", "").strip().split("-")
-                data["career_wins"] = int(parts[0])
-                data["career_losses"] = int(parts[1])
-            except:
-                pass
-        for li in soup.select("li.b-list__box-list-item"):
-            i_tag = li.find("i")
-            if not i_tag:
-                continue
-            label = i_tag.get_text(strip=True).rstrip(":")
-            i_tag.decompose()
-            value = li.get_text(strip=True)
-            try:
-                if label == "SLpM":
-                    data["slpm"] = float(value)
-                elif label == "Str. Acc.":
-                    data["str_acc"] = float(value.replace("%", "")) / 100
-                elif label == "SApM":
-                    data["sapm"] = float(value)
-                elif label == "Str. Def":
-                    data["str_def"] = float(value.replace("%", "")) / 100
-                elif label == "TD Acc.":
-                    data["td_acc"] = float(value.replace("%", "")) / 100
-                elif label == "TD Def.":
-                    data["td_def"] = float(value.replace("%", "")) / 100
-            except:
-                pass
-        return data
-    except Exception as e:
-        print(f"  Page error: {e}")
-    return {}
-
 with open("fighter_attributes.json") as f:
     attrs = json.load(f)
 
@@ -184,7 +125,7 @@ for name in UNMATCHED:
     if not url:
         still_missing.append(name)
         continue
-    stats = scrape_fighter_stats(url)
+    stats = scrape_fighter_stats(url, HEADERS)
     if stats:
         if name in attrs:
             attrs[name].update(stats)

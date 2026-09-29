@@ -5,30 +5,14 @@ import time
 from datetime import datetime
 import pandas as pd
 
+from builder_feature_common import summarize_historical_fights
+from ufcstats_common import build_fighter_index
+
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
 # --- Step 1: Build name -> URL index ---
 print("Building fighter URL index...")
-name_to_url = {}
-for char in "abcdefghijklmnopqrstuvwxyz":
-    url = f"http://ufcstats.com/statistics/fighters?char={char}&page=all"
-    try:
-        r = requests.get(url, headers=HEADERS, timeout=10)
-        soup = BeautifulSoup(r.text, "html.parser")
-        rows = soup.select("tr.b-statistics__table-row")
-        for row in rows:
-            cols = row.select("td")
-            a_tag = row.select_one("a")
-            if not cols or not a_tag:
-                continue
-            first = cols[0].get_text(strip=True)
-            last = cols[1].get_text(strip=True)
-            if first and last:
-                name_to_url[f"{first} {last}"] = a_tag["href"]
-    except Exception as e:
-        print(f"  Error {char}: {e}")
-    time.sleep(0.8)
-print(f"Index: {len(name_to_url)} fighters")
+name_to_url = build_fighter_index(HEADERS, delay=0.8)
 
 MANUAL = {
     "Jj Aldrich": "JJ Aldrich", "Kb Bhullar": "KB Bhullar", "Tj Brown": "TJ Brown",
@@ -162,31 +146,9 @@ def scrape_fighter_history(url):
         return []
 
 def compute_stats_before(fights, before_date):
-    prior = [f for f in fights if f["date"] < before_date]
-    if not prior:
-        return {}
-    wins = sum(1 for f in prior if f["result"] == "win")
-    losses = sum(1 for f in prior if f["result"] == "loss")
-    total_minutes = sum(f["minutes"] for f in prior)
-    total_sig_landed = sum(f["sig_landed"] for f in prior)
-    total_sig_attempted = sum(f["sig_attempted"] for f in prior)
-    total_td_landed = sum(f["td_landed"] for f in prior)
-    total_td_attempted = sum(f["td_attempted"] for f in prior)
+    prior = [fight for fight in fights if fight["date"] < before_date]
+    return summarize_historical_fights(prior)
 
-    slpm = total_sig_landed / total_minutes if total_minutes > 0 else 0
-    str_acc = total_sig_landed / total_sig_attempted if total_sig_attempted > 0 else 0
-    td_acc = total_td_landed / total_td_attempted if total_td_attempted > 0 else 0
-    career_wr = wins / (wins + losses) if (wins + losses) > 0 else 0
-
-    return {
-        "h_career_wins": wins,
-        "h_career_losses": losses,
-        "h_career_fights": wins + losses,
-        "h_career_wr": career_wr,
-        "h_slpm": round(slpm, 4),
-        "h_str_acc": round(str_acc, 4),
-        "h_td_acc": round(td_acc, 4),
-    }
 
 # --- Step 2: Scrape ---
 df = pd.read_parquet("ufc_master_clean.parquet")

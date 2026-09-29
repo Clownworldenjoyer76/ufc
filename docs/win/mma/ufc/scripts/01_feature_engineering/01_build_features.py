@@ -17,8 +17,19 @@ import json
 from datetime import datetime
 from pathlib import Path
 
-import numpy as np
 import pandas as pd
+
+from ufc_feature_common import (
+    build_master_indexes,
+    diff,
+    get_rolling_stats,
+    get_sos,
+    implied_prob,
+    parse_dob,
+    parse_height_inches,
+    parse_reach,
+    summarize_historical_fights,
+)
 
 # --- Paths ---
 ODDS_DIR = Path("docs/win/mma/ufc/00_intake/sportsbook")
@@ -46,210 +57,21 @@ fighter_history = {
 master = pd.read_parquet(MASTER_PATH)
 master = master.sort_values("match_date").reset_index(drop=True)
 
-# --- Attribute helpers ---
-def parse_dob(name):
-    try:
-        return pd.to_datetime(attrs[name]["dob"])
-    except:
-        return None
-
-
-def parse_height_inches(name):
-    try:
-        h = attrs[name]["height"]
-        parts = h.replace('"', '').split("'")
-        return int(parts[0]) * 12 + int(parts[1].strip())
-    except:
-        return None
-
-
-def parse_reach(name):
-    try:
-        return float(attrs[name]["reach"].replace('"', '').strip())
-    except:
-        return None
-
-
 # --- Prepare master history once ---
-def build_master_indexes(master):
-    """
-    Build reusable fighter history and opponent history once.
-
-    rolling_history:
-        fighter -> [(date, win_flag), ...]
-
-    opponent_history:
-        fighter -> [(date, opponent), ...]
-    """
-    rolling_history = {}
-    opponent_history = {}
-
-    for _, row in master.iterrows():
-        date = row["match_date"]
-
-        f1 = row["fighter_1"]
-        f2 = row["fighter_2"]
-
-        r1 = row["result_fighter_1"]
-        r2 = row["result_fighter_2"]
-
-        if f1 not in rolling_history:
-            rolling_history[f1] = []
-        if f2 not in rolling_history:
-            rolling_history[f2] = []
-
-        rolling_history[f1].append((date, 1 if r1 == "Win" else 0))
-        rolling_history[f2].append((date, 1 if r2 == "Win" else 0))
-
-        if f1 not in opponent_history:
-            opponent_history[f1] = []
-        if f2 not in opponent_history:
-            opponent_history[f2] = []
-
-        opponent_history[f1].append((date, f2))
-        opponent_history[f2].append((date, f1))
-
-    for fighter in rolling_history:
-        rolling_history[fighter] = sorted(
-            rolling_history[fighter],
-            key=lambda x: x[0]
-        )
-
-    for fighter in opponent_history:
-        opponent_history[fighter] = sorted(
-            opponent_history[fighter],
-            key=lambda x: x[0]
-        )
-
-    return rolling_history, opponent_history
-
-
 rolling_history, opponent_history = build_master_indexes(master)
-
-
-# --- Rolling stats from master fight history ---
-def get_rolling_stats(fighter, fight_date):
-    fights = [
-        (d, w)
-        for d, w in rolling_history.get(fighter, [])
-        if d < fight_date
-    ]
-
-    if not fights:
-        return {
-            "win_rate_all": None,
-            "win_rate_last5": None,
-            "streak": 0,
-            "experience": 0,
-            "days_since_last": None,
-        }
-
-    wins = [w for _, w in fights]
-    dates = [d for d, _ in fights]
-
-    streak = 0
-    last = wins[-1]
-
-    for w in reversed(wins):
-        if w == last:
-            streak += 1
-        else:
-            break
-
-    streak = streak if last == 1 else -streak
-
-    return {
-        "win_rate_all": np.mean(wins),
-        "win_rate_last5": np.mean(wins[-5:]),
-        "streak": streak,
-        "experience": len(fights),
-        "days_since_last": (fight_date - dates[-1]).days,
-    }
-
-
-def get_sos(fighter, fight_date):
-    """
-    Strength of schedule.
-
-    Uses the prebuilt opponent_history index instead of scanning
-    the entire master DataFrame every time.
-    """
-    past_opps = [
-        opp
-        for date, opp in opponent_history.get(fighter, [])
-        if date < fight_date
-    ]
-
-    if not past_opps:
-        return None
-
-    rates = []
-
-    for opp in past_opps:
-        opp_fights = [
-            (d, w)
-            for d, w in rolling_history.get(opp, [])
-            if d < fight_date
-        ]
-
-        if opp_fights:
-            rates.append(
-                np.mean([w for _, w in opp_fights])
-            )
-
-    return np.mean(rates) if rates else None
 
 
 # --- Historical stats (time-gated) ---
 def get_historical_stats(fighter, fight_date):
     fights = [
-        f
-        for f in fighter_history.get(fighter, [])
-        if f["date"] < fight_date
+        fight
+        for fight in fighter_history.get(fighter, [])
+        if fight["date"] < fight_date
     ]
-
-    if not fights:
-        return {}
-
-    wins = sum(1 for f in fights if f["result"] == "win")
-    losses = sum(1 for f in fights if f["result"] == "loss")
-
-    total_min = sum(f["minutes"] for f in fights)
-    sig_landed = sum(f["sig_landed"] for f in fights)
-    sig_attempted = sum(f["sig_attempted"] for f in fights)
-    td_landed = sum(f["td_landed"] for f in fights)
-    td_attempted = sum(f["td_attempted"] for f in fights)
-
-    return {
-        "h_career_wins": wins,
-        "h_career_losses": losses,
-        "h_career_fights": wins + losses,
-        "h_career_wr": wins / (wins + losses) if (wins + losses) > 0 else 0,
-        "h_slpm": round(sig_landed / total_min, 4) if total_min > 0 else 0,
-        "h_str_acc": min(
-            round(sig_landed / sig_attempted, 4),
-            1.0
-        ) if sig_attempted > 0 else 0,
-        "h_td_acc": min(
-            round(td_landed / td_attempted, 4),
-            1.0
-        ) if td_attempted > 0 else 0,
-    }
+    return summarize_historical_fights(fights, cap_accuracy=True)
 
 
 # --- Implied probability ---
-def implied_prob(moneyline):
-    try:
-        ml = float(str(moneyline).replace("+", ""))
-        return (
-            100 / (ml + 100)
-            if ml > 0
-            else abs(ml) / (abs(ml) + 100)
-        )
-    except:
-        return None
-
-
 def vig_removed(ip1, ip2):
     if ip1 and ip2:
         total = ip1 + ip2
@@ -257,12 +79,6 @@ def vig_removed(ip1, ip2):
 
     return ip1, ip2
 
-
-def diff(a, b):
-    if a is None or b is None:
-        return 0
-
-    return a - b
 
 
 # --- Process each odds file ---
@@ -305,17 +121,17 @@ for odds_file in odds_files:
         ip2_raw = implied_prob(ml2)
         ip1, ip2 = vig_removed(ip1_raw, ip2_raw)
 
-        s1 = get_rolling_stats(f1, fight_date)
-        s2 = get_rolling_stats(f2, fight_date)
+        s1 = get_rolling_stats(rolling_history, f1, fight_date)
+        s2 = get_rolling_stats(rolling_history, f2, fight_date)
 
-        sos1 = get_sos(f1, fight_date)
-        sos2 = get_sos(f2, fight_date)
+        sos1 = get_sos(rolling_history, opponent_history, f1, fight_date)
+        sos2 = get_sos(rolling_history, opponent_history, f2, fight_date)
 
         h1 = get_historical_stats(f1, fight_date)
         h2 = get_historical_stats(f2, fight_date)
 
-        dob1 = parse_dob(f1)
-        dob2 = parse_dob(f2)
+        dob1 = parse_dob(attrs, f1)
+        dob2 = parse_dob(attrs, f2)
 
         age1 = (
             (fight_date - dob1).days / 365.25
@@ -329,11 +145,11 @@ for odds_file in odds_files:
             else None
         )
 
-        reach1 = parse_reach(f1)
-        reach2 = parse_reach(f2)
+        reach1 = parse_reach(attrs, f1)
+        reach2 = parse_reach(attrs, f2)
 
-        height1 = parse_height_inches(f1)
-        height2 = parse_height_inches(f2)
+        height1 = parse_height_inches(attrs, f1)
+        height2 = parse_height_inches(attrs, f2)
 
         out_rows.append({
             "match_date": date_str,

@@ -8,14 +8,18 @@ from sklearn.pipeline import Pipeline
 import xgboost as xgb
 import pickle
 import warnings
+
+from model_common import (
+    american_profit_odds,
+    prepare_original_rows,
+    print_roi_table,
+    score_predictions,
+)
+
 warnings.filterwarnings("ignore")
 
 df = pd.read_parquet("ufc_features.parquet")
-df = df.sort_values("match_date").reset_index(drop=True)
-
-df["fight_key"] = df.apply(lambda r: "_".join(sorted([r["fighter_1"], r["fighter_2"]])) + "_" + str(r["match_date"].date()), axis=1)
-df["is_mirror"] = df.duplicated(subset="fight_key", keep="first")
-original = df[~df["is_mirror"]].copy()
+original = prepare_original_rows(df)
 
 FEATURES = [
     "implied_prob_f1",
@@ -64,8 +68,7 @@ print("\n--- BASELINE: Implied Probability Only ---")
 lr_base = LogisticRegression()
 lr_base.fit(train[["implied_prob_f1"]].fillna(0.5), y_train)
 base_preds = lr_base.predict_proba(test[["implied_prob_f1"]].fillna(0.5))[:, 1]
-base_brier = brier_score_loss(y_test, base_preds)
-base_logloss = log_loss(y_test, base_preds)
+base_brier, base_logloss = score_predictions(y_test, base_preds)
 print(f"Brier Score: {base_brier:.4f}")
 print(f"Log Loss:    {base_logloss:.4f}")
 
@@ -74,8 +77,7 @@ print("\n--- LOGISTIC REGRESSION (recency weighted) ---")
 lr_pipe = Pipeline([("scaler", StandardScaler()), ("lr", LogisticRegression(max_iter=1000, C=0.1))])
 lr_pipe.fit(X_train, y_train, lr__sample_weight=sample_weights.values)
 lr_preds = lr_pipe.predict_proba(X_test)[:, 1]
-lr_brier = brier_score_loss(y_test, lr_preds)
-lr_logloss = log_loss(y_test, lr_preds)
+lr_brier, lr_logloss = score_predictions(y_test, lr_preds)
 print(f"Brier Score: {lr_brier:.4f}  (baseline: {base_brier:.4f})")
 print(f"Log Loss:    {lr_logloss:.4f}  (baseline: {base_logloss:.4f})")
 
@@ -102,8 +104,7 @@ xgb_model = xgb.XGBClassifier(n_estimators=300, max_depth=3, learning_rate=0.05,
     eval_metric="logloss", random_state=42, verbosity=0)
 xgb_model.fit(X_train, y_train, sample_weight=sample_weights.values)
 xgb_preds = xgb_model.predict_proba(X_test)[:, 1]
-xgb_brier = brier_score_loss(y_test, xgb_preds)
-xgb_logloss = log_loss(y_test, xgb_preds)
+xgb_brier, xgb_logloss = score_predictions(y_test, xgb_preds)
 print(f"Brier Score: {xgb_brier:.4f}  (baseline: {base_brier:.4f})")
 print(f"Log Loss:    {xgb_logloss:.4f}  (baseline: {base_logloss:.4f})")
 
@@ -125,10 +126,8 @@ def simulate_roi(test_df, preds, threshold, kelly_fraction=0.25, max_stake_pct=0
     profits = []
     for _, row in bets.iterrows():
         p = row["model_prob"]
-        try:
-            ml = float(str(row["moneyline_f1"]).replace("+", ""))
-            odds = ml / 100 if ml > 0 else 100 / abs(ml)
-        except:
+        odds = american_profit_odds(row["moneyline_f1"])
+        if odds is None:
             continue
         kelly = (p * (odds + 1) - 1) / odds
         stake = max(0, min(kelly * kelly_fraction * starting, max_stake))
@@ -139,25 +138,21 @@ def simulate_roi(test_df, preds, threshold, kelly_fraction=0.25, max_stake_pct=0
     win_rate = sum(1 for p in profits if p > 0) / len(profits) * 100 if profits else 0
     return roi, len(bets), win_rate
 
+THRESHOLDS = (0.03, 0.05, 0.07, 0.10)
+
 print("\n--- ROI SIMULATION (ALL FIGHTERS) ---")
-print(f"\n{'Threshold':>10} {'Bets':>6} {'Win%':>7} {'ROI':>8}")
-print("-" * 35)
-for t in [0.03, 0.05, 0.07, 0.10]:
-    roi, n, wr = simulate_roi(test, best_preds, t)
-    if roi is not None: print(f"{t:>10.0%} {n:>6} {wr:>6.1f}% {roi:>7.1f}%")
-    else: print(f"{t:>10.0%} {'0':>6} {'N/A':>7} {'N/A':>8}")
+print_roi_table(simulate_roi, test, THRESHOLDS, predictions=best_preds)
 
 print("\n--- ROI SIMULATION (UNDERDOGS ONLY) ---")
 mask = test["implied_prob_f1"].values < 0.5
 test_dogs = test[mask].copy().reset_index(drop=True)
-dog_preds = xgb_model.predict_proba(X_test[mask])[:, 1] if best_name == "XGBoost" else lr_pipe.predict_proba(X_test[mask])[:, 1]
+dog_preds = (
+    xgb_model.predict_proba(X_test[mask])[:, 1]
+    if best_name == "XGBoost"
+    else lr_pipe.predict_proba(X_test[mask])[:, 1]
+)
 print(f"Underdog fights: {len(test_dogs)}")
-print(f"\n{'Threshold':>10} {'Bets':>6} {'Win%':>7} {'ROI':>8}")
-print("-" * 35)
-for t in [0.03, 0.05, 0.07, 0.10]:
-    roi, n, wr = simulate_roi(test_dogs, dog_preds, t)
-    if roi is not None: print(f"{t:>10.0%} {n:>6} {wr:>6.1f}% {roi:>7.1f}%")
-    else: print(f"{t:>10.0%} {'0':>6} {'N/A':>7} {'N/A':>8}")
+print_roi_table(simulate_roi, test_dogs, THRESHOLDS, predictions=dog_preds)
 
 # --- Feature Importance ---
 print("\n--- FEATURE IMPORTANCE (top 15) ---")
