@@ -95,7 +95,7 @@ for odds_file in odds_files:
         fight_date = pd.Timestamp(
             datetime.strptime(date_str, "%Y_%m_%d")
         )
-    except:
+    except ValueError:
         print(
             f"Could not parse date from {odds_file.name}, skipping"
         )

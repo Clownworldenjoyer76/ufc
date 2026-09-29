@@ -51,13 +51,15 @@ def parse_date(date_str):
     for fmt in ["%b %d, %Y", "%b %d %Y"]:
         try:
             return datetime.strptime(date_str, fmt)
-        except:
+        except ValueError:
             pass
     return None
 
 def safe_int(val):
-    try: return int(val.strip())
-    except: return 0
+    try:
+        return int(val.strip())
+    except (AttributeError, TypeError, ValueError):
+        return 0
 
 def scrape_fighter_history(fighter_url):
     """
@@ -124,7 +126,7 @@ def scrape_fighter_history(fighter_url):
             try:
                 m, s = fight_time_str.split(":")
                 last_round_seconds = int(m) * 60 + int(s)
-            except:
+            except (AttributeError, ValueError):
                 last_round_seconds = 300
             total_minutes = max(0.5, (fight_round - 1) * 5 + last_round_seconds / 60)
 

@@ -42,7 +42,7 @@ def implied_prob_from_ml(moneyline: str) -> float | None:
     try:
         ml = float(str(moneyline).replace("+", ""))
         return 100 / (ml + 100) if ml > 0 else abs(ml) / (abs(ml) + 100)
-    except:
+    except (TypeError, ValueError):
         return None
 
 def compute_ev(model_prob: float, implied_prob: float) -> float:
