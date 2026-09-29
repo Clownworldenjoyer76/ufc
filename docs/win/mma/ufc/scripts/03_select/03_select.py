@@ -77,7 +77,7 @@ def safe_float(val):
             return None
 
         return float(s.replace("+", ""))
-    except Exception:
+    except (TypeError, ValueError):
         return None
 
 
@@ -93,7 +93,7 @@ def in_any_band(value, bands):
 
     try:
         return any(float(lo) <= v <= float(hi) for lo, hi in bands)
-    except Exception:
+    except (TypeError, ValueError):
         return False
 
 

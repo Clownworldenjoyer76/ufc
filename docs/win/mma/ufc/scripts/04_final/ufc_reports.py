@@ -194,7 +194,7 @@ def collect_graded() -> list[dict]:
 
             try:
                 ml = parse_ml(ml_raw)
-            except Exception:
+            except (AttributeError, ValueError):
                 continue
 
             outcome = grade_result(row.get("match_result", ""))
