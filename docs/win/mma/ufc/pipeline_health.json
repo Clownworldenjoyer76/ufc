@@ -1,0 +1,99 @@
+{
+  "counts": {
+    "detailed_selected_bets": 10,
+    "edge_fights": 10,
+    "feature_fights": 10,
+    "graded_bets": 0,
+    "prediction_fights": 10,
+    "selected_bets": 6,
+    "sportsbook_fights": 10
+  },
+  "fatal_errors": [],
+  "game_date_new_york": "2026_09_29",
+  "generated_at_utc": "2026-09-29T16:11:28.037042+00:00",
+  "paths": {
+    "edges": "docs/win/mma/ufc/02_edges/2026_09_26_ufc_edges.csv",
+    "features": "docs/win/mma/ufc/01_feature_engineering/2026_09_26_ufc_features.csv",
+    "graded": "docs/win/mma/ufc/04_final/graded/2026_09_26_ufc_graded.csv",
+    "predictions": "docs/win/mma/ufc/00_intake/predictions/2026_09_26_ufc_predictions.csv",
+    "selected": "docs/win/mma/ufc/03_select/2026_09_26_ufc_select.csv",
+    "selected_detailed": "docs/win/mma/ufc/03_select/detailed/2026_09_26_ufc_select_detailed.csv",
+    "sportsbook": "docs/win/mma/ufc/00_intake/sportsbook/2026_09_26_ufc_odds.csv"
+  },
+  "report_date": "2026_09_26",
+  "schema_version": 1,
+  "sport": "ufc",
+  "stage_status": [
+    {
+      "exists": true,
+      "matched_files": [
+        "docs/win/mma/ufc/00_intake/sportsbook/2026_09_26_ufc_odds.csv"
+      ],
+      "name": "Sportsbook",
+      "path": "docs/win/mma/ufc/00_intake/sportsbook/2026_09_26_ufc_odds.csv",
+      "status": "STATUS: OUTPUT PRESENT"
+    },
+    {
+      "exists": true,
+      "matched_files": [
+        "docs/win/mma/ufc/00_intake/predictions/2026_09_26_ufc_predictions.csv"
+      ],
+      "name": "Predictions",
+      "path": "docs/win/mma/ufc/00_intake/predictions/2026_09_26_ufc_predictions.csv",
+      "status": "STATUS: OUTPUT PRESENT"
+    },
+    {
+      "exists": true,
+      "matched_files": [
+        "docs/win/mma/ufc/01_feature_engineering/2026_09_26_ufc_features.csv"
+      ],
+      "name": "Features",
+      "path": "docs/win/mma/ufc/01_feature_engineering/2026_09_26_ufc_features.csv",
+      "status": "STATUS: OUTPUT PRESENT"
+    },
+    {
+      "exists": true,
+      "matched_files": [
+        "docs/win/mma/ufc/02_edges/2026_09_26_ufc_edges.csv"
+      ],
+      "name": "Edges",
+      "path": "docs/win/mma/ufc/02_edges/2026_09_26_ufc_edges.csv",
+      "status": "STATUS: OUTPUT PRESENT"
+    },
+    {
+      "exists": true,
+      "matched_files": [
+        "docs/win/mma/ufc/03_select/2026_09_26_ufc_select.csv"
+      ],
+      "name": "Select",
+      "path": "docs/win/mma/ufc/03_select/2026_09_26_ufc_select.csv",
+      "status": "STATUS: OUTPUT PRESENT"
+    },
+    {
+      "exists": true,
+      "matched_files": [
+        "docs/win/mma/ufc/03_select/detailed/2026_09_26_ufc_select_detailed.csv"
+      ],
+      "name": "Detailed Select",
+      "path": "docs/win/mma/ufc/03_select/detailed/2026_09_26_ufc_select_detailed.csv",
+      "status": "STATUS: OUTPUT PRESENT"
+    },
+    {
+      "exists": false,
+      "matched_files": [],
+      "name": "Graded",
+      "path": "docs/win/mma/ufc/04_final/graded/2026_09_26_ufc_graded.csv",
+      "status": "STATUS: NO OUTPUT"
+    }
+  ],
+  "status": "healthy",
+  "warnings": [],
+  "workflow": {
+    "name": "UFC Pipeline",
+    "ref_name": "main",
+    "run_attempt": "1",
+    "run_id": "36595797674",
+    "sha": "b32c102ed6e4bff8cf23628e7e99de3d2c727d2d",
+    "status": "success"
+  }
+}
