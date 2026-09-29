@@ -103,7 +103,7 @@ def normalize_lines(text: str) -> list[str]:
 
     for raw_line in text.splitlines():
         line = raw_line.strip()
-        line = re.sub(r"[ ]{2,}", " ", line)
+        line = re.sub(r" {2,}", " ", line)
 
         if not line:
             continue
