@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.pyc
+.venv-mlb/
+.pytest_cache/
+.venv311/
+
+# NHL
+docs/win/hockey/nhl/research/sdv_history/
+docs/win/hockey/nhl/research/sdv_history.zip
+docs/win/hockey/nhl/05_final_scores/intermediate/work_nhl.csv
+
+# NFL
+docs/win/football/nfl/**/__pycache__/
+docs/win/football/nfl/**/*.pyc
+
+# Prop Engine
+docs/win/football/prop_engine/data/historical/features/player_form.parquet
+docs/win/football/prop_engine/data/historical/features/player_game_features.parquet
+docs/win/football/prop_engine/scripts/build/__pycache__/
+docs/win/football/prop_engine/**/__pycache__/
+docs/win/football/prop_engine/**/*.pyc
+docs/win/football/prop_engine/01_intake/player_game_features.parquet
+docs/win/football/prop_engine/scripts/build/__pycache__/
+.env
+/Python/

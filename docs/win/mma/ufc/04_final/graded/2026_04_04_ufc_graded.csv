@@ -1,0 +1,4 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2026_04_04,Kai Kamaka III,Dakota Hope,-150,+140,0.5902,0.4098,0.8038,0.1962,0.552,0.448,0.2136,-0.2136,0.362,-0.5213,0.1303,0,fighter_1,Win,Loss,Win
+2026_04_04,Stewart Nicoll,Alessandro Costa,+350,-400,0.2174,0.7826,0.1341,0.8659,0.218,0.782,-0.0833,0.0833,-0.3831,0.1064,0,0.0958,fighter_2,Loss,Win,Win
+2026_04_04,Thomas Petersen,Guilherme Pat,-105,+100,0.506,0.494,0.244,0.756,0.51,0.49,-0.262,0.262,-0.5178,0.5304,0,0.1295,fighter_2,Win,Loss,Loss

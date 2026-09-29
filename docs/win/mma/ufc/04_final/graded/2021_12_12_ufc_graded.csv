@@ -1,0 +1,7 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2021_12_12,Charles Oliveira,Dustin Poirier,+125,-130,0.4402,0.5598,0.2314,0.7686,0.365,0.635,-0.2088,0.2088,-0.4743,0.373,0,0.1186,fighter_2,Win,Loss,Loss
+2021_12_12,Eryk Anders,Andre Muniz,+185,-200,0.3448,0.6552,0.0348,0.9652,0.389,0.611,-0.31,0.31,-0.8991,0.4732,0,0.2248,fighter_2,Loss,Win,Win
+2021_12_12,Geoff Neal,Santiago Ponzinibbio,+110,-125,0.4615,0.5385,0.6047,0.3953,0.59,0.41,0.1432,-0.1432,0.3102,-0.2659,0.0665,0,fighter_1,Win,Loss,Win
+2021_12_12,Jordan Wright,Bruno Silva,+260,-310,0.2687,0.7313,0.0528,0.9472,0.32,0.68,-0.2159,0.2159,-0.8035,0.2952,0,0.2009,fighter_2,Loss,Win,Win
+2021_12_12,Kai Kara-France,Cody Garbrandt,+125,-135,0.4362,0.5638,0.3436,0.6564,0.431,0.569,-0.0926,0.0926,-0.2123,0.1642,0,0.0531,fighter_2,Win,Loss,Loss
+2021_12_12,Raulian Paiva,Sean O'Malley,+280,-295,0.2606,0.7394,0.043,0.957,0.161,0.839,-0.2176,0.2176,-0.835,0.2942,0,0.2087,fighter_2,Loss,Win,Win

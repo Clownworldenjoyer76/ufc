@@ -1,0 +1,7 @@
+league,market_type,bucket_dimension,bucket,bets,wins,losses,pushes,total,win_pct,units_flat,roi_flat,avg_implied_prob,avg_model_prob,avg_dratings_prob,avg_odds_american
+ufc,moneyline,implied_prob,0.30 to 0.40,42,28,14,0,42,0.6667,32.1200,0.7648,0.3726,0.6698,0.4610,+165
+ufc,moneyline,implied_prob,0.40 to 0.50,167,115,51,1,167,0.6928,84.6148,0.5067,0.4543,0.7335,0.4940,+112
+ufc,moneyline,implied_prob,0.50 to 0.60,480,353,121,6,480,0.7447,149.5577,0.3116,0.5565,0.7784,0.5512,-130
+ufc,moneyline,implied_prob,0.60 to 0.70,618,498,117,3,618,0.8098,140.3242,0.2271,0.6500,0.8311,0.6189,-197
+ufc,moneyline,implied_prob,0.70 to 0.80,445,384,55,6,445,0.8747,68.5624,0.1541,0.7433,0.8853,0.6912,-318
+ufc,moneyline,implied_prob,0.80 to 0.90,66,61,5,0,66,0.9242,8.5954,0.1302,0.8096,0.9267,0.7313,-456

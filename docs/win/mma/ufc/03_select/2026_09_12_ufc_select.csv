@@ -1,0 +1,10 @@
+match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
+2026_09_12,Tommy Gantt,Drakkar Klose,-400,0.7748,0.9378,0.769,0.163,0.2104,0.181
+2026_09_12,David Martinez,Dan Ige,-425,0.7901,0.8871,0.675,0.097,0.1228,0.1155
+2026_09_12,Rong Zhu,Rafa Garcia,-155,0.5882,0.8497,0.572,0.2615,0.4445,0.1588
+2026_09_12,Sean King,Jessie Rosas,-190,0.6389,0.8304,0.584,0.1915,0.2998,0.1326
+2026_09_12,Regina Tarin,Jj Aldrich,-270,0.7066,0.7803,0.63,0.0737,0.1043,0.0628
+2026_09_12,Manon Fiorot,Alexa Grasso,-250,0.6923,0.7527,0.658,0.0604,0.0872,0.0491
+2026_09_12,Edgar Chairez,Tim Elliott,-200,0.6471,0.74,0.673,0.0929,0.1436,0.0658
+2026_09_12,Tommy Mcmillen,Marwan Rahiki,-145,0.5817,0.6757,0.557,0.094,0.1615,0.0562
+2026_09_12,Brandon Moreno,Joseph Morales,-105,0.4892,0.6054,0.557,0.1162,0.2376,0.0569

@@ -1,0 +1,12 @@
+match_date,fighter_1,fighter_2,win_prob_1,win_prob_2,moneyline_fighter_1,moneyline_fighter_2,result_fighter_1,result_fighter_2
+2026_08_15,Ian Garry,Islam Makhachev,0.292,0.708,+290,-320,Loss,Win
+2026_08_15,Gillian Robertson,Mackenzie Dern,0.269,0.731,+190,-215,Loss,Win
+2026_08_15,Kaue Fernandes,Jalin Turner,0.317,0.683,-105,-110,Loss,Win
+2026_08_15,Dustin Stoltzfus,Mansur Abdul-Malik,0.238,0.762,+525,-670,Win,Loss
+2026_08_15,Esteban Ribovics,Edson Barboza,0.743,0.257,-750,+550,Win,Loss
+2026_08_15,Joel Alvarez,Chidi Njokuani,0.644,0.356,-330,+305,Loss,Win
+2026_08_15,Eric McConico,Donte Johnson,0.238,0.762,+290,-330,Loss,Win
+2026_08_15,Tresean Gore,Vicente Luque,0.545,0.455,-110,-105,Win,Loss
+2026_08_15,Lucas Fernando,Rafael Tobias,0.711,0.289,-310,+260,Win,Loss
+2026_08_15,Ramiz Brahimaj,Neil Magny,0.574,0.426,-145,+130,Loss,Win
+2026_08_15,Myktybek Orolbai,Jeremiah Wells,0.746,0.254,-1800,+1200,Loss,Win

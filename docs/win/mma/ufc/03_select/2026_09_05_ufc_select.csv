@@ -1,0 +1,8 @@
+match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
+2026_09_05,Mario Pinto,Ryan Spann,-300,0.7403,0.9493,0.625,0.209,0.2824,0.2012
+2026_09_05,Kurtis Campbell,Trevor Peek,-370,0.7612,0.9176,0.651,0.1564,0.2054,0.1637
+2026_09_05,Daniil Donchenko,Punahele Soriano,-220,0.6735,0.9121,0.678,0.2386,0.3543,0.1827
+2026_09_05,Felipe Lima,Morgan Charriere,-185,0.6324,0.8761,0.589,0.2437,0.3854,0.1657
+2026_09_05,Fares Ziam,Axel Sola,-145,0.5765,0.6684,0.622,0.0919,0.1594,0.0543
+2026_09_05,Nora Cornolle,Klaudia Sygula,-120,0.5217,0.6292,0.514,0.1075,0.206,0.0562
+2026_09_05,Fabia Sintes,Michael Aljarouj,+110,0.4573,0.6086,0.48,0.1513,0.331,0.0697

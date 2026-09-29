@@ -1,0 +1,5 @@
+match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
+2026_06_27,Nazim Sadykhov,Matheus Camilo,-220,0.6735,0.9618,0.669,0.2883,0.4281,0.2208
+2026_06_27,Nursulton Ruziboev,Andrey Pulyaev,-220,0.666,0.6992,0.662,0.0332,0.0499,0.0249
+2026_06_27,Javier Reyez,Kaan Ofli,-170,0.6162,0.6417,0.679,0.0255,0.0414,0.0166
+2026_06_27,Manuel Torres,Rafael Fiziev,-110,0.5116,0.6356,0.421,0.124,0.2423,0.0635
