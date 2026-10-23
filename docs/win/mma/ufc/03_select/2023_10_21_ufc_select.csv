@@ -1,4 +1,5 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
+2023_10_21,Ikram Aliskerov,Warlley Alves,-600,0.8478,0.9375,0.72,0.0897,0.1058,0.1473
 2023_10_21,Sedriques Dumas,Abu Azaitar,-225,0.7858,0.9363,0.665,0.1505,0.1915,0.1756
 2023_10_21,Muhammad Mokaev,Tim Elliott,-420,0.8015,0.9354,0.756,0.1339,0.167,0.1686
 2023_10_21,Trevor Peek,Mohammad Yahya,-180,0.6387,0.7734,0.478,0.1347,0.2109,0.0932

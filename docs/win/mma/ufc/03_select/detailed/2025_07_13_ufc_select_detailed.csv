@@ -1,5 +1,5 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet
-2025_07_13,Austen Lane,Vitor Petrino,+475,-510,0.1722,0.8278,0.0365,0.9635,0.13,0.87,-0.1357,0.1357,-0.788,0.1639,0,0.197,no_bet
+2025_07_13,Austen Lane,Vitor Petrino,+475,-510,0.1722,0.8278,0.0365,0.9635,0.13,0.87,-0.1357,0.1357,-0.788,0.1639,0,0.197,fighter_2
 2025_07_13,Calvin Kattar,Steve Garcia,+155,-160,0.3892,0.6108,0.1628,0.8372,0.457,0.543,-0.2264,0.2264,-0.5817,0.3707,0,0.1454,fighter_2
 2025_07_13,Derrick Lewis,Tallison Teixeira,+240,-270,0.2873,0.7127,0.6697,0.3303,0.27,0.73,0.3824,-0.3824,1.3313,-0.5366,0.1341,0,no_bet
 2025_07_13,Jake Matthews,Chidi Njokuani,-110,-105,0.5056,0.4944,0.5477,0.4523,0.456,0.544,0.0421,-0.0421,0.0833,-0.0851,0.0213,0,no_bet

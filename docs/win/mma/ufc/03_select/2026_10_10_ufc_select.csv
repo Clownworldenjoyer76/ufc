@@ -1,0 +1,9 @@
+match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
+2026_10_10,Matheus Camilo,Jai Herbert,-180,0.6345,0.8358,0.544,0.2013,0.3173,0.1377
+2026_10_10,Niko Price,Leon Shahbazyan,+135,0.4149,0.8218,0.579,0.4069,0.9805,0.1739
+2026_10_10,RJ Harris,Allen Frye,-270,0.7186,0.8029,0.635,0.0843,0.1173,0.0749
+2026_10_10,Loopy Godinez,Ketlen Souza,-220,0.666,0.7313,0.735,0.0653,0.0981,0.0489
+2026_10_10,Brendan Allen,Christian Duncan,-130,0.5486,0.7254,0.53,0.1768,0.3223,0.0979
+2026_10_10,Andre Fili,Kai Kamaka III,-150,0.5798,0.6997,0.568,0.1199,0.2067,0.0713
+2026_10_10,Ernesta Kareckaite,Melissa Gatto,+110,0.4573,0.651,0.416,0.1937,0.4237,0.0892
+2026_10_10,Ismael Bonfim,Francisco Prado,-115,0.5169,0.6116,0.559,0.0947,0.1833,0.049

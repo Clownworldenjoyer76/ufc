@@ -8,11 +8,11 @@ permissions:
 
 jobs:
   pipeline:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Checkout main branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
@@ -28,7 +28,7 @@ jobs:
           ls -lh docs/win/mma/ufc/data/model/
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.11"
 
@@ -131,8 +131,7 @@ jobs:
           git add docs/win/mma/ufc/02_edges/*_ufc_edges.csv 2>/dev/null || true
           git add docs/win/mma/ufc/03_select/
           git add docs/win/mma/ufc/04_final/
-          git add frontend/ufc_dashboard.html
-          git add frontend/mma_dashboard.html
+          git add frontend/data/dashboards/ufc.json
 
           if git diff --cached --quiet; then
             echo "No changes to commit."

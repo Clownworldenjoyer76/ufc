@@ -1,4 +1,5 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
+2023_08_26,Max Holloway,Chan Sung Jung,-580,0.842,0.9623,0.787,0.1203,0.1428,0.1903
 2023_08_26,Seungwoo Choi,Jarno Errens,-142,0.5744,0.9266,0.748,0.3522,0.6132,0.2069
 2023_08_26,Erin Blanchfield,Taila Santos,-165,0.6136,0.88,0.51,0.2664,0.4342,0.1724
 2023_08_26,Giga Chikadze,Alex Caceres,-250,0.6923,0.8251,0.698,0.1328,0.1918,0.1079

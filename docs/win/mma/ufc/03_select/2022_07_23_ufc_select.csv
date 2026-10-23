@@ -1,4 +1,5 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
+2022_07_23,Nathaniel Wood,Charles Rosa,-570,0.8362,0.9039,0.887,0.0677,0.081,0.1033
 2022_07_23,Jai Herbert,Kyle Nelson,-260,0.7106,0.8614,0.712,0.1508,0.2122,0.1303
 2022_07_23,Paddy Pimblett,Jordan Leavitt,-285,0.7215,0.8598,0.574,0.1383,0.1917,0.1241
 2022_07_23,Jonathan Pearce,Makwan Amirkhani,-135,0.5692,0.8503,0.679,0.2811,0.4938,0.1631

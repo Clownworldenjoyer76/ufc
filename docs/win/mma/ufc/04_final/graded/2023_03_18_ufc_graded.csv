@@ -5,5 +5,6 @@ match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied
 2023_03_18,Justin Gaethje,Rafael Fiziev,+240,-245,0.2929,0.7071,0.2378,0.7622,0.312,0.688,-0.0551,0.0551,-0.188,0.0779,0,0.047,fighter_2,Win,Loss,Loss
 2023_03_18,Leon Edwards,Kamaru Usman,+240,-265,0.2883,0.7117,0.1681,0.8319,0.29,0.71,-0.1202,0.1202,-0.4169,0.1689,0,0.1042,fighter_2,Win,Loss,Loss
 2023_03_18,Luana Carolina,Joanne Calderwood,+165,-180,0.3699,0.6301,0.7166,0.2834,0.479,0.521,0.3467,-0.3467,0.9374,-0.5502,0.1376,0,fighter_1,Loss,Win,Loss
+2023_03_18,Makwan Amirkhani,Jack Shore,+505,-550,0.1634,0.8366,0.0563,0.9437,0.227,0.773,-0.1071,0.1071,-0.6555,0.128,0,0.1639,fighter_2,Loss,Win,Win
 2023_03_18,Malcolm Gordon,Jake Hadley,+400,-450,0.1964,0.8036,0.0466,0.9534,0.298,0.702,-0.1498,0.1498,-0.7628,0.1865,0,0.1907,fighter_2,Loss,Win,Win
 2023_03_18,Omar Morales,Chris Duncan,-105,-105,0.5,0.5,0.8963,0.1037,0.538,0.462,0.3963,-0.3963,0.7926,-0.7926,0.1981,0,fighter_1,Loss,Win,Loss

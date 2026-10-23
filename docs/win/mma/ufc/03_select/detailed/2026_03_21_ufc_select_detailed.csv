@@ -1,6 +1,6 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet
 2026_03_21,Antonio Trocoli,Mantas Kondratavicius,+800,-1100,0.1081,0.8919,0.0653,0.9347,0.18,0.82,-0.0428,0.0428,-0.396,0.048,0,0.099,no_bet
-2026_03_21,Austen Lane,Iwo Baraniewski,+525,-600,0.1573,0.8427,0.1317,0.8683,0.198,0.802,-0.0256,0.0256,-0.1628,0.0304,0,0.0407,no_bet
+2026_03_21,Austen Lane,Iwo Baraniewski,+525,-600,0.1573,0.8427,0.1317,0.8683,0.198,0.802,-0.0256,0.0256,-0.1628,0.0304,0,0.0407,fighter_2
 2026_03_21,Brando Pericic,Louie Southerland,-200,+180,0.6512,0.3488,0.7598,0.2402,0.744,0.256,0.1086,-0.1086,0.1668,-0.3114,0.0779,0,fighter_1
 2026_03_21,Danny Silva,Kurtis Campbell,+280,-290,0.2614,0.7386,0.2276,0.7724,0.386,0.614,-0.0338,0.0338,-0.1293,0.0458,0,0.0323,fighter_2
 2026_03_21,Felipe Franco,Mario Pinto,+825,-1200,0.1048,0.8952,0.0186,0.9814,0.151,0.849,-0.0862,0.0862,-0.8226,0.0963,0,0.2056,no_bet

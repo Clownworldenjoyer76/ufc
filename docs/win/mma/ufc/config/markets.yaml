@@ -1,12 +1,11 @@
 ufc:
   moneyline:
     enabled: true
-
     # Options: best_ev, best_edge, best_kelly, best_model_prob, best_dratings_prob
     pick_preference: best_model_prob
     # Format: [min_moneyline, max_moneyline] in American odds
     odds_bands:
-      - [-500, 300]
+      - [-600, 300]
     # Only include fighters where (model_prob - implied_prob) falls within at least one band
     edge_bands:
       - [0.0001, 0.99]
@@ -16,6 +15,5 @@ ufc:
     # Kelly = ((model_prob * (odds + 1)) - 1) / odds * 0.25
     kelly_bands:
       - [0.0001, 0.999]
-      
     model_probability_minimum: 0.60
     dratings_probability_minimum: 0.40

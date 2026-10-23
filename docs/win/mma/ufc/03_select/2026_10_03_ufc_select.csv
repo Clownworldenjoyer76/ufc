@@ -1,0 +1,5 @@
+match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
+2026_10_03,Ateba Gautier,Roman Kopylov,-210,0.6588,0.9769,0.625,0.3181,0.4829,0.2331
+2026_10_03,Damian Pinas,Andrey Pulyaev,-460,0.796,0.8965,0.725,0.1005,0.1263,0.1232
+2026_10_03,Esteban Ribovics,Bobby Green,-235,0.6779,0.7253,0.638,0.0474,0.0699,0.0368
+2026_10_03,Natalia Silva,Cong Wang,-210,0.6588,0.7174,0.719,0.0586,0.089,0.0429

@@ -1,0 +1,4 @@
+match_date,fighter_1,fighter_2,win_prob_1,win_prob_2,moneyline_fighter_1,moneyline_fighter_2,result_fighter_1,result_fighter_2
+2026_10_10,Christian Duncan,Brendan Allen,0.47,0.53,+100,-112,Loss,Win
+2026_10_10,Jai Herbert,Matheus Camilo,0.397,0.603,+175,-185,Win,Loss
+2026_10_10,Ketlen Souza,Loopy Godinez,0.265,0.735,+205,-240,Loss,Win

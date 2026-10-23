@@ -1,6 +1,7 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2023_03_18,Jake Hadley,Malcolm Gordon,-450,0.8036,0.9534,0.702,0.1498,0.1865,0.1907
 2023_03_18,Jaqualine Amorim,Veronica Macedo,-420,0.7932,0.9486,0.652,0.1554,0.1959,0.1879
+2023_03_18,Jack Shore,Makwan Amirkhani,-550,0.8366,0.9437,0.773,0.1071,0.128,0.1639
 2023_03_18,Omar Morales,Chris Duncan,-105,0.5,0.8963,0.538,0.3963,0.7926,0.1981
 2023_03_18,Casey O'Neill,Jennifer Maia,-175,0.6364,0.8676,0.603,0.2312,0.3634,0.159
 2023_03_18,Ludovit Klein,Jai Herbert,-200,0.6591,0.8443,0.558,0.1852,0.281,0.1358
