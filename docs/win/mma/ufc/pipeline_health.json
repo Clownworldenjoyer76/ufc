@@ -5,12 +5,12 @@
     "feature_fights": 14,
     "graded_bets": 0,
     "prediction_fights": 14,
-    "selected_bets": 6,
+    "selected_bets": 0,
     "sportsbook_fights": 14
   },
   "fatal_errors": [],
-  "game_date_new_york": "2026_10_23",
-  "generated_at_utc": "2026-10-23T06:35:55.748821+00:00",
+  "game_date_new_york": "2026_10_24",
+  "generated_at_utc": "2026-10-24T06:35:41.487659+00:00",
   "paths": {
     "edges": "docs/win/mma/ufc/02_edges/2026_10_24_ufc_edges.csv",
     "features": "docs/win/mma/ufc/01_feature_engineering/2026_10_24_ufc_features.csv",
@@ -61,13 +61,11 @@
       "status": "STATUS: OUTPUT PRESENT"
     },
     {
-      "exists": true,
-      "matched_files": [
-        "docs/win/mma/ufc/03_select/2026_10_24_ufc_select.csv"
-      ],
+      "exists": false,
+      "matched_files": [],
       "name": "Select",
       "path": "docs/win/mma/ufc/03_select/2026_10_24_ufc_select.csv",
-      "status": "STATUS: OUTPUT PRESENT"
+      "status": "STATUS: NO OUTPUT"
     },
     {
       "exists": true,
@@ -92,8 +90,8 @@
     "name": "UFC Pipeline",
     "ref_name": "main",
     "run_attempt": "1",
-    "run_id": "39911870842",
-    "sha": "f9219b1ca2dbe17ef2725394d6fe0025606f676b",
+    "run_id": "40070454201",
+    "sha": "7049c1b3e16538da37c22d5dbdfca94a7dd8f45d",
     "status": "success"
   }
 }
