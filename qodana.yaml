@@ -1,9 +1,10 @@
+
 ####################################################################################################################
 # WARNING: Do not store sensitive information in this file, as its contents will be included in the Qodana report. #
 ####################################################################################################################
 
 version: "1.0"
-linter: qodana-python
+linter: qodana-python-community
 
 profile:
   name: qodana.recommended
@@ -14,9 +15,6 @@ bootstrap: |
   set -eu
   python -m pip install --upgrade pip
   python -m pip install --retries 5 -r requirements.txt
-
-include:
-  - name: CheckDependencyLicenses
 
 exclude:
   - name: PyClassHasNoInitInspection
