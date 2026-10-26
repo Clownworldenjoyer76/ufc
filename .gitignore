@@ -1,8 +1,28 @@
-# Python cache
+# Python
 __pycache__/
 *.pyc
 .pytest_cache/
 .venv311/
-/ufc_trainer/
 .env
 /Python/
+
+# Local Trainer
+/ufc_trainer/
+
+# UFC Data
+/docs/win/mma/ufc/data/processed/
+/docs/win/mma/ufc/data/raw/
+
+# UFC Parquet
+/docs/win/mma/ufc/**/*.parquet
+!/docs/win/mma/ufc/data/model/fighter_historical_stats.parquet
+!/docs/win/mma/ufc/data/model/ufc_master_clean.parquet
+
+# UFC Models
+/docs/win/mma/ufc/**/*.pkl
+!/docs/win/mma/ufc/data/model/ufc_model.pkl
+
+# UFC JSON
+/docs/win/mma/ufc/**/*.json
+!/docs/win/mma/ufc/data/model/fighter_attributes.json
+!/docs/win/mma/ufc/data/model/fighter_history.json
