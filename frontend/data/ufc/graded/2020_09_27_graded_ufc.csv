@@ -1,0 +1,3 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2020_09_27,Ludovit Klein,Shane Young,-130,+125,0.5598,0.4402,0.8122,0.1878,0.459,0.541,0.2524,-0.2524,0.4509,-0.5734,0.1433,0,fighter_1,Win,Loss,Win
+2020_09_27,Paulo Costa,Israel Adesanya,+170,-180,0.3655,0.6345,0.0971,0.9029,0.31,0.69,-0.2684,0.2684,-0.7344,0.4231,0,0.1836,fighter_2,Loss,Win,Win

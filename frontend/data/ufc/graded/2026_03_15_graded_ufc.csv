@@ -1,0 +1,2 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2026_03_15,Bruno Silva,Charles Johnson,+160,-175,0.3767,0.6233,0.1531,0.8469,0.279,0.721,-0.2236,0.2236,-0.5936,0.3588,0,0.1484,fighter_2,Loss,Win,Win

@@ -1,0 +1,3 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2023_03_26,Austin Lingo,Nate Landwehr,+180,-200,0.3488,0.6512,0.1406,0.8594,0.327,0.673,-0.2082,0.2082,-0.5969,0.3198,0,0.1492,fighter_2,Loss,Win,Win
+2023_03_26,Marlon Vera,Cory Sandhagen,+135,-140,0.4218,0.5782,0.121,0.879,0.403,0.597,-0.3008,0.3008,-0.7131,0.5202,0,0.1783,fighter_2,Loss,Win,Win

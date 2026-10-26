@@ -1,0 +1,4 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2023_11_12,Jiri Prochazka,Alex Pereira,+100,-110,0.4884,0.5116,0.1766,0.8234,0.399,0.601,-0.3118,0.3118,-0.6384,0.6094,0,0.1596,fighter_2,Loss,Win,Win
+2023_11_12,Tom Aspinall,Sergei Pavlovich,-110,-105,0.5056,0.4944,0.8143,0.1857,0.575,0.425,0.3087,-0.3087,0.6105,-0.6244,0.1561,0,fighter_1,Win,Loss,Win
+2023_11_12,Viacheslav Borshchev,Nazim Sadykhov,+140,-150,0.4098,0.5902,0.0887,0.9113,0.381,0.619,-0.3211,0.3211,-0.7836,0.5441,0,0.1959,fighter_2,Draw,Draw,Push

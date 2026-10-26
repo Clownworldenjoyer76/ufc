@@ -1,0 +1,3 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2023_08_26,Jarno Errens,Seungwoo Choi,+130,-142,0.4256,0.5744,0.0734,0.9266,0.252,0.748,-0.3522,0.3522,-0.8275,0.6132,0,0.2069,fighter_2,Loss,Win,Win
+2023_08_26,Taila Santos,Erin Blanchfield,+155,-165,0.3864,0.6136,0.12,0.88,0.49,0.51,-0.2664,0.2664,-0.6895,0.4342,0,0.1724,fighter_2,Loss,Win,Win

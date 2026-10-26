@@ -1,0 +1,4 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2025_03_22,Alexia Thainara,Molly Mccann,-200,+180,0.6512,0.3488,0.8332,0.1668,0.577,0.423,0.182,-0.182,0.2796,-0.5218,0.1305,0,fighter_1,Win,Loss,Win
+2025_03_22,Caolan Loughran,Nathan Fletcher,+135,-150,0.4149,0.5851,0.1683,0.8317,0.44,0.56,-0.2466,0.2466,-0.5944,0.4216,0,0.1486,fighter_2,Win,Loss,Loss
+2025_03_22,Mick Parkin,Marcin Tybura,-175,+160,0.6233,0.3767,0.8995,0.1005,0.427,0.573,0.2762,-0.2762,0.4432,-0.7332,0.1833,0,fighter_1,Loss,Win,Loss

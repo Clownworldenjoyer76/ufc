@@ -1,0 +1,3 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2022_10_15,Misha Cirkunov,Alonzo Menifield,+175,-190,0.3569,0.6431,0.1422,0.8578,0.347,0.653,-0.2147,0.2147,-0.6016,0.3339,0,0.1504,fighter_2,Loss,Win,Win
+2022_10_15,Sam Hughes,Piera Rodriguez,+155,-165,0.3864,0.6136,0.1952,0.8048,0.561,0.439,-0.1912,0.1912,-0.4949,0.3117,0,0.1237,fighter_2,Loss,Win,Win

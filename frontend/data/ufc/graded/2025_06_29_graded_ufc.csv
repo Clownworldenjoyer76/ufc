@@ -1,0 +1,3 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2025_06_29,Brandon Royval,Joshua Van,+110,-120,0.4661,0.5339,0.1386,0.8614,0.443,0.557,-0.3275,0.3275,-0.7026,0.6134,0,0.1757,fighter_2,Loss,Win,Win
+2025_06_29,Tracy Cortez,Viviane Araujo,-180,+175,0.6387,0.3613,0.9279,0.0721,0.617,0.383,0.2892,-0.2892,0.4528,-0.8004,0.2001,0,fighter_1,Win,Loss,Win

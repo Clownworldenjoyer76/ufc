@@ -1,0 +1,3 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2026_03_08,Michael Johnson,Drew Dober,+180,-130,0.3872,0.6128,0.0964,0.9036,0.491,0.509,-0.2908,0.2908,-0.751,0.4746,0,0.1878,fighter_2,Loss,Win,Win
+2026_03_08,Ricky Turcios,Alberto Montes,+170,-180,0.3655,0.6345,0.1971,0.8029,0.35,0.65,-0.1684,0.1684,-0.4608,0.2655,0,0.1152,fighter_2,Loss,Win,Win
