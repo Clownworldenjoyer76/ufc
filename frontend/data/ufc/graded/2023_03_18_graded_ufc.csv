@@ -1,0 +1,4 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2023_03_18,Jai Herbert,Ludovit Klein,+190,-200,0.3409,0.6591,0.1557,0.8443,0.442,0.558,-0.1852,0.1852,-0.5433,0.281,0,0.1358,fighter_2,Draw,Draw,Push
+2023_03_18,Jennifer Maia,Casey O'Neill,+175,-175,0.3636,0.6364,0.1324,0.8676,0.397,0.603,-0.2312,0.2312,-0.6359,0.3634,0,0.159,fighter_2,Win,Loss,Loss
+2023_03_18,Omar Morales,Chris Duncan,-105,-105,0.5,0.5,0.8963,0.1037,0.538,0.462,0.3963,-0.3963,0.7926,-0.7926,0.1981,0,fighter_1,Loss,Win,Loss

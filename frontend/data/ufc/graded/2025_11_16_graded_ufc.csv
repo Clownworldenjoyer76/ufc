@@ -1,0 +1,3 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2025_11_16,Beneil Dariush,Benoit Saint Denis,+195,-200,0.3371,0.6629,0.1955,0.8045,0.375,0.625,-0.1416,0.1416,-0.42,0.2136,0,0.105,fighter_2,Loss,Win,Win
+2025_11_16,Roman Kopylov,Gregory Rodrigues,+170,-185,0.3633,0.6367,0.1085,0.8915,0.426,0.574,-0.2548,0.2548,-0.7013,0.4002,0,0.1753,fighter_2,Loss,Win,Win

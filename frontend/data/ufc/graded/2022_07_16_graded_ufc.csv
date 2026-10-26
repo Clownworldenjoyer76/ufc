@@ -1,0 +1,3 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2022_07_16,Charles Jourdain,Shane Burgos,+160,-170,0.3792,0.6208,0.0849,0.9151,0.386,0.614,-0.2943,0.2943,-0.7761,0.4741,0,0.194,fighter_2,Loss,Win,Win
+2022_07_16,Ricky Simon,Jack Shore,+155,-160,0.3892,0.6108,0.1712,0.8288,0.437,0.563,-0.218,0.218,-0.5601,0.357,0,0.14,fighter_2,Win,Loss,Loss

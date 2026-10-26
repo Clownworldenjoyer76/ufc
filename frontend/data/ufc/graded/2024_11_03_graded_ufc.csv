@@ -1,0 +1,2 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2024_11_03,Amir Albazi,Brandon Moreno,+155,-160,0.3892,0.6108,0.1189,0.8811,0.39,0.61,-0.2703,0.2703,-0.6945,0.4426,0,0.1736,fighter_2,Loss,Win,Win

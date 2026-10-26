@@ -1,0 +1,2 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2021_05_22,Court Mcgee,Claudio Silva,+105,-110,0.4822,0.5178,0.154,0.846,0.445,0.555,-0.3282,0.3282,-0.6806,0.6338,0,0.1702,fighter_2,Win,Loss,Loss

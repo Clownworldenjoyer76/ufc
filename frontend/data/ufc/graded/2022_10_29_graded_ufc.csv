@@ -1,0 +1,2 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2022_10_29,Dustin Jacoby,Khalil Rountree Jr.,-170,+155,0.6162,0.3838,0.824,0.176,0.615,0.385,0.2078,-0.2078,0.3372,-0.5414,0.1354,0,fighter_1,Loss,Win,Loss

@@ -1,0 +1,2 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2026_09_26,Ailin Perez,Norma Dumont,-135,+115,0.5526,0.4474,0.841,0.159,0.41,0.59,0.2884,-0.2884,0.5219,-0.6446,0.1612,0,fighter_1,Win,Loss,Win

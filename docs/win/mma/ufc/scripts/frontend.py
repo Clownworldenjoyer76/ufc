@@ -3,14 +3,19 @@
 
 import csv
 from pathlib import Path
+from shutil import copy2
 
 EDGES_DIR = Path("docs/win/mma/ufc/02_edges")
 SELECT_DIR = Path("docs/win/mma/ufc/03_select")
-OUTPUT_DIR = Path("frontend/data/ufc")
+OUTPUT_DIR = Path("frontend/data/ufc/pred_sb_sel")
+GRADED_DIR = Path("docs/win/mma/ufc/04_final/graded")
+GRADED_OUTPUT_DIR = Path("frontend/data/ufc/graded")
 
 EDGE_SUFFIX = "_ufc_edges.csv"
 SELECT_SUFFIX = "_ufc_select.csv"
-OUTPUT_SUFFIX = "_ufc.csv"
+OUTPUT_SUFFIX = "_pred_sb_sel_ufc.csv"
+GRADED_SUFFIX = "_ufc_graded.csv"
+GRADED_OUTPUT_SUFFIX = "_graded_ufc.csv"
 EXTRA_COLUMNS = ["selected_fighter", "selected_kelly"]
 
 
@@ -88,6 +93,14 @@ def main() -> None:
             writer.writeheader()
             writer.writerows(output_rows)
         print(f"Wrote {output_path} ({len(output_rows)} fights)")
+
+    graded_files = sorted(GRADED_DIR.glob(f"*{GRADED_SUFFIX}"))
+    GRADED_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    for graded_path in graded_files:
+        date = graded_path.name[: -len(GRADED_SUFFIX)]
+        output_path = GRADED_OUTPUT_DIR / f"{date}{GRADED_OUTPUT_SUFFIX}"
+        copy2(graded_path, output_path)
+        print(f"Copied {graded_path} -> {output_path}")
 
 
 if __name__ == "__main__":

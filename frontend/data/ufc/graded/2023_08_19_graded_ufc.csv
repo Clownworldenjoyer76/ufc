@@ -1,0 +1,2 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2023_08_19,Karine Silva,Maryna Moroz,-118,+115,0.5378,0.4622,0.828,0.172,0.547,0.453,0.2902,-0.2902,0.5395,-0.6278,0.157,0,fighter_1,Win,Loss,Win

@@ -1,0 +1,3 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2024_11_17,Jhonata Diniz,Marcin Tybura,+100,+100,0.5,0.5,0.8154,0.1846,0.489,0.511,0.3154,-0.3154,0.6308,-0.6308,0.1577,0,fighter_1,Loss,Win,Loss
+2024_11_17,Marcus Mcghee,Jonathan Martinez,-105,+100,0.506,0.494,0.8745,0.1255,0.522,0.478,0.3685,-0.3685,0.7282,-0.7459,0.1865,0,fighter_1,Win,Loss,Win

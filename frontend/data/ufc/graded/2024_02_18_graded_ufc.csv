@@ -1,0 +1,6 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2024_02_18,Brendson Ribeiro,Zhang Mingyang,-103,-115,0.4868,0.5132,0.1382,0.8618,0.45,0.55,-0.3486,0.3486,-0.7161,0.6793,0,0.179,fighter_2,Loss,Win,Win
+2024_02_18,Carlos Vera,Rinya Nakamura,+800,-195,0.1439,0.8561,0.0272,0.9728,0.203,0.797,-0.1167,0.1167,-0.811,0.1363,0,0.2027,fighter_2,Loss,Win,Win
+2024_02_18,Josh Quinlan,Danny Barlow,+180,-200,0.3488,0.6512,0.1499,0.8501,0.426,0.574,-0.1989,0.1989,-0.5703,0.3055,0,0.1426,fighter_2,Loss,Win,Win
+2024_02_18,Paulo Costa,Robert Whittaker,+190,-190,0.3448,0.6552,0.0964,0.9036,0.393,0.607,-0.2484,0.2484,-0.7204,0.3792,0,0.1801,fighter_2,Loss,Win,Win
+2024_02_18,Roman Kopylov,Anthony Hernandez,+170,-190,0.3611,0.6389,0.13,0.87,0.399,0.601,-0.2311,0.2311,-0.64,0.3618,0,0.16,fighter_2,Loss,Win,Win

@@ -1,0 +1,2 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2022_12_17,Rafa Garcia,Hayisaer Maheshate,-150,+140,0.5902,0.4098,0.8468,0.1532,0.633,0.367,0.2566,-0.2566,0.4349,-0.6262,0.1565,0,fighter_1,Win,Loss,Win
