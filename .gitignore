@@ -26,3 +26,6 @@ __pycache__/
 /docs/win/mma/ufc/**/*.json
 !/docs/win/mma/ufc/data/model/fighter_attributes.json
 !/docs/win/mma/ufc/data/model/fighter_history.json
+
+# UFC Documentation
+/UFC_TRAINER_INSTRUCTIONS.md
