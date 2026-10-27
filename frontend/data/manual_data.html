@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -271,34 +272,10 @@ input[type="password"] {
 
   <div class="manual-controls">
     <div class="control-wrap">
-      <span class="control-label">League</span>
-      <select id="league" onchange="updateMarkets()">
-        <option value="">-- select --</option>
-        <option value="basketball">Basketball</option>
-        <option value="football">Football</option>
-        <option value="baseball">Baseball</option>
-        <option value="hockey">Hockey</option>
-        <option value="soccer">Soccer</option>
-        <option value="mma">MMA</option>
-        <option value="final_scores">Final Scores</option>
-      </select>
-    </div>
-
-    <div class="control-wrap">
-      <span class="control-label">Market</span>
-      <select id="market" onchange="updateSources()">
-        <option value="">-- placeholder --</option>
-      </select>
-    </div>
-
-    <div class="control-wrap">
       <span class="control-label">Source</span>
       <select id="source">
         <option value="">-- select --</option>
-        <option value="DraftKings">DraftKings</option>
         <option value="Predictions">Predictions</option>
-        <option value="Scores">Scores</option>
-        <option value="Soccer Totals">Soccer Totals</option>
         <option value="UFC Results">UFC Results</option>
       </select>
     </div>
@@ -327,70 +304,15 @@ input[type="password"] {
 
   <script>
     const OWNER = "Clownworldenjoyer76";
-    const REPO  = "bet_tracker";
-
-    const WORKFLOW_FILE_DEFAULT       = "manual_data_input.yml";
-    const WORKFLOW_FILE_UFC           = "manual_ufc_final.yml";
-    const WORKFLOW_FILE_SOCCER_PRED   = "manual_soccer_pred.yml";
-    const WORKFLOW_FILE_SOCCER_SCORES = "manual_soccer_scores.yml";
-
+    const REPO = "ufc";
+    const WORKFLOW_FILE = "_manual_intake.yml";
     const REF = "main";
-
-    const MARKET_MAP = {
-      basketball: ["NBA", "NCAA Men", "WNBA"],
-      football: ["NFL", "NCAA", "CFL"],
-      baseball: ["MLB"],
-      hockey: ["NHL"],
-      soccer: ["MLS", "EPL", "Ligue 1", "Serie A", "La Liga", "Bundesliga"],
-      mma: ["UFC"],
-      final_scores: ["NBA", "NCAAB", "NHL", "WNBA", "UFC"]
-    };
-
-    function normalizeKey(value) {
-      return (value || "")
-        .trim()
-        .toLowerCase()
-        .replace(/\s+/g, "")
-        .replace(/_/g, "");
-    }
-
-    function updateMarkets() {
-      const l = document.getElementById("league").value;
-      const mSel = document.getElementById("market");
-
-      mSel.innerHTML = "";
-
-      if (!l || !MARKET_MAP[l]) {
-        mSel.innerHTML = "<option value=''>-- placeholder --</option>";
-        updateSources();
-        return;
-      }
-
-      MARKET_MAP[l].forEach(m => {
-        const opt = document.createElement("option");
-        opt.value = typeof m === "object" ? m.val : m;
-        opt.textContent = typeof m === "object" ? m.text : m;
-        mSel.appendChild(opt);
-      });
-
-      updateSources();
-    }
-
-    function updateSources() {
-      const l = document.getElementById("league").value;
-      const m = document.getElementById("market").value;
-      const sSel = document.getElementById("source");
-
-      if (l === "final_scores" && m === "UFC") {
-        sSel.value = "UFC Results";
-      } else if (l === "mma" && m === "UFC") {
-        sSel.value = "Predictions";
-      }
-    }
+    const LEAGUE = "mma";
+    const MARKET = "UFC";
 
     async function dispatch() {
-      const league = document.getElementById("league").value.trim();
-      const market = document.getElementById("market").value.trim();
+      const league = LEAGUE;
+      const market = MARKET;
       const source = document.getElementById("source").value.trim();
       const token  = document.getElementById("token").value.trim();
       const raw    = document.getElementById("raw").value;
@@ -406,44 +328,16 @@ input[type="password"] {
         return;
       }
 
-      const leagueKey = normalizeKey(league);
-      const marketKey = normalizeKey(market);
-      const sourceKey = normalizeKey(source);
-
-      const isUFCFinalScores = (
-        leagueKey === "mma" &&
-        marketKey === "ufc" &&
-        sourceKey === "ufcresults"
-      );
-
-      const isMMAPredictions = (
-        leagueKey === "mma" &&
-        marketKey === "ufc" &&
-        sourceKey === "predictions"
-      );
-
-      let workflowFile = WORKFLOW_FILE_DEFAULT;
-
-      if (isUFCFinalScores) {
-        workflowFile = WORKFLOW_FILE_UFC;
-      } else if (leagueKey === "soccer" && sourceKey === "soccertotals") {
-        workflowFile = WORKFLOW_FILE_SOCCER_SCORES;
-      } else if (leagueKey === "soccer" && sourceKey === "predictions") {
-        workflowFile = WORKFLOW_FILE_SOCCER_PRED;
-      } else if (isMMAPredictions) {
-        workflowFile = WORKFLOW_FILE_DEFAULT;
-      }
-
       btn.classList.add("submitting");
       btn.disabled = true;
       btn.textContent = "Processing...";
       out.className = "";
-      out.textContent = `Submitting to ${workflowFile}...`;
+      out.textContent = `Submitting to ${WORKFLOW_FILE}...`;
       status.className = "loading";
       status.textContent = "Submitting";
 
       try {
-        const url = `https://api.github.com/repos/${OWNER}/${REPO}/actions/workflows/${workflowFile}/dispatches`;
+        const url = `https://api.github.com/repos/${OWNER}/${REPO}/actions/workflows/${WORKFLOW_FILE}/dispatches`;
 
         const res = await fetch(url, {
           method: "POST",
@@ -465,7 +359,7 @@ input[type="password"] {
 
         if (res.status === 204) {
           out.className = "success";
-          out.textContent = `Successfully Submitted: ${workflowFile}`;
+          out.textContent = `Successfully Submitted: ${WORKFLOW_FILE}`;
           status.className = "";
           status.textContent = "Submitted";
         } else {
@@ -473,7 +367,7 @@ input[type="password"] {
         }
       } catch (e) {
         out.className = "failure";
-        out.textContent = `Major Failure Bro: ${workflowFile}`;
+        out.textContent = `Major Failure Bro: ${WORKFLOW_FILE}`;
         status.className = "";
         status.textContent = "Failed";
       } finally {
