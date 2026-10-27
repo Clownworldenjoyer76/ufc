@@ -1,3 +1,5 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2023_06_18,Manuel Torres,Nikolas Motta,-185,0.6367,0.8634,0.545,0.2267,0.356,0.156
-2023_06_18,Kyung Ho Kang,Cristian Quinonez,+120,0.4457,0.8223,0.432,0.3766,0.8448,0.1698
+2023_06_18,Kyung Ho Kang,Cristian Quinonez,+120,0.4457,0.9079,0.432,0.4622,1.0369,0.2085
+2023_06_18,Manuel Torres,Nikolas Motta,-185,0.6367,0.8041,0.545,0.1674,0.2629,0.1152
+2023_06_18,Patrick Sabatini,Lucas Almeida,-170,0.6253,0.7987,0.617,0.1734,0.2774,0.1157
+2023_06_18,Armen Petrosyan,Christian Duncan,+150,0.3885,0.7333,0.492,0.3448,0.8876,0.141

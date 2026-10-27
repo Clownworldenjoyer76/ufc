@@ -1,3 +1,5 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2020_09_27,Israel Adesanya,Paulo Costa,-180,0.6345,0.9029,0.69,0.2684,0.4231,0.1836
-2020_09_27,Ludovit Klein,Shane Young,-130,0.5598,0.8122,0.459,0.2524,0.4509,0.1433
+2020_09_27,Ketlen Vieira,Sijara Eubanks,-200,0.6495,0.9305,0.542,0.281,0.4326,0.2004
+2020_09_27,Ludovit Klein,Shane Young,-130,0.5598,0.9074,0.459,0.3476,0.6209,0.1974
+2020_09_27,Israel Adesanya,Paulo Costa,-180,0.6345,0.8202,0.69,0.1857,0.2927,0.127
+2020_09_27,Hakeem Dawodu,Zubaira Tukhugov,+100,0.4884,0.8103,0.513,0.3219,0.6592,0.1573

@@ -1,4 +1,5 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2024_03_31,Vicente Luque,Joaquin Buckley,-125,0.55,0.8703,0.483,0.3203,0.5824,0.1779
-2024_03_31,Chidi Njokuani,Rhys Mckee,-110,0.5354,0.8576,0.646,0.3222,0.6018,0.1734
-2024_03_31,Dennis Buzukja,Connor Matthews,-115,0.5169,0.8372,0.536,0.3203,0.6198,0.1658
+2024_03_31,Manon Fiorot,Erin Blanchfield,+190,0.3409,0.8963,0.475,0.5554,1.6291,0.2107
+2024_03_31,Chidi Njokuani,Rhys Mckee,-110,0.5354,0.8553,0.646,0.3199,0.5975,0.1721
+2024_03_31,Dennis Buzukja,Connor Matthews,-115,0.5169,0.8458,0.536,0.3289,0.6364,0.1702
+2024_03_31,Virna Jandiroba,Loopy Godinez,+200,0.3281,0.7338,0.413,0.4057,1.2363,0.1509

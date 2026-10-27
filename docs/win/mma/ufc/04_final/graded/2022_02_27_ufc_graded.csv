@@ -1,0 +1,3 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2022_02_27,Joseph Holmes,Gregory Rodrigues,+145,-145,0.4082,0.5918,0.147,0.853,0.574,0.426,-0.2612,0.2612,-0.6399,0.4413,0,0.16,fighter_2,Win,Loss,Loss
+2022_02_27,Wellington Turman,Misha Cirkunov,+141,-150,0.4088,0.5912,0.2366,0.7634,0.449,0.551,-0.1722,0.1722,-0.4213,0.2913,0,0.1053,fighter_2,Win,Loss,Loss

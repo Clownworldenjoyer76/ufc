@@ -1,0 +1,4 @@
+match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
+2023_04_16,Azamat Murzakanov,Dustin Jacoby,+130,0.4308,0.8267,0.426,0.3959,0.919,0.1739
+2023_04_16,Chris Gutierrez,Pedro Munhoz,-200,0.6809,0.786,0.578,0.1051,0.1544,0.0824
+2023_04_16,Ion Cutelaba,Tanner Boser,-130,0.5543,0.7533,0.447,0.199,0.3591,0.1116

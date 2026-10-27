@@ -1,3 +1,4 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2023_07_30,Alex Pereira,Jan Blachowicz,-105,+115,0.5241,0.4759,0.918,0.082,0.485,0.515,0.3939,-0.3939,0.7516,-0.8277,0.2069,0,fighter_1,Win,Loss,Win
-2023_07_30,Michael Chiesa,Kevin Holland,+126,-135,0.4351,0.5649,0.1694,0.8306,0.453,0.547,-0.2657,0.2657,-0.6107,0.4704,0,0.1527,fighter_2,Loss,Win,Win
+2023_07_30,Alex Pereira,Jan Blachowicz,-105,+115,0.5241,0.4759,0.9151,0.0849,0.485,0.515,0.391,-0.391,0.7461,-0.8216,0.2054,0,fighter_1,Win,Loss,Win
+2023_07_30,Marcos Rogerio De Lima,Derrick Lewis,-190,+180,0.6472,0.3528,0.1646,0.8354,0.528,0.472,-0.4826,0.4826,-0.7457,1.3679,0,0.1864,fighter_2,Loss,Win,Win
+2023_07_30,Vinicius Salvador,Cj Vergara,+155,-160,0.3892,0.6108,0.2192,0.7808,0.414,0.586,-0.17,0.17,-0.4368,0.2784,0,0.1092,fighter_2,Loss,Win,Win

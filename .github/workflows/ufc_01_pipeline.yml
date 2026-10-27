@@ -131,6 +131,7 @@ jobs:
           git add docs/win/mma/ufc/02_edges/*_ufc_edges.csv 2>/dev/null || true
           git add docs/win/mma/ufc/03_select/
           git add docs/win/mma/ufc/04_final/
+          git add ufc_summary_overall.csv 2>/dev/null || true
           git add frontend/data/dashboards/ufc.json
 
           if git diff --cached --quiet; then

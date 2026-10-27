@@ -1,0 +1,3 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2022_04_16,Jesse Ronson,Rafa Garcia,-140,+140,0.5833,0.4167,0.0964,0.9036,0.489,0.511,-0.4869,0.4869,-0.8347,1.1686,0,0.2087,fighter_2,Loss,Win,Win
+2022_04_16,Kevin Croom,Heili Alateng,+160,-170,0.3792,0.6208,0.2428,0.7572,0.342,0.658,-0.1364,0.1364,-0.3597,0.2197,0,0.0899,fighter_2,Loss,Win,Win

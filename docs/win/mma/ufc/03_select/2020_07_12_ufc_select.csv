@@ -1,3 +1,6 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2020_07_12,Makwan Amirkhani,Danny Henry,-167,0.6324,0.8772,0.586,0.2448,0.3872,0.1665
-2020_07_12,Alexander Volkanovski,Max Holloway,-190,0.6552,0.8169,0.682,0.1617,0.2468,0.1173
+2020_07_12,Leonardo Santos,Roman Bogatov,-185,0.6451,0.9473,0.615,0.3022,0.4685,0.2129
+2020_07_12,Makwan Amirkhani,Danny Henry,-167,0.6324,0.9408,0.586,0.3084,0.4878,0.2097
+2020_07_12,Jiri Prochazka,Volkan Oezdemir,+160,0.3743,0.8827,0.461,0.5084,1.3581,0.2031
+2020_07_12,Alexander Volkanovski,Max Holloway,-190,0.6552,0.8104,0.682,0.1552,0.2369,0.1125
+2020_07_12,Muslim Salikhov,Elizeu Zaleski Dos Santos,-130,0.5652,0.7328,0.488,0.1676,0.2965,0.0964

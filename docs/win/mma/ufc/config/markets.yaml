@@ -5,15 +5,15 @@ ufc:
     pick_preference: best_model_prob
     # Format: [min_moneyline, max_moneyline] in American odds
     odds_bands:
-      - [-200, 300]
+      - [-200, 250]
     # Only include fighters where (model_prob - implied_prob) falls within at least one band
     edge_bands:
-      - [0.0001, 0.99]
+      - [0.00, 1000.00]
     ev_bands:
-      - [0.03, 0.999]
+      - [0.00, 1000.00]
     # Only include fighters where fractional Kelly stake falls within at least one band
     # Kelly = ((model_prob * (odds + 1)) - 1) / odds * 0.25
     kelly_bands:
-      - [0.0001, 0.999]
-    model_probability_minimum: 0.80
+      - [0.00, 1000.00]
+    model_probability_minimum: 0.70
     dratings_probability_minimum: 0.40

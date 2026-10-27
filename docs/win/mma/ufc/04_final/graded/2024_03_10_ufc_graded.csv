@@ -1,2 +1,5 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2024_03_10,Michal Oleksiejczuk,Michel Pereira,+145,-145,0.4082,0.5918,0.0838,0.9162,0.406,0.594,-0.3244,0.3244,-0.7947,0.5481,0,0.1987,fighter_2,Loss,Win,Win
+2024_03_10,Dustin Poirier,Benoit Saint Denis,+200,-215,0.3281,0.6719,0.9347,0.0653,0.447,0.553,0.6066,-0.6066,1.8486,-0.9028,0.2257,0,fighter_1,Win,Loss,Win
+2024_03_10,Jack Della Maddalena,Gilbert Burns,-155,+140,0.5933,0.4067,0.8114,0.1886,0.517,0.483,0.2181,-0.2181,0.3676,-0.5363,0.1341,0,fighter_1,Win,Loss,Win
+2024_03_10,Michael Page,Kevin Holland,+117,-130,0.4491,0.5509,0.767,0.233,0.473,0.527,0.3179,-0.3179,0.7077,-0.577,0.1443,0,fighter_1,Win,Loss,Win
+2024_03_10,Michal Oleksiejczuk,Michel Pereira,+145,-145,0.4082,0.5918,0.1649,0.8351,0.406,0.594,-0.2433,0.2433,-0.596,0.411,0,0.149,fighter_2,Loss,Win,Win

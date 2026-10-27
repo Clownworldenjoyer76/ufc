@@ -1,3 +1,5 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2022_07_16,Shane Burgos,Charles Jourdain,-170,0.6208,0.9151,0.614,0.2943,0.4741,0.194
-2022_07_16,Jack Shore,Ricky Simon,-160,0.6108,0.8288,0.563,0.218,0.357,0.14
+2022_07_16,Shane Burgos,Charles Jourdain,-170,0.6208,0.9225,0.614,0.3017,0.486,0.1989
+2022_07_16,Emily Ducote,Jessica Penne,-160,0.6154,0.8259,0.544,0.2105,0.3421,0.1368
+2022_07_16,Jack Shore,Ricky Simon,-160,0.6108,0.8206,0.563,0.2098,0.3435,0.1348
+2022_07_16,Herbert Burns,Bill Algeo,+195,0.3335,0.7657,0.456,0.4322,1.2959,0.1621

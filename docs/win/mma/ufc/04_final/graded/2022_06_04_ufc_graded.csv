@@ -1,3 +1,4 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2022_06_04,Alex Da Silva,Joe Solecki,+165,-175,0.3723,0.6277,0.0805,0.9195,0.382,0.618,-0.2918,0.2918,-0.7837,0.4648,0,0.1959,fighter_2,Loss,Win,Win
-2022_06_04,Jairzinho Rozenstruik,Alexander Volkov,+165,-170,0.3747,0.6253,0.1031,0.8969,0.403,0.597,-0.2716,0.2716,-0.7249,0.4344,0,0.1812,fighter_2,Loss,Win,Win
+2022_06_04,Alex Da Silva,Joe Solecki,+165,-175,0.3723,0.6277,0.0605,0.9395,0.382,0.618,-0.3118,0.3118,-0.8375,0.4966,0,0.2094,fighter_2,Loss,Win,Win
+2022_06_04,Jairzinho Rozenstruik,Alexander Volkov,+165,-170,0.3747,0.6253,0.2813,0.7187,0.403,0.597,-0.0934,0.0934,-0.2493,0.1494,0,0.0623,fighter_2,Loss,Win,Win
+2022_06_04,Zhalgas Zhumagulov,Jeff Molina,+170,-185,0.3633,0.6367,0.2181,0.7819,0.428,0.572,-0.1452,0.1452,-0.3997,0.228,0,0.0999,fighter_2,Loss,Win,Win

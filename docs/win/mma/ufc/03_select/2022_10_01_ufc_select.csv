@@ -1,2 +1,5 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2022_10_01,John Castaneda,Daniel Santos,-185,0.6409,0.8787,0.562,0.2378,0.3709,0.1655
+2022_10_01,John Castaneda,Daniel Santos,-185,0.6409,0.8724,0.562,0.2315,0.3611,0.1612
+2022_10_01,Mike Davis,Viacheslav Borshchev,-175,0.6277,0.8257,0.613,0.198,0.3153,0.1329
+2022_10_01,Joaquim Silva,Jesse Ronson,-130,0.5598,0.8184,0.602,0.2586,0.4619,0.1469
+2022_10_01,Brendan Allen,Krzysztof Jotko,+110,0.471,0.8125,0.425,0.3415,0.7251,0.1614

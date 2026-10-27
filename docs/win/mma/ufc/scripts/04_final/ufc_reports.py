@@ -393,6 +393,11 @@ def main() -> int:
         graded,
     )
 
+    write_summary(
+        os.path.join(REPO_ROOT, "ufc_summary_overall.csv"),
+        graded,
+    )
+
     write_report(
         os.path.join(REPORTS_DIR, "ufc_moneyline_by_ev.csv"),
         bucketed_rows(

@@ -1,3 +1,6 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2023_06_24,Neil Magny,Philip Rowe,-175,0.6187,0.8281,0.547,0.2094,0.3384,0.1373
-2023_06_24,Sedriques Dumas,Cody Brundage,+125,0.4362,0.8163,0.44,0.3801,0.8714,0.1685
+2023_06_24,Jack Jenkins,Jamall Emmers,+180,0.3488,0.8568,0.43,0.508,1.4562,0.195
+2023_06_24,Neil Magny,Philip Rowe,-175,0.6187,0.8451,0.547,0.2264,0.3659,0.1484
+2023_06_24,Loik Radzhabov,Mateusz Rebecki,+100,0.4917,0.8215,0.484,0.3298,0.6708,0.1622
+2023_06_24,Gabriel Santos,David Onama,-200,0.6629,0.7352,0.662,0.0723,0.109,0.0536
+2023_06_24,Amanda Ribas,Maycee Barber,-185,0.6367,0.7063,0.598,0.0696,0.1093,0.0479

@@ -1,3 +1,6 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2026_05_09,Grant Dawson,Mateusz Rebecki,-115,0.5108,0.8988,0.651,0.388,0.7595,0.1983
-2026_05_09,Alexander Volkov,Waldo Cortes-Acosta,-180,0.6211,0.8117,0.553,0.1906,0.3069,0.1258
+2026_05_09,Tatsuro Taira,Joshua Van,-190,0.6345,0.8446,0.639,0.2101,0.3311,0.1437
+2026_05_09,Sean Brady,Joaquin Buckley,-185,0.6279,0.8231,0.552,0.1952,0.3108,0.1311
+2026_05_09,Yaroslav Amosov,Joel Alvarez,-130,0.5427,0.81,0.625,0.2673,0.4924,0.1461
+2026_05_09,Waldo Cortes-Acosta,Alexander Volkov,+155,0.3789,0.7441,0.447,0.3652,0.9639,0.147
+2026_05_09,Grant Dawson,Mateusz Rebecki,-115,0.5108,0.7337,0.651,0.2229,0.4363,0.1139

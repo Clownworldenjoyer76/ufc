@@ -1,3 +1,5 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2021_05_02,Giga Chikadze,Cub Swanson,-190,0.6472,0.8686,0.574,0.2214,0.3421,0.1569
-2021_05_02,Luana Pinheiro,Randa Markos,-150,0.5951,0.8239,0.675,0.2288,0.3844,0.1413
+2021_05_02,Luana Pinheiro,Randa Markos,-150,0.5951,0.9566,0.675,0.3615,0.6073,0.2232
+2021_05_02,Giga Chikadze,Cub Swanson,-190,0.6472,0.9524,0.574,0.3052,0.4716,0.2163
+2021_05_02,Luana Carolina,Poliana Botelho,+220,0.3069,0.8873,0.496,0.5804,1.8916,0.2094
+2021_05_02,Kai Kamaka III,Tj Brown,-140,0.573,0.7038,0.67,0.1308,0.2284,0.0766

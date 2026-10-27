@@ -1,5 +1,7 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2025_04_13,Yair Rodriguez,Patricio Pitbull,-155,0.6031,0.9566,0.618,0.3535,0.5861,0.2227
-2025_04_13,Alexander Volkanovski,Diego Lopes,-155,0.6031,0.9512,0.6,0.3481,0.5772,0.2193
-2025_04_13,Paddy Pimblett,Michael Chandler,-160,0.6108,0.8794,0.506,0.2686,0.4398,0.1725
-2025_04_13,Jean Silva,Bryce Mitchell,-180,0.6345,0.8256,0.653,0.1911,0.3013,0.1307
+2025_04_13,Alexander Volkanovski,Diego Lopes,-155,0.6031,0.9472,0.6,0.3441,0.5705,0.2167
+2025_04_13,Paddy Pimblett,Michael Chandler,-160,0.6108,0.9268,0.506,0.316,0.5174,0.203
+2025_04_13,Dominick Reyes,Nikita Krylov,+135,0.4149,0.8899,0.4,0.475,1.1447,0.203
+2025_04_13,Sean Woodson,Dan Ige,-190,0.6552,0.8798,0.476,0.2246,0.3429,0.1629
+2025_04_13,Yair Rodriguez,Patricio Pitbull,-155,0.6031,0.8283,0.618,0.2252,0.3734,0.1418
+2025_04_13,Jean Silva,Bryce Mitchell,-180,0.6345,0.8136,0.653,0.1791,0.2823,0.1225

@@ -1,4 +1,7 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2023_09_02,Manon Fiorot,Rose Namajunas,-180,0.6301,0.8759,0.568,0.2458,0.3901,0.1661
-2023_09_02,Ciryl Gane,Serghei Spivac,-190,0.6472,0.8726,0.638,0.2254,0.3483,0.1597
-2023_09_02,Benoit Saint Denis,Thiago Moises,-190,0.6431,0.8131,0.534,0.17,0.2644,0.1191
+2023_09_02,Benoit Saint Denis,Thiago Moises,-190,0.6431,0.9464,0.534,0.3033,0.4717,0.2125
+2023_09_02,Ciryl Gane,Serghei Spivac,-190,0.6472,0.9461,0.638,0.2989,0.4618,0.2118
+2023_09_02,Manon Fiorot,Rose Namajunas,-180,0.6301,0.9258,0.568,0.2957,0.4692,0.1998
+2023_09_02,Ange Loosa,Rhys Mckee,-126,0.5452,0.8097,0.671,0.2645,0.4852,0.1454
+2023_09_02,Volkan Oezdemir,Bogdan Guskov,-162,0.6072,0.7193,0.625,0.1121,0.1846,0.0713
+2023_09_02,William Gomis,Yanis Ghemmouri,-185,0.6409,0.7033,0.656,0.0624,0.0973,0.0434

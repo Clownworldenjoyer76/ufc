@@ -1,3 +1,4 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2025_09_06,Brad Tavares,Robert Bryczek,-180,+175,0.6387,0.3613,0.89,0.11,0.666,0.334,0.2513,-0.2513,0.3934,-0.6955,0.1739,0,fighter_1,Loss,Win,Loss
-2025_09_06,Caio Borralho,Nassourdine Imavov,-135,+120,0.5583,0.4417,0.8359,0.1641,0.485,0.515,0.2776,-0.2776,0.4973,-0.6285,0.1571,0,fighter_1,Loss,Win,Loss
+2025_09_06,Brad Tavares,Robert Bryczek,-180,+175,0.6387,0.3613,0.9509,0.0491,0.666,0.334,0.3122,-0.3122,0.4888,-0.8641,0.216,0,fighter_1,Loss,Win,Loss
+2025_09_06,Caio Borralho,Nassourdine Imavov,-135,+120,0.5583,0.4417,0.8525,0.1475,0.485,0.515,0.2942,-0.2942,0.527,-0.6661,0.1665,0,fighter_1,Loss,Win,Loss
+2025_09_06,Mauricio Ruffy,Benoit Saint Denis,-160,+160,0.6154,0.3846,0.8652,0.1348,0.582,0.418,0.2498,-0.2498,0.4059,-0.6495,0.1624,0,fighter_1,Loss,Win,Loss

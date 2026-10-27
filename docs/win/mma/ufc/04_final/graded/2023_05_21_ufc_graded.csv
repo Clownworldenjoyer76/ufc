@@ -1,3 +1,4 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2023_05_21,Angela Hill,Mackenzie Dern,+140,-155,0.4067,0.5933,0.1633,0.8367,0.249,0.751,-0.2434,0.2434,-0.5985,0.4102,0,0.1496,fighter_2,Loss,Win,Win
-2023_05_21,Emily Ducote,Loopy Godinez,+130,-135,0.4308,0.5692,0.0761,0.9239,0.38,0.62,-0.3547,0.3547,-0.8234,0.6231,0,0.2058,fighter_2,Loss,Win,Win
+2023_05_21,Angela Hill,Mackenzie Dern,+140,-155,0.4067,0.5933,0.1127,0.8873,0.249,0.751,-0.294,0.294,-0.7229,0.4955,0,0.1807,fighter_2,Loss,Win,Win
+2023_05_21,Edmen Shahbazyan,Anthony Hernandez,+180,-190,0.3528,0.6472,0.1044,0.8956,0.362,0.638,-0.2484,0.2484,-0.7041,0.3838,0,0.176,fighter_2,Loss,Win,Win
+2023_05_21,Emily Ducote,Loopy Godinez,+130,-135,0.4308,0.5692,0.0817,0.9183,0.38,0.62,-0.3491,0.3491,-0.8104,0.6133,0,0.2026,fighter_2,Loss,Win,Win

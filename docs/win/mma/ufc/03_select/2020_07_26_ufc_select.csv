@@ -1,3 +1,5 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2020_07_26,Paul Craig,Gadzhimurad Antigulov,-145,0.5817,0.922,0.566,0.3403,0.5849,0.2034
-2020_07_26,Robert Whittaker,Darren Till,-165,0.6182,0.8672,0.591,0.249,0.4029,0.1631
+2020_07_26,Robert Whittaker,Darren Till,-165,0.6182,0.9525,0.591,0.3343,0.5409,0.2189
+2020_07_26,Alex Oliveira,Peter Sobotta,-115,0.523,0.9269,0.517,0.4039,0.7722,0.2117
+2020_07_26,Paul Craig,Gadzhimurad Antigulov,-145,0.5817,0.7395,0.566,0.1578,0.2712,0.0943
+2020_07_26,Marina Rodriguez,Carla Esparza,-200,0.6512,0.7272,0.561,0.076,0.1168,0.0545

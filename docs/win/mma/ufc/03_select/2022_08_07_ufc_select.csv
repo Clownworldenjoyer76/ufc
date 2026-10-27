@@ -1,2 +1,4 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2022_08_07,Cory Mckenna,Miranda Granger,-185,0.6367,0.9145,0.643,0.2778,0.4363,0.1912
+2022_08_07,Cory Mckenna,Miranda Granger,-185,0.6367,0.9342,0.643,0.2975,0.4672,0.2047
+2022_08_07,Geoff Neal,Vicente Luque,+180,0.3536,0.8459,0.415,0.4923,1.392,0.1904
+2022_08_07,Mayra Bueno Silva,Stephanie Egger,+115,0.4557,0.7859,0.515,0.3302,0.7246,0.1517

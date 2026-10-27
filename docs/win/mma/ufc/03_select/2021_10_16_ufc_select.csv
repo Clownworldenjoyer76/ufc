@@ -1,3 +1,4 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2021_10_16,Bruno Silva,Andrew Sanchez,-155,0.5983,0.8925,0.488,0.2942,0.4918,0.1831
-2021_10_16,Batgerel Danaa,Brandon Davis,-140,0.5676,0.8649,0.597,0.2973,0.5239,0.1719
+2021_10_16,Batgerel Danaa,Brandon Davis,-140,0.5676,0.7844,0.597,0.2168,0.382,0.1254
+2021_10_16,Luana Carolina,Loopy Godinez,+190,0.335,0.7784,0.56,0.4434,1.3237,0.1667
+2021_10_16,Bruno Silva,Andrew Sanchez,-155,0.5983,0.737,0.488,0.1387,0.2319,0.0863

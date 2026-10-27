@@ -1,2 +1,4 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2023_02_25,Rafael Alves,Nurullo Aliev,+165,-180,0.3699,0.6301,0.1429,0.8571,0.429,0.571,-0.227,0.227,-0.6137,0.3602,0,0.1534,fighter_2,Loss,Win,Win
+2023_02_25,Charles Johnson,Ode Osbourne,-160,+160,0.6154,0.3846,0.8588,0.1412,0.658,0.342,0.2434,-0.2434,0.3955,-0.6329,0.1582,0,fighter_1,Loss,Win,Loss
+2023_02_25,Jasmine Jasudavicius,Juliana Miller,+105,-125,0.4675,0.5325,0.0836,0.9164,0.495,0.505,-0.3839,0.3839,-0.8212,0.721,0,0.2053,fighter_2,Win,Loss,Loss
+2023_02_25,Rafael Alves,Nurullo Aliev,+165,-180,0.3699,0.6301,0.2048,0.7952,0.429,0.571,-0.1651,0.1651,-0.4463,0.262,0,0.1116,fighter_2,Loss,Win,Win

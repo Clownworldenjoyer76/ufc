@@ -1,3 +1,4 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2023_04_29,Martin Buday,Jake Collier,-140,0.573,0.9474,0.523,0.3744,0.6535,0.2192
-2023_04_29,Marcos Rogerio De Lima,Waldo Cortes-Acosta,-170,0.6134,0.8338,0.55,0.2204,0.3593,0.1425
+2023_04_29,Martin Buday,Jake Collier,-140,0.573,0.949,0.523,0.376,0.6563,0.2201
+2023_04_29,Marcos Rogerio De Lima,Waldo Cortes-Acosta,-170,0.6134,0.7669,0.55,0.1535,0.2502,0.0993
+2023_04_29,Jamey-Lyn Horth,Hailey Cowan,-160,0.6012,0.7067,0.55,0.1055,0.1754,0.0661

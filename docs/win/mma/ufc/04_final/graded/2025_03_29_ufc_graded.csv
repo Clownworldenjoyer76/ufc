@@ -1,2 +1,4 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2025_03_29,Austin Hubbard,Marquel Mederos,+135,-130,0.4295,0.5705,0.1237,0.8763,0.372,0.628,-0.3058,0.3058,-0.712,0.536,0,0.178,fighter_2,Loss,Win,Win
+2025_03_29,Austin Hubbard,Marquel Mederos,+135,-130,0.4295,0.5705,0.1337,0.8663,0.372,0.628,-0.2958,0.2958,-0.6887,0.5185,0,0.1722,fighter_2,Loss,Win,Win
+2025_03_29,Kevin Borjas,Ronaldo Rodriguez,+180,-190,0.3528,0.6472,0.2209,0.7791,0.446,0.554,-0.1319,0.1319,-0.3739,0.2038,0,0.0935,fighter_2,Win,Loss,Loss
+2025_03_29,Melquizael Costa,Christian Rodriguez,+190,-200,0.3409,0.6591,0.2056,0.7944,0.391,0.609,-0.1353,0.1353,-0.3969,0.2053,0,0.0992,fighter_2,Win,Loss,Loss

@@ -1,3 +1,4 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2026_08_22,Vitor Petrino,Serghei Spivac,-170,0.6162,0.8837,0.591,0.2675,0.4341,0.1742
-2026_08_22,Chris Padilla,Nasrat Haqparast,-110,0.5,0.8592,0.444,0.3592,0.7184,0.1796
+2026_08_22,Chris Padilla,Nasrat Haqparast,-110,0.5,0.9272,0.444,0.4272,0.8544,0.2136
+2026_08_22,Vitor Petrino,Serghei Spivac,-170,0.6162,0.7904,0.591,0.1742,0.2827,0.1135
+2026_08_22,Shamil Gaziev,Kennedy Nzechukwu,-140,0.5676,0.7149,0.478,0.1473,0.2596,0.0852

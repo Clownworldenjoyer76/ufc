@@ -1,5 +1,4 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2020_10_24,Alexander Volkov,Walt Harris,-180,0.6345,0.9412,0.723,0.3067,0.4835,0.2098
-2020_10_24,Joel Alvarez,Alexander Yakovlev,-165,0.6182,0.9206,0.68,0.3024,0.4893,0.198
-2020_10_24,Robert Whittaker,Jared Cannonier,+105,0.478,0.8534,0.53,0.3754,0.7854,0.1798
-2020_10_24,Shavkat Rakhmonov,Alex Oliveira,-145,0.5868,0.8204,0.447,0.2336,0.398,0.1413
+2020_10_24,Alexander Volkov,Walt Harris,-180,0.6345,0.9537,0.723,0.3192,0.5032,0.2183
+2020_10_24,Robert Whittaker,Jared Cannonier,+105,0.478,0.92,0.53,0.442,0.9247,0.2117
+2020_10_24,Joel Alvarez,Alexander Yakovlev,-165,0.6182,0.8707,0.68,0.2525,0.4085,0.1653

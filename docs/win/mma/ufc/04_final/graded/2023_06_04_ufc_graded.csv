@@ -1,4 +1,7 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2023_06_04,Daniel Santos,Johnny Munoz,-200,+196,0.6637,0.3363,0.8668,0.1332,0.609,0.391,0.2031,-0.2031,0.3061,-0.604,0.151,0,fighter_1,Win,Loss,Win
-2023_06_04,Elizeu Zaleski Dos Santos,Abubakar Nurmagomedov,+115,-125,0.4557,0.5443,0.8068,0.1932,0.546,0.454,0.3511,-0.3511,0.7705,-0.6451,0.1613,0,fighter_1,Win,Loss,Win
-2023_06_04,Karine Silva,Ketlen Souza,-185,+170,0.6367,0.3633,0.9199,0.0801,0.629,0.371,0.2832,-0.2832,0.4448,-0.7795,0.1949,0,fighter_1,Win,Loss,Win
+2023_06_04,Amir Albazi,Kai Kara-France,-120,+118,0.5432,0.4568,0.844,0.156,0.494,0.506,0.3008,-0.3008,0.5538,-0.6585,0.1646,0,fighter_1,Win,Loss,Win
+2023_06_04,Andrei Arlovski,Don'Tale Mayes,+125,-140,0.4324,0.5676,0.8069,0.1931,0.513,0.487,0.3745,-0.3745,0.866,-0.6598,0.1649,0,fighter_1,Loss,Win,Loss
+2023_06_04,Daniel Pineda,Alex Caceres,+185,-185,0.3509,0.6491,0.1668,0.8332,0.334,0.666,-0.1841,0.1841,-0.5246,0.2836,0,0.1312,fighter_2,Loss,Win,Win
+2023_06_04,Daniel Santos,Johnny Munoz,-200,+196,0.6637,0.3363,0.8908,0.1092,0.609,0.391,0.2271,-0.2271,0.3422,-0.6753,0.1688,0,fighter_1,Win,Loss,Win
+2023_06_04,Elizeu Zaleski Dos Santos,Abubakar Nurmagomedov,+115,-125,0.4557,0.5443,0.9237,0.0763,0.546,0.454,0.468,-0.468,1.027,-0.8598,0.215,0,fighter_1,Win,Loss,Win
+2023_06_04,Karine Silva,Ketlen Souza,-185,+170,0.6367,0.3633,0.8912,0.1088,0.629,0.371,0.2545,-0.2545,0.3997,-0.7005,0.1751,0,fighter_1,Win,Loss,Win

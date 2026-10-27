@@ -1,3 +1,4 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2020_11_08,Claudia Gadelha,Yan Xiaonan,+170,-175,0.3679,0.6321,0.0852,0.9148,0.441,0.559,-0.2827,0.2827,-0.7684,0.4472,0,0.1921,fighter_2,Loss,Win,Win
-2020_11_08,Ramiz Brahimaj,Max Griffin,+122,-135,0.4395,0.5605,0.1398,0.8602,0.423,0.577,-0.2997,0.2997,-0.6819,0.5347,0,0.1705,fighter_2,Loss,Win,Win
+2020_11_08,Claudia Gadelha,Yan Xiaonan,+170,-175,0.3679,0.6321,0.0669,0.9331,0.441,0.559,-0.301,0.301,-0.8182,0.4762,0,0.2045,fighter_2,Loss,Win,Win
+2020_11_08,Ramiz Brahimaj,Max Griffin,+122,-135,0.4395,0.5605,0.2357,0.7643,0.423,0.577,-0.2038,0.2038,-0.4637,0.3636,0,0.1159,fighter_2,Loss,Win,Win
+2020_11_08,Trevin Giles,Bevon Lewis,-110,+105,0.5178,0.4822,0.898,0.102,0.48,0.52,0.3802,-0.3802,0.7343,-0.7885,0.1971,0,fighter_1,Win,Loss,Win

@@ -1,4 +1,6 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2023_08_06,Aleksa Camur,Tanner Boser,+115,-130,0.4514,0.5486,0.114,0.886,0.361,0.639,-0.3374,0.3374,-0.7475,0.6151,0,0.1869,fighter_2,Loss,Win,Win
-2023_08_06,Gavin Tucker,Diego Lopes,+145,-160,0.3988,0.6012,0.1407,0.8593,0.477,0.523,-0.2581,0.2581,-0.6472,0.4292,0,0.1618,fighter_2,Loss,Win,Win
-2023_08_06,Raoni Barcelos,Kyler Phillips,+170,-185,0.3633,0.6367,0.1077,0.8923,0.391,0.609,-0.2556,0.2556,-0.7035,0.4014,0,0.1759,fighter_2,Loss,Win,Win
+2023_08_06,Aleksa Camur,Tanner Boser,+115,-130,0.4514,0.5486,0.199,0.801,0.361,0.639,-0.2524,0.2524,-0.5592,0.4601,0,0.1398,fighter_2,Loss,Win,Win
+2023_08_06,Dustin Jacoby,Kennedy Nzechukwu,+150,-160,0.3939,0.6061,0.8726,0.1274,0.515,0.485,0.4787,-0.4787,1.2151,-0.7898,0.1974,0,fighter_1,Win,Loss,Win
+2023_08_06,Gavin Tucker,Diego Lopes,+145,-160,0.3988,0.6012,0.1556,0.8444,0.477,0.523,-0.2432,0.2432,-0.6098,0.4045,0,0.1525,fighter_2,Loss,Win,Win
+2023_08_06,Ludovit Klein,Ignacio Bahamondes,+200,-220,0.3265,0.6735,0.8892,0.1108,0.413,0.587,0.5627,-0.5627,1.7232,-0.8355,0.2089,0,fighter_1,Win,Loss,Win
+2023_08_06,Raoni Barcelos,Kyler Phillips,+170,-185,0.3633,0.6367,0.2493,0.7507,0.391,0.609,-0.114,0.114,-0.3138,0.179,0,0.0784,fighter_2,Loss,Win,Win

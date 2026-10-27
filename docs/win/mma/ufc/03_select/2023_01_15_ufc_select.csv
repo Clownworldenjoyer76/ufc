@@ -1,0 +1,4 @@
+match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
+2023_01_15,Sean Strickland,Nassourdine Imavov,+125,0.4362,0.9355,0.545,0.4993,1.1447,0.2214
+2023_01_15,Dan Ige,Damon Jackson,-130,0.5543,0.9047,0.498,0.3504,0.6323,0.1965
+2023_01_15,Ketlen Vieira,Raquel Pennington,-130,0.5652,0.7004,0.479,0.1352,0.2392,0.0777

@@ -1,3 +1,5 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2022_06_26,Chris Curtis,Rodolfo Vieira,-110,0.5178,0.8227,0.55,0.3049,0.5889,0.1581
-2022_06_26,Cody Durden,Jp Buys,-110,0.5116,0.8024,0.525,0.2908,0.5683,0.1488
+2022_06_26,Cody Durden,Jp Buys,-110,0.5116,0.8456,0.525,0.334,0.6528,0.171
+2022_06_26,Carlos Ulberg,Tafon Nchukwi,+140,0.4132,0.8329,0.537,0.4197,1.016,0.1788
+2022_06_26,Sergey Morozov,Raulian Paiva,-155,0.5983,0.8091,0.72,0.2108,0.3524,0.1312
+2022_06_26,Chris Curtis,Rodolfo Vieira,-110,0.5178,0.738,0.55,0.2202,0.4253,0.1142

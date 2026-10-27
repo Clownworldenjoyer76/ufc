@@ -1,3 +1,6 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2024_08_03,Jai Herbert,Rolando Bedoya,-115,0.5108,0.884,0.537,0.3732,0.7305,0.1907
-2024_08_03,Deiveson Figueiredo,Marlon Vera,-142,0.5796,0.8737,0.524,0.2941,0.5073,0.1749
+2024_08_03,Deiveson Figueiredo,Marlon Vera,-142,0.5796,0.9104,0.524,0.3308,0.5706,0.1967
+2024_08_03,Jai Herbert,Rolando Bedoya,-115,0.5108,0.8207,0.537,0.3099,0.6066,0.1584
+2024_08_03,Joel Alvarez,Elves Brenner,-140,0.573,0.7974,0.574,0.2244,0.3917,0.1314
+2024_08_03,Mackenzie Dern,Loopy Godinez,-135,0.5638,0.767,0.48,0.2032,0.3604,0.1165
+2024_08_03,Guram Kutateladze,Jordan Vucenic,-180,0.6429,0.7593,0.693,0.1164,0.1811,0.0815

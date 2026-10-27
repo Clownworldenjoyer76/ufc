@@ -1,4 +1,4 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2021_11_13,Cynthia Calvillo,Andrea Lee,-115,0.523,0.9379,0.532,0.4149,0.7932,0.2175
-2021_11_13,Song Yadong,Julio Arce,-138,0.5661,0.8933,0.639,0.3272,0.578,0.1885
-2021_11_13,Ben Rothwell,Marcos Rogerio De Lima,-155,0.6031,0.8894,0.537,0.2863,0.4747,0.1803
+2021_11_13,Song Yadong,Julio Arce,-138,0.5661,0.8958,0.639,0.3297,0.5824,0.19
+2021_11_13,Cynthia Calvillo,Andrea Lee,-115,0.523,0.8286,0.532,0.3056,0.5843,0.1602
+2021_11_13,Miguel Baeza,Khaos Williams,-155,0.5983,0.7474,0.64,0.1491,0.2493,0.0928

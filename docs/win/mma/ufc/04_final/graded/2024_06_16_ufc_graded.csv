@@ -1,3 +1,4 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2024_06_16,Gabriella Fernandes,Carli Judice,-156,+145,0.5989,0.4011,0.9331,0.0669,0.641,0.359,0.3342,-0.3342,0.5581,-0.8332,0.2083,0,fighter_1,Win,Loss,Win
-2024_06_16,Miles Johns,Douglas Silva De Andrade,-175,+165,0.6277,0.3723,0.9168,0.0832,0.499,0.501,0.2891,-0.2891,0.4605,-0.7765,0.1941,0,fighter_1,Win,Loss,Win
+2024_06_16,Gabriella Fernandes,Carli Judice,-156,+145,0.5989,0.4011,0.9152,0.0848,0.641,0.359,0.3163,-0.3163,0.5282,-0.7886,0.1971,0,fighter_1,Win,Loss,Win
+2024_06_16,Lucas Almeida,Timothy Cuamba,+170,-185,0.3633,0.6367,0.1741,0.8259,0.426,0.574,-0.1892,0.1892,-0.5208,0.2971,0,0.1302,fighter_2,Win,Loss,Loss
+2024_06_16,Miles Johns,Douglas Silva De Andrade,-175,+165,0.6277,0.3723,0.7671,0.2329,0.499,0.501,0.1394,-0.1394,0.222,-0.3743,0.0936,0,fighter_1,Win,Loss,Win

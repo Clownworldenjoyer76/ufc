@@ -1,2 +1,3 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2024_03_17,Marcin Tybura,Tai Tuivasa,-105,+100,0.506,0.494,0.8454,0.1546,0.489,0.511,0.3394,-0.3394,0.6707,-0.687,0.1718,0,fighter_1,Win,Loss,Win
+2024_03_17,Isaac Dulgarian,Christian Rodriguez,-190,+175,0.6431,0.3569,0.2106,0.7894,0.577,0.423,-0.4325,0.4325,-0.6725,1.2117,0,0.1681,fighter_2,Loss,Win,Win
+2024_03_17,Marcin Tybura,Tai Tuivasa,-105,+100,0.506,0.494,0.8218,0.1782,0.489,0.511,0.3158,-0.3158,0.624,-0.6393,0.1598,0,fighter_1,Win,Loss,Win
