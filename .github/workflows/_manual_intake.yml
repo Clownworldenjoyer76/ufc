@@ -1,0 +1,131 @@
+name: _Manual Intake
+
+on:
+  workflow_dispatch:
+    inputs:
+      league:
+        description: "League"
+        required: true
+        type: string
+      market:
+        description: "Market"
+        required: true
+        type: string
+      source:
+        description: "Source"
+        required: true
+        type: string
+      raw_text:
+        description: "Raw pasted data"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  intake:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 1
+          sparse-checkout: |
+            docs/win/soccer
+            docs/win/mma/ufc
+          sparse-checkout-cone-mode: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+
+      # =========================
+      # SOCCER PREDICTIONS
+      # =========================
+      - name: Run Soccer Predictions Parser
+        if: ${{ github.event.inputs.league == 'soccer' && github.event.inputs.source == 'Predictions' }}
+        shell: bash
+        env:
+          RAW_TEXT: ${{ github.event.inputs.raw_text }}
+        run: |
+          RAW_FILE="$RUNNER_TEMP/manual_soccer_pred_raw.txt"
+          printf '%s\n' "$RAW_TEXT" > "$RAW_FILE"
+
+          python docs/win/soccer/scripts/00_intake/manual_soccer_pred.py \
+            --market "${{ github.event.inputs.market }}" \
+            --raw-file "$RAW_FILE"
+
+      # =========================
+      # SOCCER FINAL SCORES
+      # =========================
+      - name: Run Soccer Scores Parser
+        if: ${{ github.event.inputs.league == 'soccer' && github.event.inputs.source == 'Soccer Totals' }}
+        shell: bash
+        env:
+          RAW_TEXT: ${{ github.event.inputs.raw_text }}
+        run: |
+          RAW_FILE="$RUNNER_TEMP/manual_soccer_scores_raw.txt"
+          printf '%s\n' "$RAW_TEXT" > "$RAW_FILE"
+
+          python docs/win/soccer/scripts/00_intake/manual_soccer_scores.py \
+            --market "${{ github.event.inputs.market }}" \
+            --raw-file "$RAW_FILE"
+
+      # =========================
+      # UFC PREDICTIONS
+      # =========================
+      - name: Run UFC Predictions Parser
+        if: ${{ github.event.inputs.league == 'mma' && github.event.inputs.market == 'UFC' && github.event.inputs.source == 'Predictions' }}
+        run: |
+          printf "%s" "${{ github.event.inputs.raw_text }}" > docs/manual_data.html
+          python docs/win/mma/ufc/scripts/00_parsing/ufc_input.py
+
+      # =========================
+      # UFC FINAL SCORES
+      # =========================
+      - name: Run UFC Final Scores Parser
+        if: ${{ github.event.inputs.league == 'mma' && github.event.inputs.market == 'UFC' && github.event.inputs.source == 'UFC Results' }}
+        run: |
+          printf "%s" "${{ github.event.inputs.raw_text }}" > dump.txt
+          python docs/win/mma/ufc/scripts/00_parsing/ufc_final_scores.py dump.txt
+
+      # =========================
+      # COMMIT
+      # =========================
+      - name: Commit Changes
+        shell: bash
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+          if [ "${{ github.event.inputs.league }}" = "soccer" ] && [ "${{ github.event.inputs.source }}" = "Predictions" ]; then
+            git add docs/win/soccer/00_intake/predictions/
+            COMMIT_MESSAGE="Add manual soccer prediction data"
+
+          elif [ "${{ github.event.inputs.league }}" = "soccer" ] && [ "${{ github.event.inputs.source }}" = "Soccer Totals" ]; then
+            git add docs/win/soccer/05_final_scores/results/final_scores_dirty/
+            COMMIT_MESSAGE="Add manual soccer final scores"
+
+          elif [ "${{ github.event.inputs.league }}" = "mma" ] && [ "${{ github.event.inputs.market }}" = "UFC" ] && [ "${{ github.event.inputs.source }}" = "Predictions" ]; then
+            git add docs/win/mma/ufc/00_intake/sportsbook/ 2>/dev/null || true
+            git add docs/win/mma/ufc/00_intake/predictions/ 2>/dev/null || true
+            COMMIT_MESSAGE="manual UFC intake: Predictions"
+
+          elif [ "${{ github.event.inputs.league }}" = "mma" ] && [ "${{ github.event.inputs.market }}" = "UFC" ] && [ "${{ github.event.inputs.source }}" = "UFC Results" ]; then
+            git add docs/win/mma/ufc/manual_files/
+            COMMIT_MESSAGE="ufc manual final scores intake"
+
+          else
+            echo "Unsupported league/market/source combination."
+            exit 1
+          fi
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "$COMMIT_MESSAGE"
+            git push
+          fi
