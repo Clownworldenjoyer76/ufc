@@ -18047,5 +18047,418 @@
     "str_def": 0.51,
     "td_acc": 0.33,
     "td_def": 0.55
+  },
+  "Abdul Hussein": {
+    "height": "--",
+    "weight": "135 lbs.",
+    "reach": "--",
+    "stance": "Orthodox",
+    "dob": "Aug 02, 1997"
+  },
+  "Alexander Poppeck": {
+    "height": "6' 2\"",
+    "weight": "205 lbs.",
+    "reach": "--",
+    "stance": "Orthodox",
+    "dob": "Apr 06, 1992"
+  },
+  "Ali Al Qaisi": {
+    "height": "5' 6\"",
+    "weight": "135 lbs.",
+    "reach": "68\"",
+    "stance": "Orthodox",
+    "dob": "Sep 23, 1990"
+  },
+  "Anna Melisano": {
+    "height": "5' 4\"",
+    "weight": "125 lbs.",
+    "reach": "68\"",
+    "stance": "Orthodox",
+    "dob": "May 20, 1997"
+  },
+  "Anthony Wint": {
+    "height": "--",
+    "weight": "238 lbs.",
+    "reach": "--",
+    "stance": "",
+    "dob": "Sep 14, 1995"
+  },
+  "Borislav Nikolic": {
+    "height": "--",
+    "weight": "135 lbs.",
+    "reach": "--",
+    "stance": "Orthodox",
+    "dob": "Jan 29, 1993"
+  },
+  "Cody Chovancek": {
+    "height": "5' 8\"",
+    "weight": "135 lbs.",
+    "reach": "67\"",
+    "stance": "Switch",
+    "dob": "Jul 24, 1998"
+  },
+  "Cristian Perez": {
+    "height": "5' 9\"",
+    "weight": "155 lbs.",
+    "reach": "72\"",
+    "stance": "Orthodox",
+    "dob": "Aug 17, 1999"
+  },
+  "Damien Anderson": {
+    "height": "5' 8\"",
+    "weight": "145 lbs.",
+    "reach": "69\"",
+    "stance": "Southpaw",
+    "dob": "Jan 04, 1997"
+  },
+  "Ding Meng": {
+    "height": "6' 2\"",
+    "weight": "170 lbs.",
+    "reach": "73\"",
+    "stance": "Orthodox",
+    "dob": "Sep 27, 1994"
+  },
+  "Eric Nolan": {
+    "height": "6' 2\"",
+    "weight": "185 lbs.",
+    "reach": "74\"",
+    "stance": "Orthodox",
+    "dob": "Sep 13, 1997"
+  },
+  "Ezra Elliott": {
+    "height": "5' 9\"",
+    "weight": "145 lbs.",
+    "reach": "72\"",
+    "stance": "Orthodox",
+    "dob": "May 18, 2000"
+  },
+  "Farman Hasanov": {
+    "height": "--",
+    "weight": "170 lbs.",
+    "reach": "--",
+    "stance": "",
+    "dob": "Aug 01, 1995"
+  },
+  "Gable Steveson": {
+    "height": "--",
+    "weight": "249 lbs.",
+    "reach": "--",
+    "stance": "",
+    "dob": "May 31, 2000"
+  },
+  "Geraldo De Freitas": {
+    "height": "5' 7\"",
+    "weight": "135 lbs.",
+    "reach": "72\"",
+    "stance": "Orthodox",
+    "dob": "Sep 30, 1991"
+  },
+  "Javad Mahjoub": {
+    "height": "--",
+    "weight": "--",
+    "reach": "--",
+    "stance": "",
+    "dob": "May 26, 1992"
+  },
+  "Jefferson Nascimento": {
+    "height": "5' 8\"",
+    "weight": "170 lbs.",
+    "reach": "70\"",
+    "stance": "Orthodox",
+    "dob": "Nov 19, 1998"
+  },
+  "Jeisla Chaves": {
+    "height": "5' 6\"",
+    "weight": "125 lbs.",
+    "reach": "68\"",
+    "stance": "Orthodox",
+    "dob": "Feb 02, 1997"
+  },
+  "Joel Faglier": {
+    "height": "--",
+    "weight": "--",
+    "reach": "--",
+    "stance": "",
+    "dob": "Jan 18, 2001"
+  },
+  "John Garza": {
+    "height": "5' 7\"",
+    "weight": "135 lbs.",
+    "reach": "68\"",
+    "stance": "Orthodox",
+    "dob": "Oct 30, 2002"
+  },
+  "Jose Henrique": {
+    "height": "6' 3\"",
+    "weight": "170 lbs.",
+    "reach": "79\"",
+    "stance": "Orthodox",
+    "dob": "May 23, 2002"
+  },
+  "Jose Montanha": {
+    "height": "--",
+    "weight": "265 lbs.",
+    "reach": "--",
+    "stance": "",
+    "dob": "Aug 25, 1996"
+  },
+  "Jovan Leka": {
+    "height": "--",
+    "weight": "265 lbs.",
+    "reach": "--",
+    "stance": "",
+    "dob": "Mar 15, 2002"
+  },
+  "Juan Adrian Luna": {
+    "height": "--",
+    "weight": "135 lbs.",
+    "reach": "--",
+    "stance": "",
+    "dob": "Aug 20, 1995"
+  },
+  "Kai Kamaka": {
+    "height": "5' 7\"",
+    "weight": "145 lbs.",
+    "reach": "69\"",
+    "stance": "Orthodox",
+    "dob": "Jan 05, 1995"
+  },
+  "Katlyn Cerminara": {
+    "height": "5' 9\"",
+    "weight": "125 lbs.",
+    "reach": "68\"",
+    "stance": "Orthodox",
+    "dob": "Dec 28, 1988"
+  },
+  "Leon Shahbazyan": {
+    "height": "6' 4\"",
+    "weight": "170 lbs.",
+    "reach": "74\"",
+    "stance": "Orthodox",
+    "dob": "Nov 18, 1995"
+  },
+  "Levan Chokheli": {
+    "height": "5' 11\"",
+    "weight": "170 lbs.",
+    "reach": "72\"",
+    "stance": "Orthodox",
+    "dob": "Oct 02, 1996"
+  },
+  "Levi Rodrigues": {
+    "height": "--",
+    "weight": "205 lbs.",
+    "reach": "--",
+    "stance": "",
+    "dob": "Oct 15, 1996"
+  },
+  "Louis Jourdain": {
+    "height": "5' 9\"",
+    "weight": "135 lbs.",
+    "reach": "69\"",
+    "stance": "Orthodox",
+    "dob": "Mar 13, 1997"
+  },
+  "Lucas Fernando": {
+    "height": "6' 3\"",
+    "weight": "185 lbs.",
+    "reach": "80\"",
+    "stance": "",
+    "dob": "Jan 10, 1997"
+  },
+  "Mackenzie Stiller": {
+    "height": "--",
+    "weight": "115 lbs.",
+    "reach": "--",
+    "stance": "",
+    "dob": "Jul 15, 1999"
+  },
+  "Magomed Tuchalov": {
+    "height": "--",
+    "weight": "205 lbs.",
+    "reach": "--",
+    "stance": "",
+    "dob": "Dec 30, 1999"
+  },
+  "Marina Spasic": {
+    "height": "--",
+    "weight": "115 lbs.",
+    "reach": "--",
+    "stance": "",
+    "dob": "Jul 11, 1994"
+  },
+  "Michael Oliveira": {
+    "height": "--",
+    "weight": "170 lbs.",
+    "reach": "--",
+    "stance": "",
+    "dob": "Jan 21, 1998"
+  },
+  "Milos Janicic": {
+    "height": "--",
+    "weight": "155 lbs.",
+    "reach": "--",
+    "stance": "",
+    "dob": "May 03, 1997"
+  },
+  "Muhammad Said": {
+    "height": "--",
+    "weight": "205 lbs.",
+    "reach": "--",
+    "stance": "Orthodox",
+    "dob": "Jan 10, 1996"
+  },
+  "Murtazali Magomedov": {
+    "height": "5' 9\"",
+    "weight": "145 lbs.",
+    "reach": "70\"",
+    "stance": "Orthodox",
+    "dob": "Aug 26, 1999"
+  },
+  "Nina Milosevic": {
+    "height": "--",
+    "weight": "135 lbs.",
+    "reach": "--",
+    "stance": "",
+    "dob": "Aug 08, 1996"
+  },
+  "Noah Gugnon": {
+    "height": "--",
+    "weight": "155 lbs.",
+    "reach": "--",
+    "stance": "",
+    "dob": "Oct 18, 2000"
+  },
+  "Otari Tanzilovi": {
+    "height": "5' 10\"",
+    "weight": "135 lbs.",
+    "reach": "70\"",
+    "stance": "Orthodox",
+    "dob": "Apr 09, 1998"
+  },
+  "Paige Vanzant": {
+    "height": "5' 4\"",
+    "weight": "115 lbs.",
+    "reach": "65\"",
+    "stance": "Orthodox",
+    "dob": "Mar 26, 1994"
+  },
+  "Richie Miranda": {
+    "height": "--",
+    "weight": "155 lbs.",
+    "reach": "--",
+    "stance": "Southpaw",
+    "dob": "Aug 12, 1994"
+  },
+  "Rj Harris": {
+    "height": "6' 3\"",
+    "weight": "258 lbs.",
+    "reach": "78\"",
+    "stance": "Orthodox",
+    "dob": "Oct 01, 1998"
+  },
+  "Roberto Soldic": {
+    "height": "--",
+    "weight": "170 lbs.",
+    "reach": "--",
+    "stance": "",
+    "dob": "Jan 25, 1995"
+  },
+  "Rodrigo Vera": {
+    "height": "--",
+    "weight": "145 lbs.",
+    "reach": "--",
+    "stance": "",
+    "dob": "Oct 18, 1995"
+  },
+  "Ryan Kuse": {
+    "height": "--",
+    "weight": "145 lbs.",
+    "reach": "--",
+    "stance": "",
+    "dob": "Jun 24, 1994"
+  },
+  "Salahdine Parnasse": {
+    "height": "--",
+    "weight": "155 lbs.",
+    "reach": "--",
+    "stance": "",
+    "dob": "Dec 04, 1997"
+  },
+  "Seok Hyeon Ko": {
+    "height": "5' 10\"",
+    "weight": "170 lbs.",
+    "reach": "71\"",
+    "stance": "Southpaw",
+    "dob": "Sep 24, 1993"
+  },
+  "Shane Collins": {
+    "height": "5' 9\"",
+    "weight": "145 lbs.",
+    "reach": "71\"",
+    "stance": "Orthodox",
+    "dob": "Mar 08, 2000"
+  },
+  "Sulangrangbo": {
+    "height": "5' 9\"",
+    "weight": "135 lbs.",
+    "reach": "66\"",
+    "stance": "Southpaw",
+    "dob": "Jul 17, 2005"
+  },
+  "Tahir Abdullayev": {
+    "height": "5' 8\"",
+    "weight": "170 lbs.",
+    "reach": "73\"",
+    "stance": "Orthodox",
+    "dob": "Feb 02, 1997"
+  },
+  "Terrance Chatman": {
+    "height": "--",
+    "weight": "265 lbs.",
+    "reach": "--",
+    "stance": "",
+    "dob": "--"
+  },
+  "Theodor Berggren": {
+    "height": "5' 11\"",
+    "weight": "170 lbs.",
+    "reach": "75\"",
+    "stance": "Switch",
+    "dob": "Apr 09, 2000"
+  },
+  "Vlasto Cepo": {
+    "height": "--",
+    "weight": "185 lbs.",
+    "reach": "--",
+    "stance": "",
+    "dob": "Jan 25, 1995"
+  },
+  "Xiong Jingnan": {
+    "height": "--",
+    "weight": "115 lbs.",
+    "reach": "--",
+    "stance": "",
+    "dob": "Jan 12, 1988"
+  },
+  "Yi Sak Lee": {
+    "height": "--",
+    "weight": "185 lbs.",
+    "reach": "--",
+    "stance": "",
+    "dob": "Jan 01, 2000"
+  },
+  "Yizha": {
+    "height": "5' 7\"",
+    "weight": "145 lbs.",
+    "reach": "71\"",
+    "stance": "Orthodox",
+    "dob": "Jan 08, 1997"
+  },
+  "Zhu Kangjie": {
+    "height": "5' 8\"",
+    "weight": "145 lbs.",
+    "reach": "70\"",
+    "stance": "Orthodox",
+    "dob": "Jan 16, 1996"
   }
 }
