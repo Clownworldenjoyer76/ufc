@@ -1,4 +1,4 @@
-name: NEW UFC Pipeline
+name: UFC Pipeline
 
 on:
   workflow_dispatch:
