@@ -1,0 +1,3 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2022_05_22,Ketlen Vieira,Holly Holm,+205,-220,0.3229,0.6771,0.9353,0.0647,0.341,0.659,0.6124,-0.6124,1.8965,-0.9044,0.2261,0,fighter_1,Win,Loss,Win
+2022_05_22,Michel Pereira,Santiago Ponzinibbio,-135,+125,0.5638,0.4362,0.3306,0.6694,0.464,0.536,-0.2332,0.2332,-0.4136,0.5346,0,0.1034,fighter_2,Win,Loss,Loss

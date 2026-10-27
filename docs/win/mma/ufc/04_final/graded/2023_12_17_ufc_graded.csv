@@ -1,4 +1,8 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2023_12_17,Alonzo Menifield,Dustin Jacoby,+230,-260,0.2956,0.7044,0.9148,0.0852,0.399,0.601,0.6192,-0.6192,2.0951,-0.8791,0.2198,0,fighter_1,Win,Loss,Win
+2023_12_17,Ariane Lipski,Casey O'Neill,+150,-170,0.3885,0.6115,0.6853,0.3147,0.32,0.68,0.2968,-0.2968,0.764,-0.4854,0.1213,0,fighter_1,Win,Loss,Win
 2023_12_17,Brian Kelleher,Cody Garbrandt,+165,-180,0.3699,0.6301,0.0775,0.9225,0.399,0.601,-0.2924,0.2924,-0.7905,0.464,0,0.1976,fighter_2,Loss,Win,Win
 2023_12_17,Cody Durden,Tagir Ulanbekov,+170,-180,0.3655,0.6345,0.1447,0.8553,0.371,0.629,-0.2208,0.2208,-0.6041,0.3481,0,0.151,fighter_2,Loss,Win,Win
+2023_12_17,Colby Covington,Leon Edwards,+130,-140,0.427,0.573,0.213,0.787,0.448,0.552,-0.214,0.214,-0.5012,0.3736,0,0.1253,fighter_2,Loss,Win,Win
+2023_12_17,Karol Rosa,Irene Aldana,+155,-165,0.3864,0.6136,0.3971,0.6029,0.409,0.591,0.0107,-0.0107,0.0276,-0.0174,0.0043,0,fighter_1,Loss,Win,Loss
 2023_12_17,Lucas Almeida,Andre Fili,+150,-152,0.3987,0.6013,0.0785,0.9215,0.434,0.566,-0.3202,0.3202,-0.8031,0.5326,0,0.2008,fighter_2,Loss,Win,Win

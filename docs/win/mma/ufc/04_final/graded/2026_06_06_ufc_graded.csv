@@ -1,2 +1,6 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
 2026_06_06,Gabriel Bonfim,Belal Muhammad,+110,-130,0.4573,0.5427,0.8859,0.1141,0.492,0.508,0.4286,-0.4286,0.9374,-0.7898,0.1974,0,fighter_1,Win,Loss,Win
+2026_06_06,Edgar Chairez,Bruno Silva,+105,-125,0.4675,0.5325,0.5522,0.4478,0.538,0.462,0.0847,-0.0847,0.1811,-0.159,0.0398,0,fighter_1,Win,Loss,Win
+2026_06_06,Joanderson Brito,Jordan Leavitt,-190,+165,0.6345,0.3655,0.3987,0.6013,0.673,0.327,-0.2358,0.2358,-0.3717,0.6453,0,0.0929,fighter_2,Win,Loss,Loss
+2026_06_06,Tom Nolan,Fares Ziam,+250,-300,0.2759,0.7241,0.5252,0.4748,0.323,0.677,0.2493,-0.2493,0.9038,-0.3443,0.0861,0,fighter_1,Win,Loss,Win
+2026_06_06,Chelsea Chandler,Priscila Cachoeira,-115,-105,0.5108,0.4892,0.5347,0.4653,0.497,0.503,0.0239,-0.0239,0.0467,-0.0488,0.0122,0,fighter_1,Win,Loss,Win

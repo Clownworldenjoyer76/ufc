@@ -1,3 +1,9 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2020_07_16,Modestas Bukauskas,Andreas Michailidis,-120,0.5339,0.932,0.696,0.3981,0.7457,0.2135
 2020_07_16,Jared Gordon,Chris Fishgold,-135,0.5796,0.814,0.557,0.2344,0.4044,0.1394
+2020_07_16,Tim Elliott,Ryan Benoit,-160,0.5993,0.7586,0.472,0.1593,0.2659,0.0994
+2020_07_16,Lerone Murphy,Ricardo Ramos,+165,0.3747,0.7485,0.469,0.3738,0.9974,0.1494
+2020_07_16,Molly Mccann,Taila Santos,-190,0.6431,0.7279,0.5,0.0848,0.1319,0.0594
+2020_07_16,Mounir Lazzez,Abdul Razak Alhassan,+300,0.2444,0.6649,0.206,0.4205,1.72,0.1391
+2020_07_16,Cody Stamann,Jimmie Rivera,-105,0.5012,0.5136,0.47,0.0124,0.0248,0.0062
+2020_07_16,Dan Ige,Calvin Kattar,+210,0.3164,0.3482,0.357,0.0318,0.1005,0.0116

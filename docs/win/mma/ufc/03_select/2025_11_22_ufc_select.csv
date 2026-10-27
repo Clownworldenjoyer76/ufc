@@ -1,0 +1,11 @@
+match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
+2025_11_22,Aleksandre Topuria,Bekzat Almakhan,-130,0.5598,0.7658,0.498,0.206,0.368,0.117
+2025_11_22,Asu Almabayev,Alex Perez,-200,0.6512,0.7285,0.628,0.0773,0.1188,0.0554
+2025_11_22,Alonzo Menifield,Volkan Oezdemir,+190,0.3373,0.5605,0.359,0.2232,0.6616,0.0842
+2025_11_22,Ryan Loder,Ismail Naurdiev,+115,0.4557,0.4717,0.438,0.016,0.0351,0.0074
+2025_11_22,Jack Hermansson,Myktybek Orolbai,+175,0.3569,0.4643,0.385,0.1074,0.3008,0.0417
+2025_11_22,Kyoji Horiguchi,Tagir Ulanbekov,+200,0.3235,0.4636,0.37,0.1401,0.4329,0.0518
+2025_11_22,Shamil Gaziev,Waldo Cortes-Acosta,+160,0.3846,0.3856,0.448,0.001,0.0026,0.0004
+2025_11_22,Bogdan Grad,Luke Riley,+200,0.325,0.3276,0.322,0.0026,0.008,0.001
+2025_11_22,Nicolas Dalby,Saygid Izagakhmaev,+290,0.2504,0.3272,0.287,0.0768,0.3065,0.0256
+2025_11_22,Shem Rock,Nurullo Aliev,+280,0.2632,0.2852,0.321,0.022,0.0838,0.0075

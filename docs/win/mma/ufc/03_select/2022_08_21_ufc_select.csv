@@ -1,2 +1,5 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2022_08_21,Merab Dvalishvili,Jose Aldo,-145,0.5868,0.8802,0.594,0.2934,0.4999,0.1775
+2022_08_21,Leonardo Santos,Jared Gordon,+245,0.2864,0.7834,0.317,0.497,1.7354,0.1741
+2022_08_21,Lucie Pudilova,Wu Yanan,-145,0.5817,0.7708,0.591,0.1891,0.325,0.113
+2022_08_21,Ange Loosa,Aj Fletcher,+145,0.3988,0.5326,0.389,0.1338,0.3356,0.0556

@@ -1,0 +1,2 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2023_04_08,Steve Garcia,Nuerdanbieke Shayilan,+150,-160,0.3939,0.6061,0.3702,0.6298,0.269,0.731,-0.0237,0.0237,-0.0603,0.0392,0,0.0151,fighter_2,Win,Loss,Loss

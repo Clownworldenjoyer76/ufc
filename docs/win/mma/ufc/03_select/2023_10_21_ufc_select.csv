@@ -1,0 +1,4 @@
+match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
+2023_10_21,Muhammad Naimov,Nathaniel Wood,+300,0.25,0.6895,0.176,0.4395,1.758,0.1465
+2023_10_21,Trevor Peek,Mohammad Yahya,-180,0.6387,0.6494,0.478,0.0107,0.0167,0.0074
+2023_10_21,Alexander Volkanovski,Islam Makhachev,+230,0.3004,0.4269,0.382,0.1265,0.4213,0.0452

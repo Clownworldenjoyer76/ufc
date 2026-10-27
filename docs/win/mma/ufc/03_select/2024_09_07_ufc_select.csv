@@ -1,2 +1,5 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2024_09_07,Andre Lima,Felipe Dos Santos,-170,0.6162,0.9586,0.606,0.3424,0.5557,0.223
+2024_09_07,Chris Padilla,Rong Zhu,+230,0.2979,0.8783,0.268,0.5804,1.9486,0.2067
+2024_09_07,Yanal Ashmouz,Trevor Peek,-125,0.5361,0.714,0.507,0.1779,0.3319,0.0959
+2024_09_07,Nathan Fletcher,Zygimantas Ramaska,-120,0.5455,0.6334,0.552,0.0879,0.1612,0.0484

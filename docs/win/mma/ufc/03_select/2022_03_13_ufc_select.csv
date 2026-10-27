@@ -1,2 +1,4 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2022_03_13,Alex Pereira,Bruno Silva,-190,0.6512,0.9594,0.622,0.3082,0.4732,0.2209
+2022_03_13,Drew Dober,Terrance Mckinney,-148,0.5785,0.7143,0.749,0.1358,0.2347,0.0805
+2022_03_13,Khalil Rountree Jr.,Karl Roberson,+135,0.4183,0.5584,0.556,0.1401,0.335,0.0602

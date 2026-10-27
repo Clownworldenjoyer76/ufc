@@ -1,2 +1,6 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2022_09_11,Denis Tiuliulin,Jamie Pickett,+115,-130,0.4514,0.5486,0.6685,0.3315,0.378,0.622,0.2171,-0.2171,0.4809,-0.3957,0.0989,0,fighter_1,Win,Loss,Win
+2022_09_11,Jingliang Li,Daniel Rodriguez,+155,-170,0.3838,0.6162,0.3403,0.6597,0.568,0.432,-0.0435,0.0435,-0.1133,0.0706,0,0.0283,fighter_2,Loss,Win,Win
+2022_09_11,Johnny Walker,Ion Cutelaba,+175,-180,0.3613,0.6387,0.5051,0.4949,0.466,0.534,0.1438,-0.1438,0.398,-0.2252,0.0563,0,fighter_1,Win,Loss,Win
+2022_09_11,Macy Chiasson,Irene Aldana,+165,-175,0.3723,0.6277,0.3164,0.6836,0.431,0.569,-0.0559,0.0559,-0.15,0.089,0,0.0375,fighter_2,Loss,Win,Win
 2022_09_11,Tony Ferguson,Nate Diaz,-145,+140,0.5868,0.4132,0.9365,0.0635,0.429,0.571,0.3497,-0.3497,0.5958,-0.8463,0.2116,0,fighter_1,Loss,Win,Loss

@@ -1,0 +1,4 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2020_07_25,Bethe Correia,Pannie Kianzad,+140,-155,0.4067,0.5933,0.6158,0.3842,0.492,0.508,0.2091,-0.2091,0.5141,-0.3524,0.0881,0,fighter_1,Loss,Win,Loss
+2020_07_25,Jai Herbert,Francisco Trinaldo,-127,+120,0.5517,0.4483,0.5647,0.4353,0.387,0.613,0.013,-0.013,0.0235,-0.0289,0.0072,0,fighter_1,Loss,Win,Loss
+2020_07_25,Mike Grundy,Movsar Evloev,+160,-172,0.3782,0.6218,0.328,0.672,0.269,0.731,-0.0502,0.0502,-0.1327,0.0807,0,0.0332,fighter_2,Loss,Win,Win

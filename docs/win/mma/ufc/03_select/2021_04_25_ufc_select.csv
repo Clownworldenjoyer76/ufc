@@ -2,3 +2,6 @@ match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge
 2021_04_25,Brendan Allen,Karl Roberson,-150,0.5902,0.9639,0.572,0.3737,0.6333,0.228
 2021_04_25,Randy Brown,Alex Oliveira,-124,0.5376,0.8511,0.598,0.3135,0.5832,0.1695
 2021_04_25,Dwight Grant,Stefan Sekulic,-180,0.6345,0.8442,0.646,0.2097,0.3306,0.1434
+2021_04_25,Chris Weidman,Uriah Hall,-155,0.5983,0.7901,0.48,0.1918,0.3206,0.1194
+2021_04_25,Anthony Smith,Jimmy Crute,+220,0.3069,0.7848,0.437,0.4779,1.5575,0.1724
+2021_04_25,Zhang Weili,Rose Namajunas,-200,0.6552,0.7284,0.592,0.0732,0.1118,0.0531

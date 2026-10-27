@@ -1,0 +1,7 @@
+match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
+2023_04_15,Joselyne Edwards,Lucie Pudilova,+120,0.4417,0.8916,0.361,0.4499,1.0184,0.2015
+2023_04_15,Gaston Bolanos,Aaron Phillips,-180,0.6387,0.7808,0.701,0.1421,0.2225,0.0983
+2023_04_15,Bruna Brasil,Denise Gomes,-145,0.5765,0.6197,0.621,0.0432,0.075,0.0255
+2023_04_15,Piera Rodriguez,Gillian Robertson,+115,0.4557,0.559,0.538,0.1033,0.2267,0.0474
+2023_04_15,Lando Vannata,Daniel Zellhuber,+120,0.45,0.5265,0.423,0.0765,0.17,0.0348
+2023_04_15,Ed Herman,Zak Cummings,+190,0.3409,0.379,0.23,0.0381,0.1117,0.0144

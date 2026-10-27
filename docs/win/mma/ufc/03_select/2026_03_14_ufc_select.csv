@@ -1,2 +1,6 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2026_03_14,Piera Rodriguez,Sam Hughes,-145,0.5711,0.935,0.529,0.3639,0.6371,0.2121
+2026_03_14,Brad Tavares,Eryk Anders,+115,0.4474,0.7009,0.575,0.2535,0.5666,0.1147
+2026_03_14,Hecher Sosa,Luan Lacerda,-175,0.6364,0.699,0.659,0.0626,0.0984,0.0431
+2026_03_14,Suyoung You,Elijah Smith,+220,0.3043,0.6337,0.363,0.3294,1.0822,0.1184
+2026_03_14,Steven Asplund,Vitor Petrino,+175,0.3569,0.5061,0.278,0.1492,0.418,0.058

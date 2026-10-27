@@ -1,3 +1,9 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2021_10_23,Alex Caceres,Seungwoo Choi,+230,-225,0.3044,0.6956,0.414,0.586,0.297,0.703,0.1096,-0.1096,0.3598,-0.1575,0.0394,0,fighter_1,Win,Loss,Win
 2021_10_23,Francisco Trinaldo,Dwight Grant,-120,+110,0.5339,0.4661,0.8925,0.1075,0.54,0.46,0.3586,-0.3586,0.6717,-0.7694,0.1923,0,fighter_1,Win,Loss,Win
 2021_10_23,Gregory Rodrigues,Junyong Park,-125,+115,0.5443,0.4557,0.986,0.014,0.544,0.456,0.4417,-0.4417,0.8115,-0.9693,0.2423,0,fighter_1,Win,Loss,Win
+2021_10_23,Jai Herbert,Khama Worthy,-165,+160,0.6182,0.3818,0.4776,0.5224,0.538,0.462,-0.1406,0.1406,-0.2274,0.3681,0,0.0568,fighter_2,Win,Loss,Loss
+2021_10_23,Jamie Pickett,Laureano Staropoli,+180,-185,0.3549,0.6451,0.2233,0.7767,0.369,0.631,-0.1316,0.1316,-0.3708,0.204,0,0.0927,fighter_2,Win,Loss,Loss
+2021_10_23,Joselyne Edwards,Jessica-Rose Clark,+140,-145,0.4132,0.5868,0.6122,0.3878,0.374,0.626,0.199,-0.199,0.4818,-0.3392,0.0848,0,fighter_1,Loss,Win,Loss
+2021_10_23,Paulo Costa,Marvin Vettori,+170,-175,0.3679,0.6321,0.7503,0.2497,0.541,0.459,0.3824,-0.3824,1.0395,-0.605,0.1512,0,fighter_1,Loss,Win,Loss
+2021_10_23,Randa Markos,Livinha Souza,+115,-120,0.4603,0.5397,0.4019,0.5981,0.414,0.586,-0.0584,0.0584,-0.1268,0.1081,0,0.0317,fighter_2,Win,Loss,Loss

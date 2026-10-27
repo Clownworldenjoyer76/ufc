@@ -1,3 +1,7 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2022_12_17,Saidyokub Kakhramonov,Said Nurmagomedov,-110,0.5116,0.8563,0.402,0.3447,0.6737,0.1764
 2022_12_17,Rinat Fakhretdinov,Bryan Battle,-150,0.5902,0.807,0.577,0.2168,0.3674,0.1323
+2022_12_17,Rafa Garcia,Hayisaer Maheshate,-150,0.5902,0.7002,0.633,0.11,0.1865,0.0671
+2022_12_17,David Dvorak,Manel Kape,+190,0.3373,0.4534,0.349,0.1161,0.3441,0.0438
+2022_12_17,Cory Mckenna,Cheyanne Vlismas,+160,0.3743,0.3997,0.417,0.0254,0.0678,0.0101
+2022_12_17,Matthew Semelsberger,Jake Matthews,+290,0.2556,0.3901,0.408,0.1345,0.5263,0.0452

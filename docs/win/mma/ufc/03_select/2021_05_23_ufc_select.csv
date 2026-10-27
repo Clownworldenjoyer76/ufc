@@ -1,0 +1,5 @@
+match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
+2021_05_23,Rob Font,Cody Garbrandt,-120,0.5339,0.749,0.504,0.2151,0.4029,0.1154
+2021_05_23,Norma Dumont,Felicia Spencer,+170,0.3633,0.7416,0.35,0.3783,1.0414,0.1485
+2021_05_23,Jared Vanderaa,Justin Tafa,+170,0.3679,0.7172,0.286,0.3493,0.9495,0.1382
+2021_05_23,Yan Xiaonan,Carla Esparza,-128,0.5526,0.6567,0.507,0.1041,0.1884,0.0582

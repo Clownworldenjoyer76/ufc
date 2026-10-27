@@ -1,3 +1,9 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
+2024_03_10,Dustin Poirier,Benoit Saint Denis,+200,0.3281,0.9347,0.447,0.6066,1.8486,0.2257
 2024_03_10,Michel Pereira,Michal Oleksiejczuk,-145,0.5918,0.8351,0.594,0.2433,0.411,0.149
 2024_03_10,Jack Della Maddalena,Gilbert Burns,-155,0.5933,0.8114,0.517,0.2181,0.3676,0.1341
+2024_03_10,Curtis Blaydes,Jailton Almeida,+120,0.4457,0.7717,0.384,0.326,0.7313,0.147
+2024_03_10,Michael Page,Kevin Holland,+117,0.4491,0.767,0.473,0.3179,0.7077,0.1443
+2024_03_10,Petr Yan,Song Yadong,-160,0.6108,0.6979,0.596,0.0871,0.1426,0.056
+2024_03_10,Philipe Lins,Ion Cutelaba,+130,0.4308,0.6192,0.443,0.1884,0.4373,0.0827
+2024_03_10,Katlyn Chookagian,Maycee Barber,+165,0.3699,0.4674,0.417,0.0975,0.2636,0.0387

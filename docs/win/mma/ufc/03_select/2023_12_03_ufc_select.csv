@@ -1,2 +1,4 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2023_12_03,Sean Brady,Kelvin Gastelum,-120,0.5279,0.8238,0.53,0.2959,0.5605,0.1567
+2023_12_03,Deiveson Figueiredo,Rob Font,+110,0.4661,0.7953,0.477,0.3292,0.7063,0.1541
+2023_12_03,Bobby Green,Jalin Turner,+155,0.3864,0.5137,0.378,0.1273,0.3293,0.0519

@@ -1,3 +1,9 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2023_11_12,Tom Aspinall,Sergei Pavlovich,-110,0.5056,0.9326,0.575,0.427,0.8445,0.2159
 2023_11_12,Nazim Sadykhov,Viacheslav Borshchev,-150,0.5902,0.8906,0.619,0.3004,0.5091,0.1833
+2023_11_12,Alex Pereira,Jiri Prochazka,-110,0.5116,0.7778,0.601,0.2662,0.5202,0.1363
+2023_11_12,Jessica Andrade,Mackenzie Dern,+210,0.3137,0.7116,0.465,0.3979,1.2687,0.145
+2023_11_12,Diego Lopes,Patrick Sabatini,+100,0.4783,0.6715,0.428,0.1932,0.404,0.0926
+2023_11_12,John Castaneda,Kyung Ho Kang,+100,0.494,0.6607,0.525,0.1667,0.3375,0.0824
+2023_11_12,Alessandro Costa,Muin Gafurov,+185,0.3412,0.4483,0.546,0.1071,0.3138,0.0406
+2023_11_12,Mark Madsen,Jared Gordon,+180,0.3452,0.3981,0.409,0.0529,0.1532,0.0202

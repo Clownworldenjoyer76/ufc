@@ -1,4 +1,6 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2020_08_16,Livinha Souza,Ashley Yoder,-185,0.6451,0.9605,0.697,0.3154,0.489,0.2222
+2020_08_16,Danny Chavez,Tj Brown,+130,0.4308,0.8741,0.428,0.4433,1.029,0.1947
 2020_08_16,Stipe Miocic,Daniel Cormier,+105,0.4822,0.8516,0.466,0.3694,0.7661,0.1784
 2020_08_16,Vinc Pichel,Jim Miller,-125,0.5385,0.8262,0.569,0.2877,0.5344,0.1559
+2020_08_16,Jairzinho Rozenstruik,Junior Dos Santos,-125,0.55,0.7382,0.662,0.1882,0.3422,0.1046

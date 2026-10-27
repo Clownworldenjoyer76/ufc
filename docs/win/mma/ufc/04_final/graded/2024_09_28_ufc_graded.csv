@@ -1,3 +1,10 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2024_09_28,Benoit Saint Denis,Renato Moicano,-255,+225,0.7001,0.2999,0.5831,0.4169,0.656,0.344,-0.117,0.117,-0.1671,0.3902,0,0.0418,fighter_2,Loss,Win,Win
+2024_09_28,Brendan Allen,Nassourdine Imavov,+190,-200,0.3409,0.6591,0.3065,0.6935,0.378,0.622,-0.0344,0.0344,-0.1009,0.0522,0,0.0252,fighter_2,Loss,Win,Win
+2024_09_28,Bryan Battle,Kevin Jousset,-180,+165,0.6301,0.3699,0.7455,0.2545,0.611,0.389,0.1154,-0.1154,0.1831,-0.3119,0.078,0,fighter_1,Win,Loss,Win
+2024_09_28,Chris Duncan,Bolaji Oki,+145,-150,0.4049,0.5951,0.5973,0.4027,0.433,0.567,0.1924,-0.1924,0.4753,-0.3234,0.0808,0,fighter_1,Win,Loss,Win
+2024_09_28,Ivan Erslan,Ion Cutelaba,-115,+105,0.523,0.477,0.6862,0.3138,0.456,0.544,0.1632,-0.1632,0.312,-0.3421,0.0855,0,fighter_1,Loss,Win,Loss
 2024_09_28,Jacqueline Cavalcanti,Nora Cornolle,-200,+195,0.6629,0.3371,0.8389,0.1611,0.688,0.312,0.176,-0.176,0.2655,-0.5221,0.1305,0,fighter_1,Win,Loss,Win
+2024_09_28,Joanderson Brito,William Gomis,-300,+270,0.7351,0.2649,0.1634,0.8366,0.693,0.307,-0.5717,0.5717,-0.7777,2.1582,0,0.1944,fighter_2,Loss,Win,Win
 2024_09_28,Matt Frevola,Fares Ziam,+110,-120,0.4661,0.5339,0.1467,0.8533,0.477,0.523,-0.3194,0.3194,-0.6853,0.5982,0,0.1713,fighter_2,Loss,Win,Win
+2024_09_28,Victor Altamirano,Daniel Barez,-111,+100,0.5127,0.4873,0.6986,0.3014,0.52,0.48,0.1859,-0.1859,0.3626,-0.3815,0.0954,0,fighter_1,Loss,Win,Loss

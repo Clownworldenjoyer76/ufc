@@ -1,2 +1,6 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2021_05_09,Marcos Rogerio De Lima,Maurice Greene,-180,0.6301,0.8282,0.586,0.1981,0.3144,0.1339
+2021_05_09,Gregor Gillespie,Diego Ferreira,-135,0.5583,0.8076,0.287,0.2493,0.4466,0.1411
+2021_05_09,Geoff Neal,Neil Magny,-167,0.6146,0.634,0.622,0.0194,0.0315,0.0126
+2021_05_09,Kyle Daukaus,Phillip Hawes,-140,0.573,0.6314,0.47,0.0584,0.102,0.0342
+2021_05_09,Alex Morono,Donald Cerrone,+155,0.3922,0.4035,0.387,0.0113,0.0289,0.0047

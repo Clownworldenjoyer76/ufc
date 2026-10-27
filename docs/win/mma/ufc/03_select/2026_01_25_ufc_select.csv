@@ -1,0 +1,4 @@
+match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
+2026_01_25,Alex Perez,Charles Johnson,+170,0.3611,0.8316,0.34,0.4705,1.3027,0.1841
+2026_01_25,Jean Silva,Arnold Allen,-200,0.6667,0.747,0.675,0.0803,0.1205,0.0603
+2026_01_25,Nikita Krylov,Modestas Bukauskas,+120,0.4457,0.4989,0.473,0.0532,0.1193,0.024

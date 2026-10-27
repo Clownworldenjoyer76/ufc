@@ -1,0 +1,3 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2026_02_21,Nora Cornolle,Joselyne Edwards,+270,-300,0.2649,0.7351,0.3753,0.6247,0.354,0.646,0.1104,-0.1104,0.4168,-0.1502,0.0375,0,fighter_1,Loss,Win,Loss
+2026_02_21,Punahele Soriano,Ramiz Brahimaj,-140,+125,0.5676,0.4324,0.577,0.423,0.45,0.55,0.0094,-0.0094,0.0166,-0.0218,0.0055,0,fighter_1,Win,Loss,Win

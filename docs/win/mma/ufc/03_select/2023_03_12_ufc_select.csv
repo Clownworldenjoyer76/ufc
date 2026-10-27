@@ -1,0 +1,5 @@
+match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
+2023_03_12,Alexander Volkov,Alexandr Romanov,+140,0.4098,0.8463,0.394,0.4365,1.065,0.1849
+2023_03_12,Jonathan Martinez,Said Nurmagomedov,+230,0.303,0.7134,0.298,0.4104,1.3542,0.1472
+2023_03_12,Nikita Krylov,Ryan Spann,-165,0.6089,0.6313,0.695,0.0224,0.0369,0.0143
+2023_03_12,Merab Dvalishvili,Petr Yan,+225,0.3049,0.4849,0.355,0.18,0.5904,0.0647

@@ -1,0 +1,6 @@
+match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
+2020_11_15,Cory Mckenna,Kay Hansen,+175,0.3569,0.8379,0.284,0.481,1.3476,0.187
+2020_11_15,Rafael Dos Anjos,Paul Felder,-200,0.6512,0.7858,0.568,0.1346,0.2068,0.0965
+2020_11_15,Khaos Williams,Abdul Razak Alhassan,+170,0.373,0.7086,0.354,0.3356,0.8999,0.1338
+2020_11_15,Ashley Yoder,Miranda Granger,+155,0.3864,0.6838,0.354,0.2974,0.7695,0.1212
+2020_11_15,Sean Strickland,Brendan Allen,+120,0.4457,0.6078,0.475,0.1621,0.3636,0.0731

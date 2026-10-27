@@ -1,3 +1,5 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2022_02_19,Chas Skelly,Mark Striegl,-200,0.6512,0.9093,0.627,0.2581,0.3964,0.185
 2022_02_19,Natan Levy,Gabriel Benitez,-175,0.6277,0.8121,0.606,0.1844,0.2937,0.1238
+2022_02_19,Gloria De Paula,Diana Belbita,+117,0.4491,0.551,0.522,0.1019,0.2268,0.0462
+2022_02_19,Stephanie Egger,Jessica-Rose Clark,+160,0.3767,0.4146,0.418,0.0379,0.1006,0.0152

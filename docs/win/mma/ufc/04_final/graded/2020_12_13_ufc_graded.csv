@@ -1,3 +1,7 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2020_12_13,Billy Quarantillo,Gavin Tucker,-190,+175,0.6431,0.3569,0.6506,0.3494,0.616,0.384,0.0075,-0.0075,0.0117,-0.0211,0.0053,0,fighter_1,Loss,Win,Loss
 2020_12_13,Charles Oliveira,Tony Ferguson,+165,-165,0.3774,0.6226,0.1245,0.8755,0.429,0.571,-0.2529,0.2529,-0.6701,0.4061,0,0.1675,fighter_2,Win,Loss,Loss
+2020_12_13,Cub Swanson,Daniel Pineda,+142,-160,0.4017,0.5983,0.9073,0.0927,0.463,0.537,0.5056,-0.5056,1.2585,-0.8451,0.2113,0,fighter_1,Win,Loss,Win
+2020_12_13,Jacare Souza,Kevin Holland,+110,-120,0.4661,0.5339,0.079,0.921,0.669,0.331,-0.3871,0.3871,-0.8305,0.725,0,0.2076,fighter_2,Loss,Win,Win
+2020_12_13,Renato Moicano,Rafael Fiziev,+115,-120,0.4603,0.5397,0.2353,0.7647,0.473,0.527,-0.225,0.225,-0.4888,0.4168,0,0.1222,fighter_2,Loss,Win,Win
 2020_12_13,Virna Jandiroba,Mackenzie Dern,+135,-145,0.4183,0.5817,0.0375,0.9625,0.455,0.545,-0.3808,0.3808,-0.9103,0.6545,0,0.2276,fighter_2,Loss,Win,Win

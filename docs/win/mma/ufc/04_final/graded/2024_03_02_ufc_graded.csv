@@ -1,2 +1,4 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2024_03_02,Abdul-Kareem Al-Selwady,Loik Radzhabov,-115,+110,0.529,0.471,0.566,0.434,0.549,0.451,0.037,-0.037,0.0699,-0.0785,0.0196,0,fighter_1,Loss,Win,Loss
+2024_03_02,Bernardo Sopaj,Vinicius Oliveira,+120,-120,0.4545,0.5455,0.5011,0.4989,0.484,0.516,0.0466,-0.0466,0.1024,-0.0853,0.0213,0,fighter_1,Loss,Win,Loss
 2024_03_02,Jairzinho Rozenstruik,Shamil Gaziev,+180,-190,0.3528,0.6472,0.1582,0.8418,0.471,0.529,-0.1946,0.1946,-0.5516,0.3007,0,0.1379,fighter_2,Win,Loss,Loss

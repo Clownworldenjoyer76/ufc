@@ -3,3 +3,4 @@ match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge
 2023_03_05,Amanda Ribas,Viviane Araujo,-105,0.506,0.9053,0.593,0.3993,0.789,0.2021
 2023_03_05,Jon Jones,Ciryl Gane,-155,0.5983,0.8349,0.689,0.2366,0.3955,0.1473
 2023_03_05,Mateusz Gamrot,Jalin Turner,-195,0.6572,0.8213,0.636,0.1641,0.2497,0.1197
+2023_03_05,Julian Marquez,Marc-Andre Barriault,+145,0.3988,0.5815,0.478,0.1827,0.4582,0.076

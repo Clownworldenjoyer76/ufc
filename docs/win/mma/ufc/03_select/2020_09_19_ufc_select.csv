@@ -1,2 +1,5 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2020_09_19,David Dvorak,Jordan Espinosa,-110,0.5056,0.8229,0.537,0.3173,0.6276,0.1604
+2020_09_19,Randy Costa,Journey Newson,+115,0.4557,0.6308,0.414,0.1751,0.3843,0.0804
+2020_09_19,Sarah Alpar,Jessica-Rose Clark,+180,0.3549,0.462,0.326,0.1071,0.3017,0.0415
+2020_09_19,Jerome Rivera,Tyson Nam,+165,0.3699,0.4604,0.365,0.0905,0.2447,0.0359

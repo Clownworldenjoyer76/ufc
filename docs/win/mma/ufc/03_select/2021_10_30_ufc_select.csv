@@ -1,3 +1,5 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2021_10_30,Amanda Ribas,Virna Jandiroba,-155,0.5933,0.9186,0.53,0.3253,0.5483,0.2
 2021_10_30,Shamil Gamzatov,Michal Oleksiejczuk,+105,0.4721,0.8703,0.681,0.3982,0.8435,0.1886
+2021_10_30,Glover Teixeira,Jan Blachowicz,+250,0.2857,0.7185,0.223,0.4328,1.5148,0.1515
+2021_10_30,Ricardo Ramos,Zubaira Tukhugov,+145,0.3988,0.4514,0.283,0.0526,0.132,0.0219

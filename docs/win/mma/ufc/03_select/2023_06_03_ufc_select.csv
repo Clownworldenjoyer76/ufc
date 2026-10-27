@@ -1,0 +1,5 @@
+match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
+2023_06_03,Philipe Lins,Maxim Grishin,+110,0.471,0.6333,0.444,0.1623,0.3447,0.0767
+2023_06_03,Elise Reed,Jinh Yu Frey,-130,0.5576,0.5974,0.52,0.0398,0.0714,0.0225
+2023_06_03,Muin Gafurov,John Castaneda,+110,0.4762,0.5872,0.453,0.111,0.2331,0.053
+2023_06_03,Da'Mon Blackshear,Luan Lacerda,+135,0.4218,0.4243,0.473,0.0025,0.0059,0.0011

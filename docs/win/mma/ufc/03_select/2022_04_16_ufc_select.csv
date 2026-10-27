@@ -1,0 +1,5 @@
+match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
+2022_04_16,Rafa Garcia,Jesse Ronson,+140,0.4167,0.9036,0.511,0.4869,1.1686,0.2087
+2022_04_16,Heili Alateng,Kevin Croom,-170,0.6208,0.7572,0.658,0.1364,0.2197,0.0899
+2022_04_16,Sam Hughes,Istela Nunes,+208,0.3178,0.5872,0.437,0.2694,0.8477,0.0987
+2022_04_16,Jordan Leavitt,Trey Ogden,+125,0.4324,0.522,0.537,0.0896,0.2071,0.0395

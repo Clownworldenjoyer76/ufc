@@ -1,3 +1,5 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2024_05_05,Alexandre Pantoja,Muin Gafurov,-180,0.6345,0.9507,0.613,0.3162,0.4984,0.2163
 2024_05_05,Drakkar Klose,Joaquim Silva,-200,0.6591,0.9179,0.563,0.2588,0.3927,0.1898
+2024_05_05,Joanderson Brito,Jack Shore,-185,0.6451,0.6609,0.517,0.0158,0.0245,0.0111
+2024_05_05,Jonathan Martinez,Jose Aldo,-160,0.608,0.652,0.461,0.044,0.0724,0.0281

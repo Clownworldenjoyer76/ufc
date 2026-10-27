@@ -1,2 +1,8 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2022_07_23,Jonathan Pearce,Makwan Amirkhani,-135,0.5692,0.8667,0.679,0.2975,0.5227,0.1726
+2022_07_23,Tom Aspinall,Curtis Blaydes,-160,0.6061,0.7044,0.508,0.0983,0.1623,0.0624
+2022_07_23,Nikita Krylov,Alexander Gustafsson,-185,0.6367,0.6579,0.599,0.0212,0.0333,0.0146
+2022_07_23,Paul Craig,Volkan Oezdemir,+135,0.4218,0.6442,0.387,0.2224,0.5273,0.0962
+2022_07_23,Claudio Silva,Nicolas Dalby,+190,0.3409,0.5536,0.307,0.2127,0.6239,0.0807
+2022_07_23,Victoria Leonardo,Mandy Bohm,+110,0.4818,0.5386,0.451,0.0568,0.1179,0.0274
+2022_07_23,Chris Curtis,Jack Hermansson,+105,0.4878,0.5336,0.472,0.0458,0.0939,0.0224

@@ -1,2 +1,8 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
 2021_01_20,Francisco Figueiredo,Jerome Rivera,-145,+135,0.5817,0.4183,0.8344,0.1656,0.562,0.438,0.2527,-0.2527,0.4343,-0.6041,0.151,0,fighter_1,Win,Loss,Win
+2021_01_20,Markus Perez,Dalcha Lungiambula,+155,-160,0.3892,0.6108,0.3793,0.6207,0.552,0.448,-0.0099,0.0099,-0.0255,0.0162,0,0.0064,fighter_2,Loss,Win,Win
+2021_01_20,Mason Jones,Mike Davis,+135,-150,0.4149,0.5851,0.3868,0.6132,0.31,0.69,-0.0281,0.0281,-0.0678,0.0481,0,0.017,fighter_2,Loss,Win,Win
+2021_01_20,Matt Schnell,Tyson Nam,-105,-108,0.4966,0.5034,0.674,0.326,0.5,0.5,0.1774,-0.1774,0.3573,-0.3524,0.0881,0,fighter_1,Win,Loss,Win
+2021_01_20,Michael Chiesa,Neil Magny,+135,-145,0.4183,0.5817,0.2538,0.7462,0.551,0.449,-0.1645,0.1645,-0.3932,0.2827,0,0.0983,fighter_2,Win,Loss,Loss
+2021_01_20,Omari Akhmedov,Tom Breese,+135,-125,0.4337,0.5663,0.599,0.401,0.392,0.608,0.1653,-0.1653,0.381,-0.2919,0.073,0,fighter_1,Win,Loss,Win
+2021_01_20,Vinicius Moreira,Ike Villanueva,-105,-110,0.4944,0.5056,0.5266,0.4734,0.531,0.469,0.0322,-0.0322,0.0651,-0.0637,0.0159,0,fighter_1,Loss,Win,Loss

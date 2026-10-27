@@ -1,2 +1,6 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2026_04_11,Tatiana Suarez,Loopy Godinez,-150,0.5851,0.8981,0.636,0.313,0.5351,0.1886
+2026_04_11,Marquel Mederos,Chris Padilla,+140,0.4132,0.7569,0.452,0.3437,0.832,0.1464
+2026_04_11,Vicente Luque,Kelvin Gastelum,+230,0.2979,0.6878,0.336,0.3899,1.309,0.1388
+2026_04_11,Charlie Radtke,Francisco Prado,-140,0.573,0.6001,0.629,0.0271,0.0474,0.0159
+2026_04_11,Esteban Ribovics,Mateusz Gamrot,+210,0.3164,0.3795,0.41,0.0631,0.1995,0.0231

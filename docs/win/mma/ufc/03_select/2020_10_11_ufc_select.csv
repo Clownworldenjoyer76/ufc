@@ -1,3 +1,6 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2020_10_11,Dricus Du Plessis,Markus Perez,-190,0.6472,0.959,0.551,0.3118,0.4818,0.2209
 2020_10_11,Cory Sandhagen,Marlon Moraes,-140,0.562,0.8843,0.554,0.3223,0.5734,0.184
+2020_10_11,Ilia Topuria,Youssef Zalal,+140,0.4111,0.7866,0.287,0.3755,0.9132,0.1594
+2020_10_11,Marcin Tybura,Ben Rothwell,+120,0.4457,0.6111,0.422,0.1654,0.371,0.0746
+2020_10_11,Makwan Amirkhani,Edson Barboza,+210,0.3142,0.3477,0.381,0.0335,0.1067,0.0122

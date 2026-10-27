@@ -1,0 +1,4 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2023_10_21,Alexander Volkanovski,Islam Makhachev,+230,-240,0.3004,0.6996,0.4269,0.5731,0.382,0.618,0.1265,-0.1265,0.4213,-0.1809,0.0452,0,fighter_1,Loss,Win,Loss
+2023_10_21,Muhammad Naimov,Nathaniel Wood,+300,-300,0.25,0.75,0.6895,0.3105,0.176,0.824,0.4395,-0.4395,1.758,-0.586,0.1465,0,fighter_1,Win,Loss,Win
+2023_10_21,Trevor Peek,Mohammad Yahya,-180,+175,0.6387,0.3613,0.6494,0.3506,0.478,0.522,0.0107,-0.0107,0.0167,-0.0296,0.0074,0,fighter_1,Win,Loss,Win

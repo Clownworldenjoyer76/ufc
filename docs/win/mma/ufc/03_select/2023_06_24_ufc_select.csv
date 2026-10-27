@@ -1,3 +1,10 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
+2023_06_24,Jack Jenkins,Jamall Emmers,+180,0.3488,0.8568,0.43,0.508,1.4562,0.195
 2023_06_24,Neil Magny,Philip Rowe,-175,0.6187,0.8451,0.547,0.2264,0.3659,0.1484
 2023_06_24,Loik Radzhabov,Mateusz Rebecki,+100,0.4917,0.8215,0.484,0.3298,0.6708,0.1622
+2023_06_24,Gabriel Santos,David Onama,-200,0.6629,0.7352,0.662,0.0723,0.109,0.0536
+2023_06_24,Amanda Ribas,Maycee Barber,-185,0.6367,0.7063,0.598,0.0696,0.1093,0.0479
+2023_06_24,Tabatha Ricci,Gillian Robertson,-109,0.5227,0.6857,0.484,0.163,0.3118,0.0854
+2023_06_24,Cody Brundage,Sedriques Dumas,-135,0.5638,0.6576,0.56,0.0938,0.1664,0.0538
+2023_06_24,Trevor Peek,Chepe Mariscal,-150,0.5851,0.5974,0.512,0.0123,0.0211,0.0074
+2023_06_24,Joshua Van,Zhalgas Zhumagulov,+195,0.3302,0.382,0.406,0.0518,0.1567,0.0193

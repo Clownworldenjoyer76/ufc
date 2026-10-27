@@ -1,0 +1,6 @@
+match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
+2024_10_12,Cory Mckenna,Julia Polastri,-105,0.5182,0.7999,0.465,0.2817,0.5436,0.1462
+2024_10_12,Cody Haddon,Dan Argueta,-140,0.573,0.6297,0.58,0.0567,0.099,0.0332
+2024_10_12,Patrick Sabatini,Jonathan Pearce,+160,0.3767,0.5747,0.406,0.198,0.5256,0.0794
+2024_10_12,Lucas Rocha,Clayton Carpenter,+200,0.3235,0.3729,0.377,0.0494,0.1526,0.0182
+2024_10_12,Alex Morono,Daniel Rodriguez,+190,0.3373,0.3661,0.411,0.0288,0.0853,0.0109

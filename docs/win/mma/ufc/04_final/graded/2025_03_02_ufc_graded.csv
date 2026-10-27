@@ -1,2 +1,6 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2025_03_02,Asu Almabayev,Manel Kape,+190,-215,0.3356,0.6644,0.3663,0.6337,0.338,0.662,0.0307,-0.0307,0.0913,-0.0461,0.0115,0,fighter_1,Loss,Win,Loss
+2025_03_02,Esteban Ribovics,Nasrat Haqparast,-230,+220,0.6904,0.3096,0.2322,0.7678,0.632,0.368,-0.4582,0.4582,-0.6637,1.4802,0,0.1659,fighter_2,Loss,Win,Win
 2025_03_02,Julian Marquez,Cody Brundage,+110,-120,0.4661,0.5339,0.1176,0.8824,0.557,0.443,-0.3485,0.3485,-0.7477,0.6527,0,0.1869,fighter_2,Loss,Win,Win
+2025_03_02,Sam Patterson,Danny Barlow,+180,-190,0.3528,0.6472,0.9124,0.0876,0.276,0.724,0.5596,-0.5596,1.5862,-0.8646,0.2162,0,fighter_1,Win,Loss,Win
+2025_03_02,William Gomis,Hyder Amil,-240,+250,0.7119,0.2881,0.5096,0.4904,0.619,0.381,-0.2023,0.2023,-0.2841,0.702,0,0.071,fighter_2,Loss,Win,Win

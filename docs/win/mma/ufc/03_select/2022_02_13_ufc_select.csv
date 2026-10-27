@@ -1,3 +1,7 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2022_02_13,Andrei Arlovski,Jared Vanderaa,-145,0.5765,0.8983,0.582,0.3218,0.5582,0.19
 2022_02_13,Renato Moicano,Alexander Hernandez,-155,0.6012,0.8541,0.634,0.2529,0.4207,0.1585
+2022_02_13,Bobby Green,Nasrat Haqparast,-140,0.5803,0.7432,0.551,0.1629,0.2808,0.097
+2022_02_13,Derrick Lewis,Tai Tuivasa,-175,0.6277,0.7255,0.594,0.0978,0.1557,0.0656
+2022_02_13,Alex Pereira,Jacob Malkoun,-105,0.4944,0.6676,0.512,0.1732,0.3503,0.0856
+2022_02_13,Jared Cannonier,Derek Brunson,-150,0.5902,0.6057,0.632,0.0155,0.0263,0.0095

@@ -1,2 +1,6 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2023_03_11,Bruno Silva,Tyson Nam,-155,0.6078,0.8819,0.735,0.2741,0.4509,0.1747
+2023_03_11,Raphael Assuncao,Davey Grant,+130,0.4235,0.7899,0.426,0.3664,0.8651,0.1589
+2023_03_11,Victor Henry,Tony Gravely,-145,0.5765,0.593,0.583,0.0165,0.0286,0.0097
+2023_03_11,Anton Turkalj,Vitor Petrino,-105,0.5,0.5561,0.489,0.0561,0.1122,0.0281
+2023_03_11,Josh Fremd,Sedriques Dumas,+200,0.3265,0.3726,0.438,0.0461,0.1411,0.0171

@@ -1,2 +1,9 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2022_12_04,Francis Marshall,Marcelo Rojo,-150,0.5902,0.9336,0.539,0.3434,0.5819,0.2095
+2022_12_04,Angela Hill,Emily Ducote,+125,0.4402,0.8801,0.489,0.4399,0.9994,0.1965
+2022_12_04,Scott Holtzman,Clay Guida,-200,0.6667,0.7712,0.612,0.1045,0.1568,0.0784
+2022_12_04,Sergei Pavlovich,Tai Tuivasa,-175,0.6364,0.759,0.563,0.1226,0.1927,0.0843
+2022_12_04,Roman Dolidze,Jack Hermansson,+200,0.3281,0.7342,0.271,0.4061,1.2376,0.1511
+2022_12_04,Eryk Anders,Kyle Daukaus,+220,0.3125,0.6191,0.295,0.3066,0.9811,0.1115
+2022_12_04,Stephen Thompson,Kevin Holland,+170,0.3655,0.5797,0.547,0.2142,0.5859,0.0844
+2022_12_04,Philip Rowe,Niko Price,+105,0.4822,0.4825,0.508,0.0003,0.0006,0.0001

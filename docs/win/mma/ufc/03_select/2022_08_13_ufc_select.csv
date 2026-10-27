@@ -1,2 +1,5 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2022_08_13,Ariane Lipski,Priscila Cachoeira,-200,0.6552,0.8065,0.574,0.1513,0.231,0.1097
+2022_08_13,Youssef Zalal,Da'Mon Blackshear,-125,0.55,0.5791,0.572,0.0291,0.0529,0.0162
+2022_08_13,Nina Nunes,Cynthia Calvillo,+180,0.3528,0.4829,0.453,0.1301,0.3688,0.0503
+2022_08_13,Angela Hill,Loopy Godinez,+300,0.2438,0.2879,0.379,0.0441,0.1807,0.0146

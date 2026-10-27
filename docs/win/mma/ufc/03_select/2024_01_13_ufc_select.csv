@@ -1,0 +1,4 @@
+match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
+2024_01_13,Matthew Semelsberger,Preston Parsons,+100,0.4884,0.5436,0.555,0.0552,0.1131,0.027
+2024_01_13,Gaston Bolanos,Marcus Mcghee,+215,0.3102,0.4882,0.323,0.178,0.5737,0.0645
+2024_01_13,Felipe Bunes,Joshua Van,+255,0.2766,0.2922,0.429,0.0156,0.0565,0.0054

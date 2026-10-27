@@ -1,2 +1,7 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2023_06_11,Mike Malott,Adam Fugitt,-200,0.6606,0.9366,0.725,0.276,0.4177,0.2033
+2023_06_11,Aiemann Zahabi,Aori Qileng,+100,0.4783,0.6907,0.401,0.2124,0.4442,0.1018
+2023_06_11,Jasmine Jasudavicius,Miranda Maverick,+210,0.3164,0.6618,0.242,0.3454,1.0917,0.1263
+2023_06_11,Marc-Andre Barriault,Eryk Anders,-145,0.5817,0.6459,0.606,0.0642,0.1103,0.0384
+2023_06_11,Kyle Nelson,Blake Bilder,+240,0.2894,0.4884,0.342,0.199,0.6877,0.07
+2023_06_11,Charles Oliveira,Beneil Dariush,+140,0.4067,0.456,0.496,0.0493,0.1212,0.0208

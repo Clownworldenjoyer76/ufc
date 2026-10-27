@@ -1,3 +1,10 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2026_10_10,Matheus Camilo,Jai Herbert,-180,0.6345,0.8905,0.544,0.256,0.4035,0.1751
 2026_10_10,Brendan Allen,Christian Duncan,-130,0.5486,0.8287,0.53,0.2801,0.5106,0.1551
+2026_10_10,Melissa Gatto,Ernesta Kareckaite,-130,0.5427,0.7898,0.584,0.2471,0.4552,0.1351
+2026_10_10,Ismael Bonfim,Francisco Prado,-115,0.5169,0.7651,0.559,0.2482,0.4803,0.1285
+2026_10_10,Alice Pereira,Daria Zheleznyakova,-135,0.5692,0.7502,0.566,0.181,0.318,0.105
+2026_10_10,Andre Fili,Kai Kamaka III,-150,0.5798,0.6425,0.568,0.0627,0.1081,0.0373
+2026_10_10,Leon Shahbazyan,Niko Price,-150,0.5851,0.5909,0.421,0.0058,0.01,0.0035
+2026_10_10,Gerald Meerschaert,Julius Walker,+250,0.2814,0.5891,0.345,0.3077,1.0937,0.1071
+2026_10_10,Otari Tanzilovi,Malcolm Wellmaker,+185,0.3412,0.384,0.33,0.0428,0.1254,0.0162

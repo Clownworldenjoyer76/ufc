@@ -1,5 +1,11 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2021_08_22,Mark Madsen,Clay Guida,-170,0.6162,0.9344,0.674,0.3182,0.5164,0.2073
+2021_08_22,Terrance Mckinney,Trevin Jones,+145,0.4049,0.9216,0.45,0.5167,1.2764,0.2171
 2021_08_22,Alexandre Pantoja,Brandon Royval,-150,0.5951,0.9077,0.619,0.3126,0.5252,0.193
 2021_08_22,Brian Kelleher,Domingo Pilarte,-175,0.6277,0.8355,0.714,0.2078,0.3309,0.1395
 2021_08_22,Austin Lingo,Luis Saldana,+110,0.4661,0.8162,0.434,0.3501,0.7511,0.1639
+2021_08_22,Vinc Pichel,Austin Hubbard,-140,0.5676,0.7868,0.616,0.2192,0.3863,0.1267
+2021_08_22,Jared Cannonier,Kelvin Gastelum,-135,0.5745,0.7853,0.622,0.2108,0.367,0.1239
+2021_08_22,Josiane Nunes,Bea Malecki,+150,0.3969,0.7108,0.482,0.3139,0.7909,0.1301
+2021_08_22,Parker Porter,Chase Sherman,+175,0.3569,0.5926,0.359,0.2357,0.6603,0.0916
+2021_08_22,Kamuela Kirk,William Knight,+155,0.3838,0.4156,0.269,0.0318,0.0829,0.0129

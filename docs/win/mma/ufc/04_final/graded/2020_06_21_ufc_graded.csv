@@ -1,2 +1,4 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2020_06_21,Jim Miller,Roosevelt Roberts,+230,-260,0.2956,0.7044,0.3897,0.6103,0.271,0.729,0.0941,-0.0941,0.3185,-0.1336,0.0334,0,fighter_1,Win,Loss,Win
+2020_06_21,Josh Emmett,Shane Burgos,+175,-190,0.3569,0.6431,0.58,0.42,0.403,0.597,0.2231,-0.2231,0.625,-0.3469,0.0867,0,fighter_1,Win,Loss,Win
 2020_06_21,Lyman Good,Belal Muhammad,+100,-115,0.4831,0.5169,0.1033,0.8967,0.413,0.587,-0.3798,0.3798,-0.7862,0.7349,0,0.1965,fighter_2,Loss,Win,Win

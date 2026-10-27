@@ -4,3 +4,5 @@ match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied
 2022_12_11,Bryce Mitchell,Ilia Topuria,+155,-155,0.3922,0.6078,0.1961,0.8039,0.312,0.688,-0.1961,0.1961,-0.4999,0.3225,0,0.125,fighter_2,Loss,Win,Win
 2022_12_11,Chris Daukaus,Jairzinho Rozenstruik,+155,-170,0.3838,0.6162,0.0816,0.9184,0.408,0.592,-0.3022,0.3022,-0.7874,0.4904,0,0.1968,fighter_2,Loss,Win,Win
 2022_12_11,Darren Till,Dricus Du Plessis,+185,-190,0.3488,0.6512,0.0854,0.9146,0.377,0.623,-0.2634,0.2634,-0.7551,0.4044,0,0.1888,fighter_2,Loss,Win,Win
+2022_12_11,Joaquin Buckley,Chris Curtis,-165,+150,0.6089,0.3911,0.1395,0.8605,0.516,0.484,-0.4694,0.4694,-0.7709,1.2,0,0.1927,fighter_2,Loss,Win,Win
+2022_12_11,Tj Brown,Erik Silva,-110,+100,0.5116,0.4884,0.7813,0.2187,0.49,0.51,0.2697,-0.2697,0.5271,-0.5522,0.138,0,fighter_1,Win,Loss,Win

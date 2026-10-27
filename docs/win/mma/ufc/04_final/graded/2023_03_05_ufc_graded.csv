@@ -2,4 +2,5 @@ match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied
 2023_03_05,Amanda Ribas,Viviane Araujo,-105,+100,0.506,0.494,0.9053,0.0947,0.593,0.407,0.3993,-0.3993,0.789,-0.8083,0.2021,0,fighter_1,Win,Loss,Win
 2023_03_05,Ciryl Gane,Jon Jones,+145,-155,0.4017,0.5983,0.1651,0.8349,0.311,0.689,-0.2366,0.2366,-0.589,0.3955,0,0.1473,fighter_2,Loss,Win,Win
 2023_03_05,Jalin Turner,Mateusz Gamrot,+190,-195,0.3428,0.6572,0.1787,0.8213,0.364,0.636,-0.1641,0.1641,-0.4787,0.2497,0,0.1197,fighter_2,Loss,Win,Win
+2023_03_05,Marc-Andre Barriault,Julian Marquez,-160,+145,0.6012,0.3988,0.4185,0.5815,0.522,0.478,-0.1827,0.1827,-0.3039,0.4582,0,0.076,fighter_2,Win,Loss,Loss
 2023_03_05,Trevin Jones,Cody Garbrandt,+160,-175,0.3767,0.6233,0.0477,0.9523,0.314,0.686,-0.329,0.329,-0.8734,0.5279,0,0.2183,fighter_2,Loss,Win,Win

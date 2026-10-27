@@ -1,0 +1,4 @@
+match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
+2020_10_31,Jason Witt,Cole Williams,-170,0.6296,0.7539,0.575,0.1243,0.1974,0.0839
+2020_10_31,Justin Ledet,Dustin Jacoby,+300,0.2432,0.6318,0.278,0.3886,1.5974,0.1284
+2020_10_31,Kevin Natividad,Miles Johns,+135,0.4218,0.473,0.324,0.0512,0.1214,0.0221

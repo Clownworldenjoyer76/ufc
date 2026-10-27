@@ -1,3 +1,7 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2020_10_04,Nassourdine Imavov,Jordan Williams,-135,0.5692,0.9116,0.463,0.3424,0.6015,0.1987
 2020_10_04,Loma Lookboonmee,Jinh Yu Frey,-140,0.562,0.8887,0.503,0.3267,0.5812,0.1865
+2020_10_04,Carlos Felipe,Yorgan De Castro,+200,0.3298,0.7495,0.478,0.4197,1.2727,0.1566
+2020_10_04,Germaine De Randamie,Julianna Pena,-160,0.6061,0.6737,0.693,0.0676,0.1116,0.0429
+2020_10_04,Court Mcgee,Carlos Condit,-135,0.5638,0.6584,0.497,0.0946,0.1678,0.0542
+2020_10_04,Holly Holm,Irene Aldana,-125,0.5443,0.6354,0.619,0.0911,0.1674,0.05

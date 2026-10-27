@@ -1,0 +1,4 @@
+match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
+2020_07_25,Movsar Evloev,Mike Grundy,-172,0.6218,0.672,0.731,0.0502,0.0807,0.0332
+2020_07_25,Bethe Correia,Pannie Kianzad,+140,0.4067,0.6158,0.492,0.2091,0.5141,0.0881
+2020_07_25,Jai Herbert,Francisco Trinaldo,-127,0.5517,0.5647,0.387,0.013,0.0235,0.0072

@@ -1,2 +1,6 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2022_09_11,Tony Ferguson,Nate Diaz,-145,0.5868,0.9365,0.429,0.3497,0.5958,0.2116
+2022_09_11,Irene Aldana,Macy Chiasson,-175,0.6277,0.6836,0.569,0.0559,0.089,0.0375
+2022_09_11,Denis Tiuliulin,Jamie Pickett,+115,0.4514,0.6685,0.378,0.2171,0.4809,0.0989
+2022_09_11,Daniel Rodriguez,Jingliang Li,-170,0.6162,0.6597,0.432,0.0435,0.0706,0.0283
+2022_09_11,Johnny Walker,Ion Cutelaba,+175,0.3613,0.5051,0.466,0.1438,0.398,0.0563

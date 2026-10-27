@@ -1,0 +1,4 @@
+match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
+2022_05_01,Andrei Arlovski,Jake Collier,-120,0.5339,0.7856,0.548,0.2517,0.4714,0.135
+2022_05_01,Joanderson Brito,Andre Fili,+205,0.3199,0.7252,0.26,0.4053,1.2668,0.149
+2022_05_01,Marlon Vera,Rob Font,-105,0.506,0.5766,0.447,0.0706,0.1395,0.0357

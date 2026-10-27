@@ -1,2 +1,5 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2020_07_19,Jack Hermansson,Kelvin Gastelum,-105,0.506,0.8625,0.491,0.3565,0.7045,0.1804
+2020_07_19,Askar Askarov,Alexandre Pantoja,+165,0.3699,0.8159,0.372,0.446,1.2058,0.177
+2020_07_19,Rafael Fiziev,Marc Diakiese,+175,0.3582,0.7385,0.432,0.3803,1.0618,0.1481
+2020_07_19,Ariane Lipski,Luana Carolina,-115,0.523,0.5296,0.477,0.0066,0.0126,0.0035

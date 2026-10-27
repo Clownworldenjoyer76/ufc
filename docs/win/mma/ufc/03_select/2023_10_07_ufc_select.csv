@@ -1,0 +1,7 @@
+match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
+2023_10_07,Nate Maness,Mateus Mendonca,+245,0.2864,0.8358,0.373,0.5494,1.9183,0.1925
+2023_10_07,Karolina Kowalkiewicz,Diana Belbita,-135,0.5549,0.6949,0.65,0.14,0.2523,0.0786
+2023_10_07,Jj Aldrich,Montana De La Rosa,+170,0.3757,0.6003,0.56,0.2246,0.5977,0.0899
+2023_10_07,Bill Algeo,Alexander Hernandez,+100,0.4884,0.5939,0.534,0.1055,0.2161,0.0516
+2023_10_07,Aori Qileng,Johnny Munoz,+108,0.4786,0.4903,0.56,0.0117,0.0245,0.0056
+2023_10_07,Rick Glenn,Drew Dober,+300,0.2432,0.2928,0.359,0.0496,0.2037,0.0164

@@ -1,2 +1,5 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2026_08_15,Vicente Luque,Tresean Gore,+120,0.438,0.8437,0.674,0.4057,0.9264,0.1805
+2026_08_15,Neil Magny,Ramiz Brahimaj,-105,0.4944,0.7802,0.293,0.2858,0.5781,0.1413
+2026_08_15,Kaue Fernandes,Jalin Turner,+150,0.3885,0.6141,0.277,0.2256,0.5807,0.0922
+2026_08_15,Ian Garry,Islam Makhachev,+290,0.2479,0.3929,0.292,0.145,0.5847,0.0482

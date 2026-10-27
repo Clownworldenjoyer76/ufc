@@ -1,0 +1,3 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2022_02_06,Chris Curtis,Bryan Battle,-130,+118,0.552,0.448,0.5421,0.4579,0.615,0.385,-0.0099,0.0099,-0.0179,0.0221,0,0.0045,fighter_2,Loss,Win,Win
+2022_02_06,Nick Maximov,Punahele Soriano,+165,-170,0.3747,0.6253,0.79,0.21,0.287,0.713,0.4153,-0.4153,1.1081,-0.6641,0.166,0,fighter_1,Win,Loss,Win

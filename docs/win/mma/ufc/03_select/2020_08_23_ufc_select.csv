@@ -1,2 +1,5 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2020_08_23,Joe Solecki,Austin Hubbard,+110,0.4661,0.8902,0.576,0.4241,0.9099,0.1986
+2020_08_23,Daniel Rodriguez,Dwight Grant,-180,0.6387,0.7947,0.595,0.156,0.2442,0.1079
+2020_08_23,Frankie Edgar,Pedro Munhoz,+240,0.2873,0.7033,0.38,0.416,1.4482,0.1459
+2020_08_23,Inoue Mizuki,Amanda Lemos,-140,0.573,0.6485,0.548,0.0755,0.1319,0.0442

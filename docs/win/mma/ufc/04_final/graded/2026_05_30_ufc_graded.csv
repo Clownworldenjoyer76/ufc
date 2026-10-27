@@ -1,0 +1,3 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2026_05_30,Cameron Smotherman,Kai Asakura,+250,-300,0.2759,0.7241,0.6119,0.3881,0.281,0.719,0.336,-0.336,1.2181,-0.4641,0.116,0,fighter_1,Loss,Win,Loss
+2026_05_30,Jaqualine Amorim,Loma Lookboonmee,+110,-115,0.471,0.529,0.4547,0.5453,0.727,0.273,-0.0163,0.0163,-0.0346,0.0308,0,0.0086,fighter_2,Win,Loss,Loss

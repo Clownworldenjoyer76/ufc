@@ -1,6 +1,8 @@
 league,market_type,bucket_dimension,bucket,bets,wins,losses,pushes,total,win_pct,units_flat,roi_flat,avg_implied_prob,avg_model_prob,avg_dratings_prob,avg_odds_american
-ufc,moneyline,implied_prob,0.40 to 0.50,55,45,10,0,55,0.8182,40.7524,0.7410,0.4622,0.8520,0.5076,+109
-ufc,moneyline,implied_prob,0.50 to 0.60,243,211,30,2,243,0.8755,131.8249,0.5425,0.5583,0.8759,0.5538,-131
-ufc,moneyline,implied_prob,0.60 to 0.70,249,207,39,3,249,0.8415,76.7741,0.3083,0.6349,0.8893,0.6084,-180
+ufc,moneyline,implied_prob,0.20 to 0.30,155,82,72,1,155,0.5325,138.5000,0.8935,0.2740,0.5054,0.3216,+260
+ufc,moneyline,implied_prob,0.30 to 0.40,418,253,165,0,418,0.6053,296.6400,0.7097,0.3491,0.6000,0.3878,+184
+ufc,moneyline,implied_prob,0.40 to 0.50,372,249,121,2,372,0.6730,177.2314,0.4764,0.4476,0.6764,0.4647,+112
+ufc,moneyline,implied_prob,0.50 to 0.60,564,419,136,9,564,0.7550,187.5442,0.3325,0.5545,0.7685,0.5437,-129
+ufc,moneyline,implied_prob,0.60 to 0.70,433,341,87,5,433,0.7967,104.3610,0.2410,0.6336,0.8168,0.6039,-180
 ufc,moneyline,implied_prob,0.70 to 0.80,1,0,1,0,1,0.0000,-1.0000,-1.0000,0.7436,0.9758,0.5910,-200
 ufc,moneyline,implied_prob,0.80 to 0.90,1,1,0,0,1,1.0000,0.5128,0.5128,0.8561,0.9847,0.7970,-195
