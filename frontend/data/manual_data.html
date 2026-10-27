@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=Barlow+Condensed:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/matstheme.css">
+<style>
+
+.topbar {
+  margin: 0;
+}
+
+/* ── Page-level overrides ───────────────────────────────────────────────── */
+body {
+  font-family: 'IBM Plex Mono', 'Courier New', monospace;
+  background: var(--background);
+  padding: 0;
+}
+
+/* ── Manual-data tokens ─────────────────────────────────────────────────── */
+:root {
+  --manual-green:      #00ff84;
+  --manual-green-dim:  rgba(0, 255, 132, 0.08);
+  --manual-green-glow: rgba(0, 255, 132, 0.2);
+  --manual-yellow:     #facc15;
+  --manual-red:        #ff2d2d;
+  --manual-blue:       #00bfff;
+  --manual-border:     rgba(255,255,255,0.06);
+  --manual-card:       #0c1118;
+  --manual-card-hover: #111822;
+  --manual-radius:     3px;
+}
+
+/* ── Page header ────────────────────────────────────────────────────────── */
+.manual-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 24px 16px;
+  border-bottom: 1px solid var(--manual-border);
+}
+
+.manual-title {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: var(--manual-green);
+  line-height: 1;
+  margin: 0;
+}
+
+.manual-title-slash {
+  color: rgba(0,255,132,0.25);
+  margin: 0 4px;
+}
+
+#status {
+  font-size: 10px;
+  letter-spacing: 2px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  margin-left: auto;
+}
+
+#status.loading {
+  color: var(--manual-green);
+  animation: pulse-text 1.2s ease infinite;
+}
+
+@keyframes pulse-text {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.35; }
+}
+
+/* ── Controls bar ───────────────────────────────────────────────────────── */
+.manual-controls {
+  display: flex;
+  align-items: flex-end;
+  gap: 24px;
+  padding: 14px 24px;
+  border-bottom: 1px solid var(--manual-border);
+  flex-wrap: wrap;
+}
+
+.control-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 180px;
+  flex: 1;
+}
+
+.control-label {
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+
+.manual-controls select,
+.manual-controls input,
+.manual-body textarea {
+  background: var(--manual-card);
+  border: 1px solid rgba(255,255,255,0.1);
+  color: var(--text-main);
+  padding: 7px 12px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  border-radius: var(--manual-radius);
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s, background 0.15s;
+}
+
+.manual-controls select {
+  appearance: none;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2300ff84'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 16px;
+  padding-right: 34px;
+}
+
+.manual-controls select:focus,
+.manual-controls input:focus,
+.manual-body textarea:focus {
+  border-color: var(--manual-green);
+  box-shadow: 0 0 0 3px var(--manual-green-dim);
+}
+
+input[type="password"] {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* ── Body ───────────────────────────────────────────────────────────────── */
+.manual-body {
+  padding: 24px;
+}
+
+.manual-card {
+  background: var(--manual-card);
+  border: 1px solid var(--manual-border);
+  border-left: 3px solid transparent;
+  border-radius: var(--manual-radius);
+  padding: 18px;
+  transition: border-color 0.18s ease, background 0.18s ease;
+}
+
+.manual-card:hover {
+  border-left-color: var(--manual-green);
+  background: var(--manual-card-hover);
+}
+
+.raw-label-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.raw-label {
+  font-size: 9px;
+  letter-spacing: 2px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+
+.raw-hint {
+  font-size: 9px;
+  letter-spacing: 1.5px;
+  color: var(--manual-blue);
+  text-transform: uppercase;
+}
+
+.manual-body textarea {
+  width: 100%;
+  min-height: 280px;
+  resize: vertical;
+  box-sizing: border-box;
+  line-height: 1.5;
+  background: #080c11;
+}
+
+@keyframes pulse-yellow {
+  0% { box-shadow: 0 0 0 0 rgba(250, 204, 21, 0.7); }
+  70% { box-shadow: 0 0 0 10px rgba(250, 204, 21, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(250, 204, 21, 0); }
+}
+
+.manual-card button {
+  margin-top: 16px;
+  width: 100%;
+  background: transparent;
+  color: var(--manual-green);
+  border: 1px solid rgba(0,255,132,0.3);
+  padding: 12px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: var(--manual-radius);
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.manual-card button:hover {
+  background: var(--manual-green-dim);
+  border-color: var(--manual-green);
+}
+
+.manual-card button.submitting {
+  background: var(--manual-card) !important;
+  color: var(--manual-yellow) !important;
+  border-color: rgba(250,204,21,0.45) !important;
+  animation: pulse-yellow 1.5s infinite;
+  cursor: wait;
+}
+
+#out {
+  margin-top: 16px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.success { color: var(--manual-green); }
+.failure { color: var(--manual-red); }
+
+/* ── Responsive ─────────────────────────────────────────────────────────── */
+@media (max-width: 640px) {
+  .manual-controls { gap: 14px; }
+  .control-wrap { min-width: 100%; }
+  .manual-body { padding: 16px; }
+}
+
+</style>
+</head>
+<body>
+
+  <div id="nav-placeholder"></div>
+
+  <div class="manual-header">
+    <h1 class="manual-title">MANUAL<span class="manual-title-slash">/</span>DATA</h1>
+    <div id="status" class="status"></div>
+  </div>
+
+  <div class="manual-controls">
+    <div class="control-wrap">
+      <span class="control-label">League</span>
+      <select id="league" onchange="updateMarkets()">
+        <option value="">-- select --</option>
+        <option value="basketball">Basketball</option>
+        <option value="football">Football</option>
+        <option value="baseball">Baseball</option>
+        <option value="hockey">Hockey</option>
+        <option value="soccer">Soccer</option>
+        <option value="mma">MMA</option>
+        <option value="final_scores">Final Scores</option>
+      </select>
+    </div>
+
+    <div class="control-wrap">
+      <span class="control-label">Market</span>
+      <select id="market" onchange="updateSources()">
+        <option value="">-- placeholder --</option>
+      </select>
+    </div>
+
+    <div class="control-wrap">
+      <span class="control-label">Source</span>
+      <select id="source">
+        <option value="">-- select --</option>
+        <option value="DraftKings">DraftKings</option>
+        <option value="Predictions">Predictions</option>
+        <option value="Scores">Scores</option>
+        <option value="Soccer Totals">Soccer Totals</option>
+        <option value="UFC Results">UFC Results</option>
+      </select>
+    </div>
+
+    <div class="control-wrap">
+      <span class="control-label">Magic</span>
+      <input id="token" type="password" placeholder="••••••••">
+    </div>
+  </div>
+
+  <div class="manual-body">
+    <div class="manual-card">
+      <div class="raw-label-row">
+        <span class="raw-label">Raw Text</span>
+        <span class="raw-hint">Paste dump here</span>
+      </div>
+
+      <textarea id="raw"></textarea>
+
+      <button id="btn" onclick="dispatch()">Create File</button>
+      <div id="out"></div>
+    </div>
+  </div>
+
+  <script src="assets/js/shared/nav.js"></script>
+
+  <script>
+    const OWNER = "Clownworldenjoyer76";
+    const REPO  = "bet_tracker";
+
+    const WORKFLOW_FILE_DEFAULT       = "manual_data_input.yml";
+    const WORKFLOW_FILE_UFC           = "manual_ufc_final.yml";
+    const WORKFLOW_FILE_SOCCER_PRED   = "manual_soccer_pred.yml";
+    const WORKFLOW_FILE_SOCCER_SCORES = "manual_soccer_scores.yml";
+
+    const REF = "main";
+
+    const MARKET_MAP = {
+      basketball: ["NBA", "NCAA Men", "WNBA"],
+      football: ["NFL", "NCAA", "CFL"],
+      baseball: ["MLB"],
+      hockey: ["NHL"],
+      soccer: ["MLS", "EPL", "Ligue 1", "Serie A", "La Liga", "Bundesliga"],
+      mma: ["UFC"],
+      final_scores: ["NBA", "NCAAB", "NHL", "WNBA", "UFC"]
+    };
+
+    function normalizeKey(value) {
+      return (value || "")
+        .trim()
+        .toLowerCase()
+        .replace(/\s+/g, "")
+        .replace(/_/g, "");
+    }
+
+    function updateMarkets() {
+      const l = document.getElementById("league").value;
+      const mSel = document.getElementById("market");
+
+      mSel.innerHTML = "";
+
+      if (!l || !MARKET_MAP[l]) {
+        mSel.innerHTML = "<option value=''>-- placeholder --</option>";
+        updateSources();
+        return;
+      }
+
+      MARKET_MAP[l].forEach(m => {
+        const opt = document.createElement("option");
+        opt.value = typeof m === "object" ? m.val : m;
+        opt.textContent = typeof m === "object" ? m.text : m;
+        mSel.appendChild(opt);
+      });
+
+      updateSources();
+    }
+
+    function updateSources() {
+      const l = document.getElementById("league").value;
+      const m = document.getElementById("market").value;
+      const sSel = document.getElementById("source");
+
+      if (l === "final_scores" && m === "UFC") {
+        sSel.value = "UFC Results";
+      } else if (l === "mma" && m === "UFC") {
+        sSel.value = "Predictions";
+      }
+    }
+
+    async function dispatch() {
+      const league = document.getElementById("league").value.trim();
+      const market = document.getElementById("market").value.trim();
+      const source = document.getElementById("source").value.trim();
+      const token  = document.getElementById("token").value.trim();
+      const raw    = document.getElementById("raw").value;
+      const out    = document.getElementById("out");
+      const btn    = document.getElementById("btn");
+      const status = document.getElementById("status");
+
+      if (!league || !market || !source || !token || !raw.trim()) {
+        out.className = "failure";
+        out.textContent = "Major Failure Bro";
+        status.className = "";
+        status.textContent = "Missing Input";
+        return;
+      }
+
+      const leagueKey = normalizeKey(league);
+      const marketKey = normalizeKey(market);
+      const sourceKey = normalizeKey(source);
+
+      const isUFCFinalScores = (
+        leagueKey === "mma" &&
+        marketKey === "ufc" &&
+        sourceKey === "ufcresults"
+      );
+
+      const isMMAPredictions = (
+        leagueKey === "mma" &&
+        marketKey === "ufc" &&
+        sourceKey === "predictions"
+      );
+
+      let workflowFile = WORKFLOW_FILE_DEFAULT;
+
+      if (isUFCFinalScores) {
+        workflowFile = WORKFLOW_FILE_UFC;
+      } else if (leagueKey === "soccer" && sourceKey === "soccertotals") {
+        workflowFile = WORKFLOW_FILE_SOCCER_SCORES;
+      } else if (leagueKey === "soccer" && sourceKey === "predictions") {
+        workflowFile = WORKFLOW_FILE_SOCCER_PRED;
+      } else if (isMMAPredictions) {
+        workflowFile = WORKFLOW_FILE_DEFAULT;
+      }
+
+      btn.classList.add("submitting");
+      btn.disabled = true;
+      btn.textContent = "Processing...";
+      out.className = "";
+      out.textContent = `Submitting to ${workflowFile}...`;
+      status.className = "loading";
+      status.textContent = "Submitting";
+
+      try {
+        const url = `https://api.github.com/repos/${OWNER}/${REPO}/actions/workflows/${workflowFile}/dispatches`;
+
+        const res = await fetch(url, {
+          method: "POST",
+          headers: {
+            "Accept": "application/vnd.github+json",
+            "Authorization": `Bearer ${token}`,
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            ref: REF,
+            inputs: {
+              league,
+              market,
+              source,
+              raw_text: raw
+            }
+          })
+        });
+
+        if (res.status === 204) {
+          out.className = "success";
+          out.textContent = `Successfully Submitted: ${workflowFile}`;
+          status.className = "";
+          status.textContent = "Submitted";
+        } else {
+          throw new Error();
+        }
+      } catch (e) {
+        out.className = "failure";
+        out.textContent = `Major Failure Bro: ${workflowFile}`;
+        status.className = "";
+        status.textContent = "Failed";
+      } finally {
+        btn.classList.remove("submitting");
+        btn.disabled = false;
+        btn.textContent = "Create File";
+      }
+    }
+  </script>
+
+</body>
+</html>
