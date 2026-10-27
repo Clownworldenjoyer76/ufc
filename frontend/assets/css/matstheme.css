@@ -1,0 +1,380 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap");
+
+:root{
+
+--background:#0b0f14;
+--foreground:#f2f2f2;
+
+--accent-green:#00ff84;
+--accent-red:#ff2d2d;
+--accent-blue:#00bfff;
+--accent-yellow:#facc15;
+
+--border:#1a1f26;
+
+--bg-card:#0f141b;
+
+--border-soft:#1a1f26;
+
+--text-main:#f2f2f2;
+--text-muted:#7c8796;
+
+}
+
+*{
+box-sizing:border-box;
+}
+
+body{
+margin:0;
+padding:0;
+background:var(--background);
+color:var(--foreground);
+font-family:"Courier New",Courier,monospace;
+}
+
+h1{
+color:var(--accent-green);
+margin-bottom:20px;
+}
+
+.container{
+max-width:1200px;
+margin:0 auto;
+padding:20px;
+}
+
+.controls{
+margin-bottom:20px;
+}
+
+.controls input{
+background:var(--bg-card);
+border:1px solid var(--border-soft);
+color:var(--text-main);
+padding:6px;
+}
+
+.status{
+margin-bottom:14px;
+color:var(--accent-green);
+}
+
+/* GRID */
+
+.league-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:24px;
+}
+
+.league-column{
+display:flex;
+flex-direction:column;
+gap:10px;
+}
+
+.league-header{
+font-weight:700;
+color:var(--accent-green);
+border-bottom:1px solid var(--border-soft);
+padding-bottom:4px;
+}
+
+/* PICK CARDS */
+
+.pick-card{
+background:var(--bg-card);
+border:1px solid var(--border-soft);
+padding:10px;
+cursor:pointer;
+border-radius:4px;
+}
+
+.pick-card:hover{
+border-color:var(--accent-green);
+border-left:3px solid var(--accent-green);
+}
+
+.pick-time{
+font-size:11px;
+color:var(--accent-yellow);
+}
+
+.pick-matchup{
+font-weight:700;
+font-size:13px;
+}
+
+.pick-bet{
+font-size:12px;
+color:var(--accent-blue);
+}
+
+.pick-edge{
+font-size:14px;
+margin-top:2px;
+}
+
+/* MODAL */
+
+.modal{
+position:fixed;
+inset:0;
+background:rgba(0,0,0,.7);
+display:none;
+align-items:center;
+justify-content:center;
+}
+
+.modal.open{
+display:flex;
+}
+
+.modal-card{
+background:var(--bg-card);
+border:1px solid var(--border-soft);
+padding:24px;
+max-width:600px;
+width:90%;
+}
+
+/* Fix browser calendar icon for dark theme */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    filter: invert(1) opacity(0.4);
+    cursor: pointer;
+}
+
+/* Empty state */
+.empty-state {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-muted);
+    font-size: 13px;
+    letter-spacing: 1px;
+    border: 1px dashed var(--border-soft);
+    border-radius: 4px;
+}
+
+/* ===== TOPBAR ===== */
+
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border-soft);
+  padding: 6px 20px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  color: var(--text-muted);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  margin: 0;
+}
+
+.topbar-flag { font-size: 16px; line-height: 1; }
+
+.topbar select {
+  background: transparent;
+  border: none;
+  color: var(--accent-green);
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+  cursor: pointer;
+  outline: none;
+}
+
+.topbar select option {
+  background: var(--bg-card);
+  color: var(--text-main);
+}
+
+.topbar-clock,
+#live-clock {
+  color: var(--text-main);
+  letter-spacing: 0.5px;
+}
+
+/* ===== NAV ===== */
+
+.site-nav {
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border-soft);
+  margin: 0;
+  padding: 0 20px;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 11px;
+}
+
+.nav-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: stretch;
+}
+
+.nav-links > li { position: relative; }
+
+.nav-links > li > a {
+  display: block;
+  padding: 14px 18px;
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  border-bottom: 2px solid transparent;
+  transition: color 0.15s, border-color 0.15s;
+  cursor: pointer;
+}
+
+.nav-links > li > a:hover,
+.nav-links > li > a.active {
+  color: var(--accent-green);
+  border-bottom-color: var(--accent-green);
+}
+
+.nav-placeholder {
+  opacity: 0.35 !important;
+  cursor: default !important;
+  pointer-events: none;
+}
+
+/* Dropdown */
+.nav-dropdown { position: relative; }
+
+.nav-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: var(--bg-card);
+  border: 1px solid var(--border-soft);
+  border-top: 2px solid var(--accent-green);
+  list-style: none;
+  margin: 0;
+  padding: 4px 0;
+  min-width: 140px;
+  z-index: 200;
+}
+
+.nav-dropdown:hover > .nav-dropdown-menu { display: block; }
+
+.nav-dropdown-menu a {
+  display: block;
+  padding: 10px 18px;
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 0.15s, background 0.15s;
+}
+
+.nav-dropdown-menu a:hover,
+.nav-dropdown-menu a.active {
+  color: var(--accent-green);
+  background: rgba(0, 255, 132, 0.05);
+}
+
+.nav-caret { font-size: 9px; opacity: 0.5; }
+
+/* ===== SHARED SITE COMPONENTS ===== */
+
+.site-title {
+  font-size: 2.4rem;
+  letter-spacing: 8px;
+  color: var(--accent-green);
+  text-align: center;
+  margin: 0 0 36px 0;
+}
+
+/* Win rate badges */
+.wr-badge {
+  display: inline-block;
+  padding: 2px 7px;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: bold;
+}
+.wr-win     { background: rgba(0,255,132,0.12); color: var(--accent-green);  border: 1px solid rgba(0,255,132,0.25); }
+.wr-neutral { background: rgba(250,204,21,0.12); color: var(--accent-yellow); border: 1px solid rgba(250,204,21,0.25); }
+.wr-loss    { background: rgba(255,45,45,0.12);  color: var(--accent-red);    border: 1px solid rgba(255,45,45,0.25); }
+
+/* Value colours */
+.val-win  { color: var(--accent-green); }
+.val-loss { color: var(--accent-red); }
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   MLB low_confidence indicator
+   Append to docs/css/matstheme.css (or wherever .pick-card is styled).
+   Tweak colors / radii to match the rest of your theme.
+   ───────────────────────────────────────────────────────────────────────────── */
+
+.pick-card .card-warning {
+  background: #c62828;
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 4px 8px;
+  /* Bleed to the card edges so the bar sits flush at the top. Adjust the
+     negative margins to match your card's existing padding. */
+  margin: -12px -12px 8px -12px;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+
+/* ===== ANALYTICS NESTED NAV ===== */
+
+.analytics-menu {
+  min-width: 190px;
+}
+
+.nav-submenu {
+  position: relative;
+}
+
+.nav-submenu > a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.nav-caret-right {
+  font-size: 12px;
+  opacity: 0.65;
+}
+
+.nav-dropdown-menu-nested {
+  display: none;
+  top: -5px;
+  left: 100%;
+  min-width: 180px;
+  border-top: 1px solid var(--border-soft);
+}
+
+.nav-submenu:hover > .nav-dropdown-menu-nested {
+  display: block;
+}
+
+@media (max-width: 1100px) {
+  .nav-dropdown-menu-nested {
+    left: auto;
+    right: 100%;
+  }
+}
