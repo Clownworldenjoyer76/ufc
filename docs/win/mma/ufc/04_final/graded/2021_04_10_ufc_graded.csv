@@ -1,12 +1,6 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2021_04_10,Arnold Allen,Sodiq Yusuff,+130,-145,0.4235,0.5765,0.5801,0.4199,0.431,0.569,0.1566,-0.1566,0.3697,-0.2716,0.0679,0,fighter_1,Win,Loss,Win
-2021_04_10,Da-Un Jung,William Knight,-140,+120,0.562,0.438,0.5675,0.4325,0.455,0.545,0.0055,-0.0055,0.0097,-0.0125,0.0031,0,fighter_1,Win,Loss,Win
 2021_04_10,Hunter Azure,Jack Shore,+175,-190,0.3569,0.6431,0.1526,0.8474,0.375,0.625,-0.2043,0.2043,-0.5725,0.3177,0,0.1431,fighter_2,Loss,Win,Win
-2021_04_10,Impa Kasanganay,Sasha Palatnikov,-250,+220,0.6957,0.3043,0.478,0.522,0.711,0.289,-0.2177,0.2177,-0.3129,0.7151,0,0.0782,fighter_2,Win,Loss,Loss
 2021_04_10,John Makdessi,Ignacio Bahamondes,+175,-180,0.3613,0.6387,0.2214,0.7786,0.349,0.651,-0.1399,0.1399,-0.3872,0.219,0,0.0968,fighter_2,Win,Loss,Loss
-2021_04_10,Jordan Griffin,Luis Saldana,+120,-135,0.4417,0.5583,0.3517,0.6483,0.382,0.618,-0.09,0.09,-0.2038,0.1613,0,0.051,fighter_2,Loss,Win,Win
-2021_04_10,Kevin Holland,Marvin Vettori,+270,-300,0.2649,0.7351,0.5028,0.4972,0.419,0.581,0.2379,-0.2379,0.8981,-0.3236,0.0809,0,fighter_1,Loss,Win,Loss
 2021_04_10,Mike Perry,Daniel Rodriguez,+105,-120,0.4721,0.5279,0.1742,0.8258,0.282,0.718,-0.2979,0.2979,-0.631,0.5643,0,0.1578,fighter_2,Loss,Win,Win
 2021_04_10,Nina Nunes,Mackenzie Dern,-120,+120,0.5455,0.4545,0.1597,0.8403,0.478,0.522,-0.3858,0.3858,-0.7072,0.8487,0,0.1768,fighter_2,Loss,Win,Win
-2021_04_10,Sam Alvey,Julian Marquez,+135,-148,0.4162,0.5838,0.3062,0.6938,0.394,0.606,-0.11,0.11,-0.2644,0.1885,0,0.0661,fighter_2,Loss,Win,Win
 2021_04_10,Scott Holtzman,Mateusz Gamrot,+210,-240,0.3137,0.6863,0.8547,0.1453,0.425,0.575,0.541,-0.541,1.725,-0.7883,0.1971,0,fighter_1,Loss,Win,Loss

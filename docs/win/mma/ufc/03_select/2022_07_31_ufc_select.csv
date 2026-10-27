@@ -4,4 +4,3 @@ match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge
 2022_07_31,Don'Tale Mayes,Hamdy Abdelwahab,-200,0.6552,0.8192,0.663,0.164,0.2504,0.1189
 2022_07_31,Alex Morono,Matthew Semelsberger,+160,0.3767,0.7765,0.474,0.3998,1.0613,0.1604
 2022_07_31,Alexandre Pantoja,Alex Perez,-200,0.6512,0.748,0.512,0.0968,0.1487,0.0694
-2022_07_31,Derrick Lewis,Sergei Pavlovich,+140,0.4067,0.4229,0.532,0.0162,0.0398,0.0068

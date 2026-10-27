@@ -1,4 +1,0 @@
-match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2026_04_25,Julia Polastri,Talita Alencar,-220,+200,0.6735,0.3265,0.4732,0.5268,0.682,0.318,-0.2003,0.2003,-0.2974,0.6133,0,0.0743,fighter_2,Loss,Win,Win
-2026_04_25,Sedriques Dumas,Jackson Mcvey,+160,-170,0.3792,0.6208,0.3702,0.6298,0.337,0.663,-0.009,0.009,-0.0238,0.0145,0,0.0059,fighter_2,Loss,Win,Win
-2026_04_25,Victor Valenzuela,Max Griffin,-120,+105,0.5279,0.4721,0.5439,0.4561,0.556,0.444,0.016,-0.016,0.0303,-0.0339,0.0085,0,fighter_1,Win,Loss,Win

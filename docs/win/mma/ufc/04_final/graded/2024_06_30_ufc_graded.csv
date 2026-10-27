@@ -1,5 +1,4 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2024_06_30,Andre Fili,Cub Swanson,-230,+215,0.6871,0.3129,0.6457,0.3543,0.638,0.362,-0.0414,0.0414,-0.0602,0.1321,0,0.015,fighter_2,Win,Loss,Loss
 2024_06_30,Ian Garry,Michael Page,-185,+180,0.6451,0.3549,0.9573,0.0427,0.591,0.409,0.3122,-0.3122,0.484,-0.8797,0.2199,0,fighter_1,Win,Loss,Win
 2024_06_30,Jean Silva,Charles Jourdain,+120,-130,0.4457,0.5543,0.9011,0.0989,0.443,0.557,0.4554,-0.4554,1.0216,-0.8216,0.2054,0,fighter_1,Win,Loss,Win
 2024_06_30,Jiri Prochazka,Alex Pereira,+150,-130,0.4144,0.5856,0.0783,0.9217,0.399,0.601,-0.3361,0.3361,-0.8111,0.574,0,0.2028,fighter_2,Loss,Win,Win

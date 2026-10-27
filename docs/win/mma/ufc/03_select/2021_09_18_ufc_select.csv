@@ -1,8 +1,3 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2021_09_18,Nate Maness,Tony Gravely,+175,0.3613,0.8822,0.354,0.5209,1.4418,0.2039
 2021_09_18,Tafon Nchukwi,Mike Rodriguez,-125,0.5385,0.8327,0.546,0.2942,0.5464,0.1594
 2021_09_18,Joaquin Buckley,Antonio Arroyo,-165,0.6182,0.7899,0.692,0.1717,0.2778,0.1124
-2021_09_18,Heili Alateng,Gustavo Lopez,-125,0.5443,0.6881,0.74,0.1438,0.2642,0.0789
-2021_09_18,Carlston Harris,Impa Kasanganay,-115,0.5169,0.6032,0.332,0.0863,0.1671,0.0447
-2021_09_18,Raquel Pennington,Pannie Kianzad,-130,0.5543,0.5969,0.52,0.0426,0.0769,0.0239
-2021_09_18,Emily Whitmire,Hannah Goldy,-125,0.5361,0.5783,0.441,0.0422,0.0788,0.0228

@@ -1,6 +1,3 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2026_06_27,Jean Matsumoto,Bekzat Almakhan,-150,+135,0.5851,0.4149,0.6771,0.3229,0.552,0.448,0.092,-0.092,0.1573,-0.2218,0.0555,0,fighter_1,Win,Loss,Win
-2026_06_27,Javier Reyez,Kaan Ofli,-170,+155,0.6162,0.3838,0.1702,0.8298,0.679,0.321,-0.446,0.446,-0.7238,1.1621,0,0.1809,fighter_2,Loss,Win,Win
 2026_06_27,Eric Nolan,Farman Hasanov,+160,-175,0.3767,0.6233,0.2908,0.7092,0.404,0.596,-0.0859,0.0859,-0.2281,0.1378,0,0.057,fighter_2,Loss,Win,Win
-2026_06_27,Michal Oleksiejczuk,Abus Magomedov,-105,+100,0.506,0.494,0.5974,0.4026,0.36,0.64,0.0914,-0.0914,0.1806,-0.185,0.0462,0,fighter_1,Loss,Win,Loss
 2026_06_27,Manuel Torres,Rafael Fiziev,-110,+100,0.5116,0.4884,0.8774,0.1226,0.421,0.579,0.3658,-0.3658,0.7149,-0.749,0.1872,0,fighter_1,Loss,Win,Loss

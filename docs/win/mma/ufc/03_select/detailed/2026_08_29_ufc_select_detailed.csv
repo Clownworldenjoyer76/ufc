@@ -1,4 +1,4 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet
 2026_08_29,Kai Asakura,Aori Qileng,-435,+350,0.7854,0.2146,0.4516,0.5484,0.725,0.275,-0.3338,0.3338,-0.425,1.5549,0,0.1062,no_bet
-2026_08_29,Denise Gomes,Yan Xiaonan,+125,-140,0.4324,0.5676,0.3367,0.6633,0.425,0.575,-0.0957,0.0957,-0.2214,0.1687,0,0.0553,fighter_2
+2026_08_29,Denise Gomes,Yan Xiaonan,+125,-140,0.4324,0.5676,0.3367,0.6633,0.425,0.575,-0.0957,0.0957,-0.2214,0.1687,0,0.0553,no_bet
 2026_08_29,Song Yadong,Umar Nurmagomedov,+460,-575,0.1733,0.8267,0.1146,0.8854,0.209,0.791,-0.0587,0.0587,-0.3387,0.071,0,0.0847,no_bet

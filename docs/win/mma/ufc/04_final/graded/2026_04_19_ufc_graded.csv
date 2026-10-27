@@ -1,4 +1,0 @@
-match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2026_04_19,Charles Jourdain,Kyler Phillips,-135,+120,0.5583,0.4417,0.5085,0.4915,0.569,0.431,-0.0498,0.0498,-0.0892,0.1127,0,0.0223,fighter_2,Win,Loss,Loss
-2026_04_19,Gauge Young,Thiago Moises,-165,+150,0.6089,0.3911,0.6706,0.3294,0.459,0.541,0.0617,-0.0617,0.1014,-0.1579,0.0395,0,fighter_1,Win,Loss,Win
-2026_04_19,Jai Herbert,Mandel Nallo,+145,-155,0.4017,0.5983,0.6505,0.3495,0.433,0.567,0.2488,-0.2488,0.6192,-0.4158,0.104,0,fighter_1,Win,Loss,Win

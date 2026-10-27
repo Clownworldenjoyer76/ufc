@@ -4,5 +4,3 @@ match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge
 2021_07_11,Tai Tuivasa,Greg Hardy,-115,0.523,0.7786,0.533,0.2556,0.4887,0.134
 2021_07_11,Max Griffin,Carlos Condit,-180,0.6301,0.7367,0.564,0.1066,0.1691,0.072
 2021_07_11,Michel Pereira,Niko Price,-185,0.6367,0.7302,0.559,0.0935,0.1468,0.0643
-2021_07_11,Dustin Poirier,Conor Mcgregor,-120,0.5455,0.6779,0.329,0.1324,0.2428,0.0728
-2021_07_11,Irene Aldana,Yana Kunitskaya,+105,0.477,0.5229,0.51,0.0459,0.0963,0.0219

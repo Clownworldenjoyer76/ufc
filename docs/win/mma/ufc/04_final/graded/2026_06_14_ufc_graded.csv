@@ -1,3 +1,0 @@
-match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2026_06_14,Steve Garcia,Diego Lopes,+130,-140,0.427,0.573,0.7193,0.2807,0.391,0.609,0.2923,-0.2923,0.6844,-0.5101,0.1275,0,fighter_1,Loss,Win,Loss
-2026_06_14,Ciryl Gane,Alex Pereira,-115,-105,0.5108,0.4892,0.6566,0.3434,0.455,0.545,0.1458,-0.1458,0.2853,-0.298,0.0745,0,fighter_1,Win,Loss,Win

@@ -1,7 +1,3 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2020_06_20,Gillian Robertson,Cortney Casey,-115,0.529,0.8743,0.498,0.3453,0.6527,0.1833
 2020_06_20,Lauren Murphy,Roxanne Modafferi,-120,0.5327,0.7704,0.537,0.2377,0.4462,0.1272
-2020_06_20,Oskar Piechota,Marc-Andre Barriault,+115,0.4584,0.6981,0.548,0.2397,0.5229,0.1106
-2020_06_20,Max Rohskopf,Austin Hubbard,-180,0.6301,0.6807,0.641,0.0506,0.0803,0.0342
-2020_06_20,Justin Jaynes,Frank Camacho,+270,0.2649,0.4714,0.257,0.2065,0.7795,0.0702
-2020_06_20,Clay Guida,Bobby Green,+240,0.2894,0.2943,0.363,0.0049,0.017,0.0017

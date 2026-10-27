@@ -2,4 +2,3 @@ match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge
 2021_09_26,Dan Hooker,Nasrat Haqparast,-140,0.573,0.8613,0.62,0.2883,0.5033,0.1688
 2021_09_26,Alexander Volkanovski,Brian Ortega,-190,0.6431,0.8479,0.706,0.2048,0.3185,0.1435
 2021_09_26,Robbie Lawler,Nick Diaz,-155,0.5933,0.7037,0.597,0.1104,0.1861,0.0679
-2021_09_26,Cynthia Calvillo,Jessica Andrade,+190,0.3409,0.3428,0.343,0.0019,0.0055,0.0007

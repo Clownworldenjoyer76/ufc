@@ -1,5 +1,5 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet
-2022_07_10,Aiemann Zahabi,Ricky Turcios,+225,-240,0.3036,0.6964,0.5578,0.4422,0.425,0.575,0.2542,-0.2542,0.8375,-0.365,0.0913,0,fighter_1
+2022_07_10,Aiemann Zahabi,Ricky Turcios,+225,-240,0.3036,0.6964,0.5578,0.4422,0.425,0.575,0.2542,-0.2542,0.8375,-0.365,0.0913,0,no_bet
 2022_07_10,Armen Petrosyan,Caio Borralho,+220,-230,0.3096,0.6904,0.045,0.955,0.378,0.622,-0.2646,0.2646,-0.8546,0.3832,0,0.2137,no_bet
 2022_07_10,Chase Sherman,Jared Vanderaa,+205,-228,0.3205,0.6795,0.7479,0.2521,0.458,0.542,0.4274,-0.4274,1.3335,-0.629,0.1572,0,fighter_1
 2022_07_10,Cortney Casey,Antonina Shevchenko,+150,-170,0.3885,0.6115,0.1152,0.8848,0.436,0.564,-0.2733,0.2733,-0.7035,0.4469,0,0.1759,fighter_2

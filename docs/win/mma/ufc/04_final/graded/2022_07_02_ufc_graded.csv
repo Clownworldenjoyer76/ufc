@@ -1,2 +1,0 @@
-match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2022_07_02,Jessica-Rose Clark,Julija Stoliarenko,-140,+140,0.5833,0.4167,0.5714,0.4286,0.615,0.385,-0.0119,0.0119,-0.0205,0.0286,0,0.0051,fighter_2,Loss,Win,Win

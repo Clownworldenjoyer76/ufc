@@ -1,7 +1,3 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2023_01_22,Brunno Ferreira,Gregory Rodrigues,+260,-295,0.2711,0.7289,0.7093,0.2907,0.244,0.756,0.4382,-0.4382,1.6163,-0.6012,0.1503,0,fighter_1,Win,Loss,Win
-2023_01_22,Deiveson Figueiredo,Brandon Moreno,+125,-135,0.4362,0.5638,0.3635,0.6365,0.557,0.443,-0.0727,0.0727,-0.1667,0.1289,0,0.0417,fighter_2,Loss,Win,Win
-2023_01_22,Glover Teixeira,Jamahal Hill,+130,-140,0.427,0.573,0.3725,0.6275,0.374,0.626,-0.0545,0.0545,-0.1277,0.0952,0,0.0319,fighter_2,Loss,Win,Win
-2023_01_22,Mauricio Rua,Ihor Potieria,+175,-195,0.3549,0.6451,0.3263,0.6737,0.376,0.624,-0.0286,0.0286,-0.0806,0.0443,0,0.0201,fighter_2,Loss,Win,Win
 2023_01_22,Mounir Lazzez,Gabriel Bonfim,+170,-180,0.3655,0.6345,0.0727,0.9273,0.381,0.619,-0.2928,0.2928,-0.8011,0.4615,0,0.2003,fighter_2,Loss,Win,Win
 2023_01_22,Paul Craig,Johnny Walker,+170,-185,0.3633,0.6367,0.0633,0.9367,0.367,0.633,-0.3,0.3,-0.8258,0.4712,0,0.2064,fighter_2,Loss,Win,Win

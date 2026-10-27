@@ -1,7 +1,5 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2024_04_14,Aleksandar Rakic,Jiri Prochazka,-115,+120,0.5406,0.4594,0.2158,0.7842,0.689,0.311,-0.3248,0.3248,-0.6008,0.707,0,0.1502,fighter_2,Loss,Win,Win
 2024_04_14,Aljamain Sterling,Calvin Kattar,-170,+170,0.6296,0.3704,0.8379,0.1621,0.597,0.403,0.2083,-0.2083,0.3308,-0.5623,0.1406,0,fighter_1,Win,Loss,Win
 2024_04_14,Arman Tsarukyan,Charles Oliveira,-194,+200,0.6644,0.3356,0.9122,0.0878,0.655,0.345,0.2478,-0.2478,0.373,-0.7384,0.1846,0,fighter_1,Win,Loss,Win
 2024_04_14,Diego Lopes,Sodiq Yusuff,-155,+150,0.6031,0.3969,0.795,0.205,0.527,0.473,0.1919,-0.1919,0.3182,-0.4835,0.1209,0,fighter_1,Win,Loss,Win
 2024_04_14,Jamahal Hill,Alex Pereira,+130,-125,0.439,0.561,0.1595,0.8405,0.402,0.598,-0.2795,0.2795,-0.6367,0.4983,0,0.1592,fighter_2,Loss,Win,Win
-2024_04_14,Max Holloway,Justin Gaethje,+175,-165,0.3687,0.6313,0.6631,0.3369,0.414,0.586,0.2944,-0.2944,0.7985,-0.4663,0.1166,0,fighter_1,Win,Loss,Win

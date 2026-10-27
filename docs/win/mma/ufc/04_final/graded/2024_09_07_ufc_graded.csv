@@ -1,5 +1,3 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
 2024_09_07,Andre Lima,Felipe Dos Santos,-170,+155,0.6162,0.3838,0.9586,0.0414,0.606,0.394,0.3424,-0.3424,0.5557,-0.8921,0.223,0,fighter_1,Win,Loss,Win
-2024_09_07,Chris Padilla,Rong Zhu,+230,-250,0.2979,0.7021,0.8783,0.1217,0.268,0.732,0.5804,-0.5804,1.9486,-0.8267,0.2067,0,fighter_1,Win,Loss,Win
-2024_09_07,Nathan Fletcher,Zygimantas Ramaska,-120,+120,0.5455,0.4545,0.6334,0.3666,0.552,0.448,0.0879,-0.0879,0.1612,-0.1935,0.0484,0,fighter_1,Win,Loss,Win
 2024_09_07,Yanal Ashmouz,Trevor Peek,-125,+108,0.5361,0.4639,0.714,0.286,0.507,0.493,0.1779,-0.1779,0.3319,-0.3835,0.0959,0,fighter_1,Win,Loss,Win

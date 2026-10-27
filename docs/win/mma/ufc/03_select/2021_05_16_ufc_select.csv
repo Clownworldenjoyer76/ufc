@@ -1,10 +1,6 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2021_05_16,Andrea Lee,Antonina Shevchenko,+110,0.4661,0.8443,0.38,0.3782,0.8114,0.1771
 2021_05_16,Charles Oliveira,Michael Chandler,-125,0.5443,0.8416,0.566,0.2973,0.5462,0.1631
 2021_05_16,Shane Burgos,Edson Barboza,-155,0.5953,0.8234,0.544,0.2281,0.3832,0.1409
 2021_05_16,Tony Ferguson,Beneil Dariush,+135,0.4183,0.7187,0.448,0.3004,0.7183,0.1291
 2021_05_16,Katlyn Chookagian,Viviane Araujo,-130,0.5486,0.7115,0.658,0.1629,0.297,0.0902
 2021_05_16,Jordan Wright,Jamie Pickett,+100,0.4884,0.7088,0.512,0.2204,0.4514,0.1077
-2021_05_16,Lando Vannata,Mike Grundy,+105,0.4721,0.6593,0.481,0.1872,0.3965,0.0887
-2021_05_16,Andre Muniz,Jacare Souza,+115,0.4557,0.5968,0.497,0.1411,0.3096,0.0648
-2021_05_16,Rogerio Bontorin,Matt Schnell,+150,0.3911,0.4638,0.477,0.0727,0.1858,0.0298

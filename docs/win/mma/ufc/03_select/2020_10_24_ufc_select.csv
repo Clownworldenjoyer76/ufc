@@ -2,8 +2,3 @@ match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge
 2020_10_24,Alexander Volkov,Walt Harris,-180,0.6345,0.9537,0.723,0.3192,0.5032,0.2183
 2020_10_24,Robert Whittaker,Jared Cannonier,+105,0.478,0.92,0.53,0.442,0.9247,0.2117
 2020_10_24,Joel Alvarez,Alexander Yakovlev,-165,0.6182,0.8707,0.68,0.2525,0.4085,0.1653
-2020_10_24,Casey Kenney,Nathaniel Wood,-138,0.5715,0.6869,0.521,0.1154,0.202,0.0673
-2020_10_24,Shavkat Rakhmonov,Alex Oliveira,-145,0.5868,0.6553,0.447,0.0685,0.1166,0.0414
-2020_10_24,Stefan Struve,Tai Tuivasa,+140,0.4098,0.4595,0.51,0.0497,0.1212,0.021
-2020_10_24,Liliya Shakirova,Lauren Murphy,+205,0.3229,0.3803,0.337,0.0574,0.1777,0.0212
-2020_10_24,Sam Alvey,Da-Un Jung,+290,0.2498,0.2698,0.222,0.02,0.0801,0.0067

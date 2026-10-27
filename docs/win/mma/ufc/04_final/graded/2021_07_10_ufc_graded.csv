@@ -1,4 +1,3 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
 2021_07_10,Brad Tavares,Omari Akhmedov,-140,+130,0.573,0.427,0.2208,0.7792,0.568,0.432,-0.3522,0.3522,-0.6146,0.8246,0,0.1537,fighter_2,Win,Loss,Loss
-2021_07_10,Jerome Rivera,Zhalgas Zhumagulov,+245,-280,0.2823,0.7177,0.2824,0.7176,0.267,0.733,0.0001,-0.0001,0.0003,-0.0001,0.0,0,fighter_1,Loss,Win,Loss
 2021_07_10,Jessica Eye,Jennifer Maia,+180,-200,0.3488,0.6512,0.2489,0.7511,0.438,0.562,-0.0999,0.0999,-0.2865,0.1535,0,0.0716,fighter_2,Loss,Win,Win

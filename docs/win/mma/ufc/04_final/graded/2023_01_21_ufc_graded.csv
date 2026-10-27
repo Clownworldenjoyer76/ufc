@@ -1,4 +1,0 @@
-match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2023_01_21,Ismael Bonfim,Terrance Mckinney,-105,-105,0.5,0.5,0.5367,0.4633,0.421,0.579,0.0367,-0.0367,0.0734,-0.0734,0.0183,0,fighter_1,Win,Loss,Win
-2023_01_21,Saimon Oliveira,Daniel Marcos,-140,+125,0.5676,0.4324,0.472,0.528,0.537,0.463,-0.0956,0.0956,-0.1684,0.221,0,0.0421,fighter_2,Loss,Win,Win
-2023_01_21,Warlley Alves,Nicolas Dalby,-125,+110,0.5385,0.4615,0.31,0.69,0.484,0.516,-0.2285,0.2285,-0.4243,0.495,0,0.1061,fighter_2,Loss,Win,Win

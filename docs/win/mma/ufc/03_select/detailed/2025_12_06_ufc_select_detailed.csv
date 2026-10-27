@@ -1,4 +1,4 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet
 2025_12_06,Antonio Trocoli,Mansur Abdul-Malik,+1050,-1300,0.0856,0.9144,0.0296,0.9704,0.17,0.83,-0.056,0.056,-0.6543,0.0613,0,0.1636,no_bet
-2025_12_06,Ibo Aslan,Iwo Baraniewski,+190,-200,0.3409,0.6591,0.3221,0.6779,0.443,0.557,-0.0188,0.0188,-0.0552,0.0285,0,0.0138,fighter_2
+2025_12_06,Ibo Aslan,Iwo Baraniewski,+190,-200,0.3409,0.6591,0.3221,0.6779,0.443,0.557,-0.0188,0.0188,-0.0552,0.0285,0,0.0138,no_bet
 2025_12_06,Muhammad Naimov,Mairon Santos,+210,-240,0.3137,0.6863,0.2514,0.7486,0.378,0.622,-0.0623,0.0623,-0.1985,0.0907,0,0.0496,no_bet

@@ -1,6 +1,2 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
 2026_10_03,Mick Parkin,Johnny Walker,+120,0.4417,0.8412,0.416,0.3995,0.9043,0.1789
-2026_10_03,Alden Coria,Imanol Rodriguez,+125,0.4324,0.6722,0.459,0.2398,0.5545,0.1056
-2026_10_03,Ismail Naurdiev,Marvin Vettori,-135,0.5583,0.5969,0.511,0.0386,0.0692,0.0219
-2026_10_03,Rafael Dos Anjos,Alexander Hernandez,+210,0.3124,0.436,0.283,0.1236,0.3958,0.045
-2026_10_03,Court Mcgee,Eric Nolan,+200,0.3235,0.3258,0.328,0.0023,0.007,0.0008
