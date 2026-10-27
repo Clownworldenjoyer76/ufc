@@ -1,2 +1,2 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2022_06_18,Court Mcgee,Jeremiah Wells,+100,-110,0.4884,0.5116,0.0876,0.9124,0.561,0.439,-0.4008,0.4008,-0.8206,0.7833,0,0.2052,fighter_2,Loss,Win,Win
+2022_06_18,Court Mcgee,Jeremiah Wells,+100,-110,0.4884,0.5116,0.0786,0.9214,0.561,0.439,-0.4098,0.4098,-0.8391,0.8009,0,0.2098,fighter_2,Loss,Win,Win

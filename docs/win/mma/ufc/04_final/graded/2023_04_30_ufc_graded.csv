@@ -1,0 +1,2 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2023_04_30,Ricky Simon,Song Yadong,-140,+126,0.5687,0.4313,0.1846,0.8154,0.479,0.521,-0.3841,0.3841,-0.6754,0.8904,0,0.1688,fighter_2,Loss,Win,Win

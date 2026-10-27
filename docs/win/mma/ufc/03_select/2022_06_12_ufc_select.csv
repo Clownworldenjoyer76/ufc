@@ -1,4 +1,3 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2022_06_12,Kyung Ho Kang,Batgerel Danaa,-118,0.532,0.8741,0.456,0.3421,0.6431,0.1827
-2022_06_12,Jack Della Maddalena,Ramazan Emeev,-165,0.6226,0.8442,0.485,0.2216,0.3558,0.1468
-2022_06_12,Zhang Weili,Joanna Jedrzejczyk,-155,0.5983,0.8223,0.598,0.224,0.3745,0.1394
+2022_06_12,Jack Della Maddalena,Ramazan Emeev,-165,0.6226,0.9381,0.485,0.3155,0.5066,0.209
+2022_06_12,Kyung Ho Kang,Batgerel Danaa,-118,0.532,0.9379,0.456,0.4059,0.763,0.2168

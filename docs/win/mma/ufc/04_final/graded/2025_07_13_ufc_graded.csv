@@ -1,2 +1,3 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2025_07_13,Calvin Kattar,Steve Garcia,+155,-160,0.3892,0.6108,0.1628,0.8372,0.457,0.543,-0.2264,0.2264,-0.5817,0.3707,0,0.1454,fighter_2,Loss,Win,Win
+2025_07_13,Calvin Kattar,Steve Garcia,+155,-160,0.3892,0.6108,0.0953,0.9047,0.457,0.543,-0.2939,0.2939,-0.7552,0.4812,0,0.1888,fighter_2,Loss,Win,Win
+2025_07_13,Jake Matthews,Chidi Njokuani,-110,-105,0.5056,0.4944,0.8238,0.1762,0.456,0.544,0.3182,-0.3182,0.6293,-0.6436,0.1609,0,fighter_1,Win,Loss,Win

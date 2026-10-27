@@ -1,3 +1,5 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2026_02_01,Alexander Volkanovski,Diego Lopes,-150,0.5851,0.9347,0.6,0.3496,0.5976,0.2107
-2026_02_01,Jonathan Micallef,Oban Elliott,-125,0.5385,0.8371,0.53,0.2986,0.5546,0.1618
+2026_02_01,Alexander Volkanovski,Diego Lopes,-150,0.5851,0.9298,0.6,0.3447,0.5892,0.2077
+2026_02_01,Jonathan Micallef,Oban Elliott,-125,0.5385,0.9217,0.53,0.3832,0.7117,0.2076
+2026_02_01,Jacob Malkoun,Torrez Finney,-140,0.5676,0.8608,0.572,0.2932,0.5166,0.1695
+2026_02_01,Mauricio Ruffy,Rafael Fiziev,+110,0.4615,0.8033,0.473,0.3418,0.7405,0.1587

@@ -1,2 +1,3 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2022_04_17,Denis Tiuliulin,Mounir Lazzez,+180,-185,0.3549,0.6451,0.1494,0.8506,0.367,0.633,-0.2055,0.2055,-0.5791,0.3186,0,0.1448,fighter_2,Loss,Win,Win
+2022_04_17,Denis Tiuliulin,Mounir Lazzez,+180,-185,0.3549,0.6451,0.164,0.836,0.367,0.633,-0.1909,0.1909,-0.5379,0.296,0,0.1345,fighter_2,Loss,Win,Win
+2022_04_17,Devin Clark,William Knight,-165,+160,0.6182,0.3818,0.8349,0.1651,0.52,0.48,0.2167,-0.2167,0.3506,-0.5676,0.1419,0,fighter_1,Win,Loss,Win

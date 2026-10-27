@@ -1,4 +1,3 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2023_08_06,Kyler Phillips,Raoni Barcelos,-185,0.6367,0.8923,0.609,0.2556,0.4014,0.1759
-2023_08_06,Tanner Boser,Aleksa Camur,-130,0.5486,0.886,0.639,0.3374,0.6151,0.1869
-2023_08_06,Diego Lopes,Gavin Tucker,-160,0.6012,0.8593,0.523,0.2581,0.4292,0.1618
+2023_08_06,Diego Lopes,Gavin Tucker,-160,0.6012,0.8444,0.523,0.2432,0.4045,0.1525
+2023_08_06,Tanner Boser,Aleksa Camur,-130,0.5486,0.801,0.639,0.2524,0.4601,0.1398

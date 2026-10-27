@@ -1,0 +1,4 @@
+match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
+2026_02_22,Serghei Spivac,Ante Delija,+100,0.4884,0.8715,0.426,0.3831,0.7845,0.1872
+2026_02_22,Michel Pereira,Zach Reese,-155,0.5983,0.8278,0.608,0.2295,0.3837,0.1428
+2026_02_22,Alibi Idiris,Ode Osbourne,-130,0.5705,0.815,0.54,0.2445,0.4286,0.1423

@@ -1,2 +1,2 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2024_10_13,Jared Gooden,Chidi Njokuani,+125,-140,0.4324,0.5676,0.0726,0.9274,0.32,0.68,-0.3598,0.3598,-0.8321,0.634,0,0.208,fighter_2,Loss,Win,Win
+2024_10_13,Jared Gooden,Chidi Njokuani,+125,-140,0.4324,0.5676,0.1223,0.8777,0.32,0.68,-0.3101,0.3101,-0.7172,0.5464,0,0.1793,fighter_2,Loss,Win,Win

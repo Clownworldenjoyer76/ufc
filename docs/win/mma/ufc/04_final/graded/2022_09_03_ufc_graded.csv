@@ -1,0 +1,3 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2022_09_03,Nathaniel Wood,Charles Jourdain,+130,-140,0.427,0.573,0.8055,0.1945,0.533,0.467,0.3785,-0.3785,0.8862,-0.6605,0.1651,0,fighter_1,Win,Loss,Win
+2022_09_03,Roman Kopylov,Alessio Di Chirico,-110,+105,0.5178,0.4822,0.1849,0.8151,0.423,0.577,-0.3329,0.3329,-0.6429,0.6904,0,0.1607,fighter_2,Win,Loss,Loss

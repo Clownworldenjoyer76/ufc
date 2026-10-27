@@ -1,3 +1,5 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2022_10_22,Armen Petrosyan,Aj Dobson,-200,0.6512,0.8932,0.721,0.242,0.3717,0.1735
-2022_10_22,Islam Makhachev,Charles Oliveira,-180,0.6429,0.8164,0.536,0.1735,0.27,0.1215
+2022_10_22,Islam Makhachev,Charles Oliveira,-180,0.6429,0.9067,0.536,0.2638,0.4104,0.1847
+2022_10_22,Nikita Krylov,Volkan Oezdemir,-175,0.6405,0.8447,0.616,0.2042,0.3188,0.142
+2022_10_22,Abubakar Nurmagomedov,Gadzhi Omargadzhiev,-130,0.5486,0.8432,0.718,0.2946,0.5371,0.1632
+2022_10_22,Sean Brady,Belal Muhammad,-125,0.5556,0.8073,0.544,0.2517,0.4531,0.1416

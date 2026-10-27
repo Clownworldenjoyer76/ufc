@@ -1,2 +1,2 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2025_03_01,Jj Aldrich,Andrea Lee,-165,+155,0.6136,0.3864,0.9135,0.0865,0.632,0.368,0.2999,-0.2999,0.4888,-0.7762,0.194,0,fighter_1,Win,Loss,Win
+2025_03_01,Jj Aldrich,Andrea Lee,-165,+155,0.6136,0.3864,0.866,0.134,0.632,0.368,0.2524,-0.2524,0.4114,-0.6532,0.1633,0,fighter_1,Win,Loss,Win

@@ -1,5 +1,4 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2021_04_10,Daniel Rodriguez,Mike Perry,-120,0.5279,0.8988,0.718,0.3709,0.7026,0.1964
-2021_04_10,Jack Shore,Hunter Azure,-190,0.6431,0.8894,0.625,0.2463,0.383,0.1725
-2021_04_10,Mackenzie Dern,Nina Nunes,+120,0.4545,0.8427,0.522,0.3882,0.8539,0.1779
-2021_04_10,Ignacio Bahamondes,John Makdessi,-180,0.6387,0.8022,0.651,0.1635,0.256,0.1131
+2021_04_10,Jack Shore,Hunter Azure,-190,0.6431,0.8474,0.625,0.2043,0.3177,0.1431
+2021_04_10,Mackenzie Dern,Nina Nunes,+120,0.4545,0.8403,0.522,0.3858,0.8487,0.1768
+2021_04_10,Daniel Rodriguez,Mike Perry,-120,0.5279,0.8258,0.718,0.2979,0.5643,0.1578
