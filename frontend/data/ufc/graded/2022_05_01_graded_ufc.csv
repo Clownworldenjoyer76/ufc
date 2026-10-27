@@ -1,0 +1,2 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2022_05_01,Jake Collier,Andrei Arlovski,+110,-120,0.4661,0.5339,0.2144,0.7856,0.452,0.548,-0.2517,0.2517,-0.54,0.4714,0,0.135,fighter_2,Loss,Win,Win

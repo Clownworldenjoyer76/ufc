@@ -1,3 +1,5 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2021_05_02,Cub Swanson,Giga Chikadze,+180,-190,0.3528,0.6472,0.1314,0.8686,0.426,0.574,-0.2214,0.2214,-0.6275,0.3421,0,0.1569,fighter_2,Loss,Win,Win
-2021_05_02,Randa Markos,Luana Pinheiro,+145,-150,0.4049,0.5951,0.1761,0.8239,0.325,0.675,-0.2288,0.2288,-0.565,0.3844,0,0.1413,fighter_2,Loss,Win,Win
+2021_05_02,Cub Swanson,Giga Chikadze,+180,-190,0.3528,0.6472,0.0476,0.9524,0.426,0.574,-0.3052,0.3052,-0.8651,0.4716,0,0.2163,fighter_2,Loss,Win,Win
+2021_05_02,Luana Carolina,Poliana Botelho,+220,-240,0.3069,0.6931,0.8873,0.1127,0.496,0.504,0.5804,-0.5804,1.8916,-0.8374,0.2094,0,fighter_1,Win,Loss,Win
+2021_05_02,Randa Markos,Luana Pinheiro,+145,-150,0.4049,0.5951,0.0434,0.9566,0.325,0.675,-0.3615,0.3615,-0.8928,0.6073,0,0.2232,fighter_2,Loss,Win,Win
+2021_05_02,Tj Brown,Kai Kamaka III,+130,-140,0.427,0.573,0.2962,0.7038,0.33,0.67,-0.1308,0.1308,-0.3064,0.2284,0,0.0766,fighter_2,Win,Loss,Loss

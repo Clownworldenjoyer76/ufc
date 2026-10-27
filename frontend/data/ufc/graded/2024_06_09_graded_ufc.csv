@@ -1,2 +1,4 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2024_06_09,Nassourdine Imavov,Jared Cannonier,-120,+105,0.5279,0.4721,0.8281,0.1719,0.503,0.497,0.3002,-0.3002,0.5687,-0.6359,0.159,0,fighter_1,Win,Loss,Win
+2024_06_09,Dustin Jacoby,Dominick Reyes,-215,+195,0.6682,0.3318,0.2441,0.7559,0.57,0.43,-0.4241,0.4241,-0.6347,1.2779,0,0.1587,fighter_2,Loss,Win,Win
+2024_06_09,Nassourdine Imavov,Jared Cannonier,-120,+105,0.5279,0.4721,0.9216,0.0784,0.503,0.497,0.3937,-0.3937,0.7458,-0.8339,0.2085,0,fighter_1,Win,Loss,Win
+2024_06_09,Zach Reese,Julian Marquez,+125,-140,0.4324,0.5676,0.8073,0.1927,0.554,0.446,0.3749,-0.3749,0.8669,-0.6605,0.1651,0,fighter_1,Win,Loss,Win

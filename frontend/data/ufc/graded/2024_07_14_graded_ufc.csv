@@ -1,2 +1,4 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2024_07_14,Fatima Kline,Jasmine Jasudavicius,+130,-140,0.427,0.573,0.0961,0.9039,0.453,0.547,-0.3309,0.3309,-0.775,0.5776,0,0.1937,fighter_2,Loss,Win,Win
+2024_07_14,Da'Mon Blackshear,Montel Jackson,+100,-110,0.4884,0.5116,0.0847,0.9153,0.413,0.587,-0.4037,0.4037,-0.8266,0.789,0,0.2066,fighter_2,Loss,Win,Win
+2024_07_14,Fatima Kline,Jasmine Jasudavicius,+130,-140,0.427,0.573,0.0583,0.9417,0.453,0.547,-0.3687,0.3687,-0.8635,0.6436,0,0.2159,fighter_2,Loss,Win,Win
+2024_07_14,Jean Silva,Drew Dober,+100,+100,0.5,0.5,0.9114,0.0886,0.534,0.466,0.4114,-0.4114,0.8228,-0.8228,0.2057,0,fighter_1,Win,Loss,Win

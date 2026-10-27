@@ -1,0 +1,2 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2022_11_05,Mark Madsen,Grant Dawson,+190,-200,0.3409,0.6591,0.2356,0.7644,0.256,0.744,-0.1053,0.1053,-0.3089,0.1598,0,0.0772,fighter_2,Loss,Win,Win

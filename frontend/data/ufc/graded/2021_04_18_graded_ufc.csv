@@ -1,4 +1,5 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2021_04_18,Andrei Arlovski,Chase Sherman,+105,-115,0.477,0.523,0.9131,0.0869,0.438,0.562,0.4361,-0.4361,0.9143,-0.8338,0.2085,0,fighter_1,Win,Loss,Win
-2021_04_18,Dakota Bush,Austin Hubbard,+190,-200,0.3409,0.6591,0.1231,0.8769,0.407,0.593,-0.2178,0.2178,-0.6389,0.3305,0,0.1597,fighter_2,Loss,Win,Win
-2021_04_18,Juan Espino,Alexandr Romanov,+140,-150,0.4098,0.5902,0.0703,0.9297,0.332,0.668,-0.3395,0.3395,-0.8285,0.5753,0,0.2071,fighter_2,Loss,Win,Win
+2021_04_18,Andrei Arlovski,Chase Sherman,+105,-115,0.477,0.523,0.9478,0.0522,0.438,0.562,0.4708,-0.4708,0.9871,-0.9002,0.225,0,fighter_1,Win,Loss,Win
+2021_04_18,Dakota Bush,Austin Hubbard,+190,-200,0.3409,0.6591,0.1034,0.8966,0.407,0.593,-0.2375,0.2375,-0.6967,0.3604,0,0.1742,fighter_2,Loss,Win,Win
+2021_04_18,Juan Espino,Alexandr Romanov,+140,-150,0.4098,0.5902,0.056,0.944,0.332,0.668,-0.3538,0.3538,-0.8634,0.5996,0,0.2158,fighter_2,Loss,Win,Win
+2021_04_18,Luis Pena,Alex Munoz,-155,+140,0.5933,0.4067,0.754,0.246,0.635,0.365,0.1607,-0.1607,0.2709,-0.3951,0.0988,0,fighter_1,Win,Loss,Win

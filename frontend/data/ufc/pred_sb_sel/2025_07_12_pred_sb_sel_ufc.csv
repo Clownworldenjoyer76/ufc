@@ -1,4 +1,4 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,selected_fighter,selected_kelly
-2025_07_12,Lauren Murphy,Eduarda Moura,+375,-400,0.2083,0.7917,0.17,0.83,0.283,0.717,-0.0383,0.0383,-0.184,0.0484,0,0.046,,
-2025_07_12,Mitch Ramirez,Mike Davis,+600,-710,0.1401,0.8599,0.1407,0.8593,0.159,0.841,0.0006,-0.0006,0.004,-0.0007,0.0002,0,,
-2025_07_12,Valter Walker,Kennedy Nzechukwu,+165,-180,0.3699,0.6301,0.0811,0.9189,0.354,0.646,-0.2888,0.2888,-0.7807,0.4583,0,0.1952,Kennedy Nzechukwu,0.1952
+2025_07_12,Lauren Murphy,Eduarda Moura,+375,-400,0.2083,0.7917,0.1236,0.8764,0.283,0.717,-0.0847,0.0847,-0.4067,0.107,0,0.1017,,
+2025_07_12,Mitch Ramirez,Mike Davis,+600,-710,0.1401,0.8599,0.038,0.962,0.159,0.841,-0.1021,0.1021,-0.7288,0.1188,0,0.1822,,
+2025_07_12,Valter Walker,Kennedy Nzechukwu,+165,-180,0.3699,0.6301,0.7052,0.2948,0.354,0.646,0.3353,-0.3353,0.9066,-0.5322,0.133,0,,

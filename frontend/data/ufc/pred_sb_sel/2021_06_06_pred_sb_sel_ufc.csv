@@ -1,5 +1,5 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,selected_fighter,selected_kelly
-2021_06_06,Augusto Sakai,Jairzinho Rozenstruik,+115,-110,0.4703,0.5297,0.3765,0.6235,0.422,0.578,-0.0938,0.0938,-0.1995,0.1771,0,0.0499,,
-2021_06_06,Roman Dolidze,Laureano Staropoli,-165,+150,0.6089,0.3911,0.7541,0.2459,0.549,0.451,0.1452,-0.1452,0.2386,-0.3713,0.0928,0,,
-2021_06_06,Santiago Ponzinibbio,Miguel Baeza,+150,-155,0.3969,0.6031,0.721,0.279,0.386,0.614,0.3241,-0.3241,0.8166,-0.5374,0.1344,0,,
-2021_06_06,Walt Harris,Marcin Tybura,+170,-170,0.3704,0.6296,0.2054,0.7946,0.42,0.58,-0.165,0.165,-0.4454,0.262,0,0.1114,,
+2021_06_06,Augusto Sakai,Jairzinho Rozenstruik,+115,-110,0.4703,0.5297,0.4101,0.5899,0.422,0.578,-0.0602,0.0602,-0.128,0.1137,0,0.032,,
+2021_06_06,Roman Dolidze,Laureano Staropoli,-165,+150,0.6089,0.3911,0.7538,0.2462,0.549,0.451,0.1449,-0.1449,0.2381,-0.3706,0.0926,0,Roman Dolidze,0.0926
+2021_06_06,Santiago Ponzinibbio,Miguel Baeza,+150,-155,0.3969,0.6031,0.7975,0.2025,0.386,0.614,0.4006,-0.4006,1.0094,-0.6642,0.1661,0,,
+2021_06_06,Walt Harris,Marcin Tybura,+170,-170,0.3704,0.6296,0.0936,0.9064,0.42,0.58,-0.2768,0.2768,-0.7473,0.4396,0,0.1868,Marcin Tybura,0.1868

@@ -1,0 +1,3 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2021_07_31,Jinh Yu Frey,Ashley Yoder,+140,-160,0.4037,0.5963,0.1597,0.8403,0.345,0.655,-0.244,0.244,-0.6044,0.4093,0,0.1511,fighter_2,Win,Loss,Loss
+2021_07_31,Zarrukh Adashev,Ryan Benoit,+120,-135,0.4417,0.5583,0.2719,0.7281,0.452,0.548,-0.1698,0.1698,-0.3845,0.3042,0,0.0961,fighter_2,Win,Loss,Loss

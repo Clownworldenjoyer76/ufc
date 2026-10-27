@@ -1,6 +1,6 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,selected_fighter,selected_kelly
-2025_10_04,Austin Vanderford,Ramiz Brahimaj,-260,+260,0.7222,0.2778,0.8852,0.1148,0.657,0.343,0.163,-0.163,0.2257,-0.5867,0.1467,0,,
-2025_10_04,Brogan Walker-Sanchez,Veronica Macedo,+650,-800,0.1304,0.8696,0.2684,0.7316,0.122,0.878,0.138,-0.138,1.0577,-0.1587,0.0397,0,,
-2025_10_04,Chris Gutierrez,Farid Basharat,+425,-470,0.1877,0.8123,0.1186,0.8814,0.295,0.705,-0.0691,0.0691,-0.368,0.085,0,0.092,,
-2025_10_04,Nikolay Veretennikov,Punahele Soriano,+318,-340,0.2364,0.7636,0.0588,0.9412,0.346,0.654,-0.1776,0.1776,-0.7513,0.2326,0,0.1878,,
-2025_10_04,Yana Kunitskaya,Macy Chiasson,+185,-190,0.3488,0.6512,0.0946,0.9054,0.397,0.603,-0.2542,0.2542,-0.7288,0.3903,0,0.1822,Macy Chiasson,0.1822
+2025_10_04,Austin Vanderford,Ramiz Brahimaj,-260,+260,0.7222,0.2778,0.8465,0.1535,0.657,0.343,0.1243,-0.1243,0.1721,-0.4474,0.1118,0,,
+2025_10_04,Brogan Walker-Sanchez,Veronica Macedo,+650,-800,0.1304,0.8696,0.2848,0.7152,0.122,0.878,0.1544,-0.1544,1.1835,-0.1775,0.0444,0,,
+2025_10_04,Chris Gutierrez,Farid Basharat,+425,-470,0.1877,0.8123,0.1437,0.8563,0.295,0.705,-0.044,0.044,-0.2342,0.0541,0,0.0586,,
+2025_10_04,Nikolay Veretennikov,Punahele Soriano,+318,-340,0.2364,0.7636,0.1159,0.8841,0.346,0.654,-0.1205,0.1205,-0.5097,0.1578,0,0.1274,,
+2025_10_04,Yana Kunitskaya,Macy Chiasson,+185,-190,0.3488,0.6512,0.1121,0.8879,0.397,0.603,-0.2367,0.2367,-0.6786,0.3634,0,0.1696,Macy Chiasson,0.1696

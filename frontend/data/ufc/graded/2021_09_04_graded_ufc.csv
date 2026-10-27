@@ -1,0 +1,5 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2021_09_04,Alex Morono,David Zawada,-125,+110,0.5385,0.4615,0.8017,0.1983,0.69,0.31,0.2632,-0.2632,0.4889,-0.5704,0.1426,0,fighter_1,Win,Loss,Win
+2021_09_04,Julian Erosa,Charles Jourdain,+170,-190,0.3611,0.6389,0.1571,0.8429,0.516,0.484,-0.204,0.204,-0.565,0.3194,0,0.1412,fighter_2,Win,Loss,Loss
+2021_09_04,Luigi Vendramini,Paddy Pimblett,+140,-150,0.4098,0.5902,0.2741,0.7259,0.438,0.562,-0.1357,0.1357,-0.3312,0.23,0,0.0828,fighter_2,Loss,Win,Win
+2021_09_04,Marc-Andre Barriault,Dalcha Lungiambula,-165,+150,0.6089,0.3911,0.2893,0.7107,0.55,0.45,-0.3196,0.3196,-0.5248,0.817,0,0.1312,fighter_2,Win,Loss,Loss

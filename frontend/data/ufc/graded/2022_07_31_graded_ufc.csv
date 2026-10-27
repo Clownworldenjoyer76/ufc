@@ -1,3 +1,6 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2022_07_31,Rafa Garcia,Drakkar Klose,+165,-180,0.3699,0.6301,0.0919,0.9081,0.394,0.606,-0.278,0.278,-0.7515,0.4412,0,0.1879,fighter_2,Loss,Win,Win
-2022_07_31,Rafael Alves,Drew Dober,+145,-155,0.4017,0.5983,0.1065,0.8935,0.291,0.709,-0.2952,0.2952,-0.7349,0.4935,0,0.1837,fighter_2,Loss,Win,Win
+2022_07_31,Alex Morono,Matthew Semelsberger,+160,-175,0.3767,0.6233,0.7765,0.2235,0.474,0.526,0.3998,-0.3998,1.0613,-0.6414,0.1604,0,fighter_1,Win,Loss,Win
+2022_07_31,Alex Perez,Alexandre Pantoja,+180,-200,0.3488,0.6512,0.252,0.748,0.488,0.512,-0.0968,0.0968,-0.2776,0.1487,0,0.0694,fighter_2,Loss,Win,Win
+2022_07_31,Don'Tale Mayes,Hamdy Abdelwahab,-200,+185,0.6552,0.3448,0.8192,0.1808,0.663,0.337,0.164,-0.164,0.2504,-0.4757,0.1189,0,fighter_1,Loss,Win,Loss
+2022_07_31,Rafa Garcia,Drakkar Klose,+165,-180,0.3699,0.6301,0.1123,0.8877,0.394,0.606,-0.2576,0.2576,-0.6964,0.4088,0,0.1741,fighter_2,Loss,Win,Win
+2022_07_31,Rafael Alves,Drew Dober,+145,-155,0.4017,0.5983,0.0581,0.9419,0.291,0.709,-0.3436,0.3436,-0.8554,0.5744,0,0.2138,fighter_2,Loss,Win,Win

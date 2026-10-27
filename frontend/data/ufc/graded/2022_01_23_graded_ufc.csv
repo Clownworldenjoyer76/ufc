@@ -1,0 +1,3 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2022_01_23,Deiveson Figueiredo,Brandon Moreno,+175,-190,0.3569,0.6431,0.8545,0.1455,0.557,0.443,0.4976,-0.4976,1.3941,-0.7737,0.1934,0,fighter_1,Win,Loss,Win
+2022_01_23,Trevin Giles,Cj Vergara,+100,+105,0.5062,0.4938,0.8491,0.1509,0.444,0.556,0.3429,-0.3429,0.6775,-0.6944,0.1736,0,fighter_1,Loss,Win,Loss

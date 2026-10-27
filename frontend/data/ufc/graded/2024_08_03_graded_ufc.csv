@@ -1,3 +1,6 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2024_08_03,Deiveson Figueiredo,Marlon Vera,-142,+135,0.5796,0.4204,0.8737,0.1263,0.524,0.476,0.2941,-0.2941,0.5073,-0.6995,0.1749,0,fighter_1,Win,Loss,Win
-2024_08_03,Rolando Bedoya,Jai Herbert,-105,-115,0.4892,0.5108,0.116,0.884,0.463,0.537,-0.3732,0.3732,-0.7629,0.7305,0,0.1907,fighter_2,Loss,Win,Win
+2024_08_03,Deiveson Figueiredo,Marlon Vera,-142,+135,0.5796,0.4204,0.9104,0.0896,0.524,0.476,0.3308,-0.3308,0.5706,-0.7868,0.1967,0,fighter_1,Win,Loss,Win
+2024_08_03,Elves Brenner,Joel Alvarez,+130,-140,0.427,0.573,0.2026,0.7974,0.426,0.574,-0.2244,0.2244,-0.5256,0.3917,0,0.1314,fighter_2,Loss,Win,Win
+2024_08_03,Jordan Vucenic,Guram Kutateladze,+180,-180,0.3571,0.6429,0.2407,0.7593,0.307,0.693,-0.1164,0.1164,-0.326,0.1811,0,0.0815,fighter_2,Loss,Win,Win
+2024_08_03,Loopy Godinez,Mackenzie Dern,+125,-135,0.4362,0.5638,0.233,0.767,0.52,0.48,-0.2032,0.2032,-0.4658,0.3604,0,0.1165,fighter_2,Loss,Win,Win
+2024_08_03,Rolando Bedoya,Jai Herbert,-105,-115,0.4892,0.5108,0.1793,0.8207,0.463,0.537,-0.3099,0.3099,-0.6335,0.6066,0,0.1584,fighter_2,Loss,Win,Win

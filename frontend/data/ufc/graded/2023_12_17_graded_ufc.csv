@@ -1,3 +1,5 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2023_12_17,Brian Kelleher,Cody Garbrandt,+165,-180,0.3699,0.6301,0.1963,0.8037,0.399,0.601,-0.1736,0.1736,-0.4693,0.2755,0,0.1173,fighter_2,Loss,Win,Win
-2023_12_17,Lucas Almeida,Andre Fili,+150,-152,0.3987,0.6013,0.0444,0.9556,0.434,0.566,-0.3543,0.3543,-0.8886,0.5893,0,0.2222,fighter_2,Loss,Win,Win
+2023_12_17,Brian Kelleher,Cody Garbrandt,+165,-180,0.3699,0.6301,0.0775,0.9225,0.399,0.601,-0.2924,0.2924,-0.7905,0.464,0,0.1976,fighter_2,Loss,Win,Win
+2023_12_17,Cody Durden,Tagir Ulanbekov,+170,-180,0.3655,0.6345,0.1447,0.8553,0.371,0.629,-0.2208,0.2208,-0.6041,0.3481,0,0.151,fighter_2,Loss,Win,Win
+2023_12_17,Colby Covington,Leon Edwards,+130,-140,0.427,0.573,0.213,0.787,0.448,0.552,-0.214,0.214,-0.5012,0.3736,0,0.1253,fighter_2,Loss,Win,Win
+2023_12_17,Lucas Almeida,Andre Fili,+150,-152,0.3987,0.6013,0.0785,0.9215,0.434,0.566,-0.3202,0.3202,-0.8031,0.5326,0,0.2008,fighter_2,Loss,Win,Win

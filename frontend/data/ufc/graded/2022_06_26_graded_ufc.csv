@@ -1,3 +1,5 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2022_06_26,Jp Buys,Cody Durden,-100,-110,0.4884,0.5116,0.1976,0.8024,0.475,0.525,-0.2908,0.2908,-0.5954,0.5683,0,0.1488,fighter_2,Loss,Win,Win
-2022_06_26,Rodolfo Vieira,Chris Curtis,+105,-110,0.4822,0.5178,0.1773,0.8227,0.45,0.55,-0.3049,0.3049,-0.6323,0.5889,0,0.1581,fighter_2,Loss,Win,Win
+2022_06_26,Jp Buys,Cody Durden,-100,-110,0.4884,0.5116,0.1544,0.8456,0.475,0.525,-0.334,0.334,-0.6838,0.6528,0,0.171,fighter_2,Loss,Win,Win
+2022_06_26,Rodolfo Vieira,Chris Curtis,+105,-110,0.4822,0.5178,0.262,0.738,0.45,0.55,-0.2202,0.2202,-0.4567,0.4253,0,0.1142,fighter_2,Loss,Win,Win
+2022_06_26,Sergey Morozov,Raulian Paiva,-155,+145,0.5983,0.4017,0.8091,0.1909,0.72,0.28,0.2108,-0.2108,0.3524,-0.5248,0.1312,0,fighter_1,Win,Loss,Win
+2022_06_26,Tafon Nchukwi,Carlos Ulberg,-145,+140,0.5868,0.4132,0.1671,0.8329,0.463,0.537,-0.4197,0.4197,-0.7153,1.016,0,0.1788,fighter_2,Loss,Win,Win

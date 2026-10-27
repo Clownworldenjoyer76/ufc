@@ -1,3 +1,5 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2026_02_01,Diego Lopes,Alexander Volkanovski,+135,-150,0.4149,0.5851,0.0653,0.9347,0.4,0.6,-0.3496,0.3496,-0.8426,0.5976,0,0.2107,fighter_2,Loss,Win,Win
-2026_02_01,Jonathan Micallef,Oban Elliott,-125,+110,0.5385,0.4615,0.8371,0.1629,0.53,0.47,0.2986,-0.2986,0.5546,-0.6471,0.1618,0,fighter_1,Win,Loss,Win
+2026_02_01,Diego Lopes,Alexander Volkanovski,+135,-150,0.4149,0.5851,0.0702,0.9298,0.4,0.6,-0.3447,0.3447,-0.8308,0.5892,0,0.2077,fighter_2,Loss,Win,Win
+2026_02_01,Jacob Malkoun,Torrez Finney,-140,+125,0.5676,0.4324,0.8608,0.1392,0.572,0.428,0.2932,-0.2932,0.5166,-0.6781,0.1695,0,fighter_1,Win,Loss,Win
+2026_02_01,Jonathan Micallef,Oban Elliott,-125,+110,0.5385,0.4615,0.9217,0.0783,0.53,0.47,0.3832,-0.3832,0.7117,-0.8303,0.2076,0,fighter_1,Win,Loss,Win
+2026_02_01,Rafael Fiziev,Mauricio Ruffy,-125,+110,0.5385,0.4615,0.1967,0.8033,0.527,0.473,-0.3418,0.3418,-0.6347,0.7405,0,0.1587,fighter_2,Loss,Win,Win

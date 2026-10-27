@@ -1,2 +1,4 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2025_08_23,Xiao Long,Suyoung You,+125,-135,0.4362,0.5638,0.1542,0.8458,0.516,0.484,-0.282,0.282,-0.6465,0.5002,0,0.1616,fighter_2,Loss,Win,Win
+2025_08_23,Diyar Nurgozhay,Uran Satybaldiev,-115,+100,0.5169,0.4831,0.7391,0.2609,0.435,0.565,0.2222,-0.2222,0.43,-0.46,0.115,0,fighter_1,Loss,Win,Loss
+2025_08_23,Kevin Borjas,Su Mudaerji,+150,-160,0.3939,0.6061,0.204,0.796,0.437,0.563,-0.1899,0.1899,-0.4822,0.3134,0,0.1205,fighter_2,Loss,Win,Win
+2025_08_23,Xiao Long,Suyoung You,+125,-135,0.4362,0.5638,0.2931,0.7069,0.516,0.484,-0.1431,0.1431,-0.3281,0.2538,0,0.082,fighter_2,Loss,Win,Win

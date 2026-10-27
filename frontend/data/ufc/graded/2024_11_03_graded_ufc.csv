@@ -1,2 +1,4 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2024_11_03,Amir Albazi,Brandon Moreno,+155,-160,0.3892,0.6108,0.1189,0.8811,0.39,0.61,-0.2703,0.2703,-0.6945,0.4426,0,0.1736,fighter_2,Loss,Win,Win
+2024_11_03,Amir Albazi,Brandon Moreno,+155,-160,0.3892,0.6108,0.1684,0.8316,0.39,0.61,-0.2208,0.2208,-0.5673,0.3615,0,0.1418,fighter_2,Loss,Win,Win
+2024_11_03,Brendson Ribeiro,Caio Machado,+180,-180,0.3571,0.6429,0.7961,0.2039,0.426,0.574,0.439,-0.439,1.2291,-0.6828,0.1707,0,fighter_1,Win,Loss,Win
+2024_11_03,Rose Namajunas,Erin Blanchfield,+150,-145,0.4033,0.5967,0.0841,0.9159,0.461,0.539,-0.3192,0.3192,-0.7915,0.5349,0,0.1979,fighter_2,Loss,Win,Win

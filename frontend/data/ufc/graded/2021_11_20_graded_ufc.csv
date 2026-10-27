@@ -1,0 +1,3 @@
+match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
+2021_11_20,Rafa Garcia,Natan Levy,-110,-110,0.5,0.5,0.7359,0.2641,0.574,0.426,0.2359,-0.2359,0.4718,-0.4718,0.1179,0,fighter_1,Win,Loss,Win
+2021_11_20,Tucker Lutz,Patrick Sabatini,-120,+115,0.5397,0.4603,0.8135,0.1865,0.426,0.574,0.2738,-0.2738,0.5072,-0.5948,0.1487,0,fighter_1,Loss,Win,Loss
