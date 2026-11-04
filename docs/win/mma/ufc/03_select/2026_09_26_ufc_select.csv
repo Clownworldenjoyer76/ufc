@@ -1,6 +1,6 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2026_09_26,Rodolfo Bellato,Christian Edwards,-170,0.6115,0.9308,0.64,0.3193,0.4783,0.2055
-2026_09_26,Ailin Perez,Norma Dumont,-135,0.5526,0.8818,0.41,0.3292,0.535,0.184
-2026_09_26,Rodolfo Vieira,Robert Bryczek,-145,0.5711,0.8751,0.733,0.304,0.4786,0.1772
-2026_09_26,Mickey Gall,Sedriques Dumas,-160,0.5963,0.7645,0.55,0.1682,0.2423,0.1042
-2026_09_26,Montel Jackson,Ricky Simon,-200,0.6471,0.7589,0.636,0.1118,0.1384,0.0792
+2026_09_26,Rodolfo Bellato,Christian Edwards,-170,0.6115,0.9308,0.64,0.3193,0.4783,0.2033
+2026_09_26,Ailin Perez,Norma Dumont,-135,0.5526,0.8818,0.41,0.3292,0.535,0.1806
+2026_09_26,Rodolfo Vieira,Robert Bryczek,-145,0.5711,0.8751,0.733,0.304,0.4786,0.1735
+2026_09_26,Mickey Gall,Sedriques Dumas,-160,0.5963,0.7645,0.55,0.1682,0.2423,0.0969
+2026_09_26,Montel Jackson,Ricky Simon,-200,0.6471,0.7589,0.636,0.1118,0.1384,0.0692

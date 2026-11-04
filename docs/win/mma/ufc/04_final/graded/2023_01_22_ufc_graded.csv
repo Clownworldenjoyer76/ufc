@@ -1,3 +1,3 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2023_01_22,Mounir Lazzez,Gabriel Bonfim,+170,-180,0.3655,0.6345,0.0727,0.9273,0.381,0.619,-0.2928,0.2928,-0.8037,0.4425,0,0.2003,fighter_2,Loss,Win,Win
-2023_01_22,Paul Craig,Johnny Walker,+170,-185,0.3633,0.6367,0.0633,0.9367,0.367,0.633,-0.3,0.3,-0.8291,0.443,0,0.2064,fighter_2,Loss,Win,Win
+2023_01_22,Mounir Lazzez,Gabriel Bonfim,+170,-180,0.3655,0.6345,0.0727,0.9273,0.381,0.619,-0.2928,0.2928,-0.8037,0.4425,0,0.1991,fighter_2,Loss,Win,Win
+2023_01_22,Paul Craig,Johnny Walker,+170,-185,0.3633,0.6367,0.0633,0.9367,0.367,0.633,-0.3,0.3,-0.8291,0.443,0,0.2049,fighter_2,Loss,Win,Win
