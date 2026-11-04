@@ -1,6 +1,6 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2026_10_10,Matheus Camilo,Jai Herbert,-180,0.6345,0.8905,0.544,0.256,0.3852,0.1751
-2026_10_10,Brendan Allen,Christian Duncan,-130,0.5486,0.8287,0.53,0.2801,0.4662,0.1551
-2026_10_10,Melissa Gatto,Ernesta Kareckaite,-130,0.5427,0.7898,0.584,0.2471,0.3973,0.1351
-2026_10_10,Ismael Bonfim,Francisco Prado,-115,0.5169,0.7651,0.559,0.2482,0.4304,0.1285
-2026_10_10,Alice Pereira,Daria Zheleznyakova,-135,0.5692,0.7502,0.566,0.181,0.3059,0.105
+2026_10_10,Matheus Camilo,Jai Herbert,-180,0.6345,0.8905,0.544,0.256,0.3852,0.1733
+2026_10_10,Brendan Allen,Christian Duncan,-130,0.5486,0.8287,0.53,0.2801,0.4662,0.1515
+2026_10_10,Melissa Gatto,Ernesta Kareckaite,-130,0.5427,0.7898,0.584,0.2471,0.3973,0.1291
+2026_10_10,Ismael Bonfim,Francisco Prado,-115,0.5169,0.7651,0.559,0.2482,0.4304,0.1237
+2026_10_10,Alice Pereira,Daria Zheleznyakova,-135,0.5692,0.7502,0.566,0.181,0.3059,0.1032

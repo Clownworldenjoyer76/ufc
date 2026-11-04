@@ -1,7 +1,7 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2023_05_20,Andre Fialho,Joaquin Buckley,+185,-200,0.3448,0.6552,0.0781,0.9219,0.414,0.586,-0.2667,0.2667,-0.7774,0.3829,0,0.1934,fighter_2,Loss,Win,Win
-2023_05_20,Diego Ferreira,Michael Johnson,-135,+125,0.5638,0.4362,0.8845,0.1155,0.641,0.359,0.3207,-0.3207,0.5397,-0.7401,0.1838,0,fighter_1,Win,Loss,Win
-2023_05_20,Gilbert Urbina,Orion Cosce,-115,+105,0.523,0.477,0.2656,0.7344,0.434,0.566,-0.2574,0.2574,-0.5034,0.5055,0,0.123,fighter_2,Win,Loss,Loss
-2023_05_20,Ilir Latifi,Rodrigo Nascimento,+165,-175,0.3723,0.6277,0.0553,0.9447,0.407,0.593,-0.317,0.317,-0.8535,0.4845,0,0.2129,fighter_2,Loss,Win,Win
-2023_05_20,Nick Fiore,Chase Hooper,-120,+110,0.5339,0.4661,0.171,0.829,0.466,0.534,-0.3629,0.3629,-0.6865,0.7409,0,0.1699,fighter_2,Loss,Win,Win
-2023_05_20,Takashi Sato,Themba Gorimbo,+115,-125,0.4557,0.5443,0.2828,0.7172,0.535,0.465,-0.1729,0.1729,-0.392,0.291,0,0.0949,fighter_2,Loss,Win,Win
+2023_05_20,Andre Fialho,Joaquin Buckley,+185,-200,0.3448,0.6552,0.0781,0.9219,0.414,0.586,-0.2667,0.2667,-0.7774,0.3829,0,0.1914,fighter_2,Loss,Win,Win
+2023_05_20,Diego Ferreira,Michael Johnson,-135,+125,0.5638,0.4362,0.8845,0.1155,0.641,0.359,0.3207,-0.3207,0.5397,-0.7401,0.1821,0,fighter_1,Win,Loss,Win
+2023_05_20,Gilbert Urbina,Orion Cosce,-115,+105,0.523,0.477,0.2656,0.7344,0.434,0.566,-0.2574,0.2574,-0.5034,0.5055,0,0.1204,fighter_2,Win,Loss,Loss
+2023_05_20,Ilir Latifi,Rodrigo Nascimento,+165,-175,0.3723,0.6277,0.0553,0.9447,0.407,0.593,-0.317,0.317,-0.8535,0.4845,0,0.212,fighter_2,Loss,Win,Win
+2023_05_20,Nick Fiore,Chase Hooper,-120,+110,0.5339,0.4661,0.171,0.829,0.466,0.534,-0.3629,0.3629,-0.6865,0.7409,0,0.1684,fighter_2,Loss,Win,Win
+2023_05_20,Takashi Sato,Themba Gorimbo,+115,-125,0.4557,0.5443,0.2828,0.7172,0.535,0.465,-0.1729,0.1729,-0.392,0.291,0,0.0909,fighter_2,Loss,Win,Win

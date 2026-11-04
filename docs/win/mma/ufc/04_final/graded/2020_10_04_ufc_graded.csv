@@ -1,4 +1,4 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2020_10_04,Carlos Felipe,Yorgan De Castro,+200,-210,0.3298,0.6702,0.7495,0.2505,0.478,0.522,0.4197,-0.4197,1.2485,-0.6302,0.1566,0,fighter_1,Win,Loss,Win
-2020_10_04,Jinh Yu Frey,Loma Lookboonmee,+120,-140,0.438,0.562,0.1113,0.8887,0.497,0.503,-0.3267,0.3267,-0.7551,0.5235,0,0.1865,fighter_2,Loss,Win,Win
-2020_10_04,Nassourdine Imavov,Jordan Williams,-135,+130,0.5692,0.4308,0.9116,0.0884,0.463,0.537,0.3424,-0.3424,0.5869,-0.7967,0.1987,0,fighter_1,Win,Loss,Win
+2020_10_04,Carlos Felipe,Yorgan De Castro,+200,-210,0.3298,0.6702,0.7495,0.2505,0.478,0.522,0.4197,-0.4197,1.2485,-0.6302,0.1561,0,fighter_1,Win,Loss,Win
+2020_10_04,Jinh Yu Frey,Loma Lookboonmee,+120,-140,0.438,0.562,0.1113,0.8887,0.497,0.503,-0.3267,0.3267,-0.7551,0.5235,0,0.1832,fighter_2,Loss,Win,Win
+2020_10_04,Nassourdine Imavov,Jordan Williams,-135,+130,0.5692,0.4308,0.9116,0.0884,0.463,0.537,0.3424,-0.3424,0.5869,-0.7967,0.1981,0,fighter_1,Win,Loss,Win

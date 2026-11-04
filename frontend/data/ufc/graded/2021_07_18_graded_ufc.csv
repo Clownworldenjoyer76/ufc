@@ -1,3 +1,3 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2021_07_18,Dustin Stoltzfus,Rodolfo Vieira,+180,-200,0.3488,0.6512,0.0718,0.9282,0.172,0.828,-0.277,0.277,-0.799,0.3923,0,0.1985,fighter_2,Loss,Win,Win
-2021_07_18,Kamuela Kirk,Khalid Taha,+125,-135,0.4362,0.5638,0.7671,0.2329,0.451,0.549,0.3309,-0.3309,0.726,-0.5946,0.1467,0,fighter_1,Win,Loss,Win
+2021_07_18,Dustin Stoltzfus,Rodolfo Vieira,+180,-200,0.3488,0.6512,0.0718,0.9282,0.172,0.828,-0.277,0.277,-0.799,0.3923,0,0.1961,fighter_2,Loss,Win,Win
+2021_07_18,Kamuela Kirk,Khalid Taha,+125,-135,0.4362,0.5638,0.7671,0.2329,0.451,0.549,0.3309,-0.3309,0.726,-0.5946,0.1452,0,fighter_1,Win,Loss,Win

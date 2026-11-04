@@ -1,6 +1,6 @@
 match_date,fighter,opponent,moneyline,implied_prob,model_prob,dratings_prob,edge,ev,kelly
-2023_08_06,Ludovit Klein,Ignacio Bahamondes,+200,0.3265,0.8892,0.413,0.5627,1.6676,0.2089
-2023_08_06,Dustin Jacoby,Kennedy Nzechukwu,+150,0.3939,0.8726,0.515,0.4787,1.1815,0.1974
-2023_08_06,Diego Lopes,Gavin Tucker,-160,0.6012,0.8444,0.523,0.2432,0.3721,0.1525
-2023_08_06,Tanner Boser,Aleksa Camur,-130,0.5486,0.801,0.639,0.2524,0.4172,0.1398
-2023_08_06,Kyler Phillips,Raoni Barcelos,-185,0.6367,0.7507,0.609,0.114,0.1565,0.0784
+2023_08_06,Ludovit Klein,Ignacio Bahamondes,+200,0.3265,0.8892,0.413,0.5627,1.6676,0.2084
+2023_08_06,Dustin Jacoby,Kennedy Nzechukwu,+150,0.3939,0.8726,0.515,0.4787,1.1815,0.1969
+2023_08_06,Diego Lopes,Gavin Tucker,-160,0.6012,0.8444,0.523,0.2432,0.3721,0.1489
+2023_08_06,Tanner Boser,Aleksa Camur,-130,0.5486,0.801,0.639,0.2524,0.4172,0.1356
+2023_08_06,Kyler Phillips,Raoni Barcelos,-185,0.6367,0.7507,0.609,0.114,0.1565,0.0724
