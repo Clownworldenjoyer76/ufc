@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 """Combine UFC edges and selected picks into one frontend CSV per date."""
 
@@ -94,13 +95,24 @@ def main() -> None:
             writer.writerows(output_rows)
         print(f"Wrote {output_path} ({len(output_rows)} fights)")
 
+    if not GRADED_DIR.is_dir():
+        raise FileNotFoundError(f"UFC graded source directory missing: {GRADED_DIR}")
+
     graded_files = sorted(GRADED_DIR.glob(f"*{GRADED_SUFFIX}"))
     GRADED_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    expected_outputs = set()
+
     for graded_path in graded_files:
         date = graded_path.name[: -len(GRADED_SUFFIX)]
         output_path = GRADED_OUTPUT_DIR / f"{date}{GRADED_OUTPUT_SUFFIX}"
+        expected_outputs.add(output_path.name)
         copy2(graded_path, output_path)
         print(f"Copied {graded_path} -> {output_path}")
+
+    for output_path in sorted(GRADED_OUTPUT_DIR.glob(f"*{GRADED_OUTPUT_SUFFIX}")):
+        if output_path.name not in expected_outputs:
+            output_path.unlink()
+            print(f"Removed obsolete frontend graded file: {output_path}")
 
 
 if __name__ == "__main__":
