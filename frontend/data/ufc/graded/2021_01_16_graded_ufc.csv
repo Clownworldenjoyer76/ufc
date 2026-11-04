@@ -1,4 +1,4 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,bet,result_fighter_1,result_fighter_2,match_result
-2021_01_16,Calvin Kattar,Max Holloway,+145,-160,0.3988,0.6012,0.1692,0.8308,0.39,0.61,-0.2296,0.2296,-0.5855,0.35,0,0.1439,fighter_2,Loss,Win,Win
-2021_01_16,Joselyne Edwards,Wu Yanan,-110,+100,0.5116,0.4884,0.7609,0.2391,0.5,0.5,0.2493,-0.2493,0.4526,-0.5218,0.1276,0,fighter_1,Win,Loss,Win
-2021_01_16,Vanessa Melo,Sarah Moras,+175,-180,0.3613,0.6387,0.1468,0.8532,0.408,0.592,-0.2145,0.2145,-0.5963,0.3272,0,0.1484,fighter_2,Win,Loss,Loss
+2021_01_16,Calvin Kattar,Max Holloway,+145,-160,0.3988,0.6012,0.1692,0.8308,0.39,0.61,-0.2296,0.2296,-0.5855,0.35,0,0.14,fighter_2,Loss,Win,Win
+2021_01_16,Joselyne Edwards,Wu Yanan,-110,+100,0.5116,0.4884,0.7609,0.2391,0.5,0.5,0.2493,-0.2493,0.4526,-0.5218,0.1245,0,fighter_1,Win,Loss,Win
+2021_01_16,Vanessa Melo,Sarah Moras,+175,-180,0.3613,0.6387,0.1468,0.8532,0.408,0.592,-0.2145,0.2145,-0.5963,0.3272,0,0.1472,fighter_2,Win,Loss,Loss

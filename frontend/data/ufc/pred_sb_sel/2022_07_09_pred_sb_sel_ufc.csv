@@ -1,4 +1,4 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,selected_fighter,selected_kelly
-2022_07_09,Garrett Armfield,David Onama,+645,-700,0.133,0.867,0.2534,0.7466,0.154,0.846,0.1204,-0.1204,0.8878,-0.1467,0.0347,0,,
-2022_07_09,Karl Roberson,Kennedy Nzechukwu,+150,-160,0.3939,0.6061,0.4851,0.5149,0.469,0.531,0.0912,-0.0912,0.2127,-0.1633,0.0376,0,,
-2022_07_09,Saidyokub Kakhramonov,Ronnie Lawrence,+105,-115,0.477,0.523,0.7013,0.2987,0.497,0.503,0.2243,-0.2243,0.4377,-0.4416,0.1072,0,Saidyokub Kakhramonov,0.1072
+2022_07_09,Garrett Armfield,David Onama,+645,-700,0.133,0.867,0.2534,0.7466,0.154,0.846,0.1204,-0.1204,0.8878,-0.1467,0.0344,0,,
+2022_07_09,Karl Roberson,Kennedy Nzechukwu,+150,-160,0.3939,0.6061,0.4851,0.5149,0.469,0.531,0.0912,-0.0912,0.2127,-0.1633,0.0355,0,,
+2022_07_09,Saidyokub Kakhramonov,Ronnie Lawrence,+105,-115,0.477,0.523,0.7013,0.2987,0.497,0.503,0.2243,-0.2243,0.4377,-0.4416,0.1042,0,Saidyokub Kakhramonov,0.1042
