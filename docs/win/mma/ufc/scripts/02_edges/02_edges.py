@@ -121,8 +121,8 @@ for feat_file in feature_files:
         edge1 = round(mp1 - ip1, 4) if ip1 else None
         edge2 = round(mp2 - ip2, 4) if ip2 else None
 
-        ev1 = compute_ev(mp1, ip1) if ip1 else None
-        ev2 = compute_ev(mp2, ip2) if ip2 else None
+        ev1 = compute_ev(mp1, ip1_raw) if ip1_raw else None
+        ev2 = compute_ev(mp2, ip2_raw) if ip2_raw else None
 
         kelly1 = compute_kelly(mp1, ip1) if ip1 else None
         kelly2 = compute_kelly(mp2, ip2) if ip2 else None
