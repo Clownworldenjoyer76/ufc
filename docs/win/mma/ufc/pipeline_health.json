@@ -9,8 +9,8 @@
     "sportsbook_fights": 12
   },
   "fatal_errors": [],
-  "game_date_new_york": "2026_11_06",
-  "generated_at_utc": "2026-11-06T08:05:49.291823+00:00",
+  "game_date_new_york": "2026_11_07",
+  "generated_at_utc": "2026-11-07T08:05:55.046604+00:00",
   "paths": {
     "edges": "docs/win/mma/ufc/02_edges/2026_11_07_ufc_edges.csv",
     "features": "docs/win/mma/ufc/01_feature_engineering/2026_11_07_ufc_features.csv",
@@ -92,8 +92,8 @@
     "name": "UFC Pipeline",
     "ref_name": "main",
     "run_attempt": "1",
-    "run_id": "42185151389",
-    "sha": "0d84d52fb428e0545bcb828c06d2187acee33387",
+    "run_id": "42353944933",
+    "sha": "569b8c09ed7a37860e2bde08e25ba301a2cfd456",
     "status": "success"
   }
 }
