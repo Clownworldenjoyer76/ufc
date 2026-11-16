@@ -1,0 +1,13 @@
+match_date,fighter_1,fighter_2,win_prob_1,win_prob_2,moneyline_fighter_1,moneyline_fighter_2,result_fighter_1,result_fighter_2
+2026_11_14,Amanda Nunes,Kayla Harrison,0.345,0.655,+137,-150,Loss,Win
+2026_11_14,Yousri Belgaroui,Caio Borralho,0.382,0.618,+142,-160,Loss,Win
+2026_11_14,Kevin Holland,Uros Medic,0.408,0.592,+150,-160,Draw,Draw
+2026_11_14,Luis Gurule,Bilal Hasan,0.217,0.783,+750,-1100,Win,Loss
+2026_11_14,Charlie Radtke,Stephen Thompson,0.387,0.613,+113,-125,Loss,Win
+2026_11_14,Chris Duncan,Drew Dober,0.58,0.42,-190,+180,Win,Loss
+2026_11_14,Terrance McKinney,Jim Miller,0.709,0.291,-220,+190,Win,Loss
+2026_11_14,Cesar Almeida,Donte Johnson,0.441,0.559,+200,-210,Win,Loss
+2026_11_14,Jared Gordon,Melquizael Costa,0.207,0.793,+310,-360,Loss,Win
+2026_11_14,Bia Mesquita,Macy Chiasson,0.629,0.371,-250,+225,Win,Loss
+2026_11_14,Heili Alateng,Juan Diaz,0.261,0.739,+380,-420,Loss,Win
+2026_11_14,Samuel Sanches,Evan Elder,0.523,0.477,-120,+113,Loss,Win
