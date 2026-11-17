@@ -1,7 +1,7 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,selected_fighter,selected_kelly
 2024_02_25,Brandon Royval,Brandon Moreno,+300,-300,0.25,0.75,0.6703,0.3297,0.278,0.722,0.4203,-0.4203,1.6812,-0.5604,0.1401,0,,
 2024_02_25,Chris Duncan,Manuel Torres,+150,-160,0.3939,0.6061,0.0987,0.9013,0.455,0.545,-0.2952,0.2952,-0.7532,0.4646,0,0.1858,Manuel Torres,0.1858
-2024_02_25,Claudio Puelles,Fares Ziam,+180,-200,0.3488,0.6512,0.086,0.914,0.401,0.599,-0.2628,0.2628,-0.7592,0.371,0,0.1855,,
+2024_02_25,Claudio Puelles,Fares Ziam,+180,-200,0.3488,0.6512,0.086,0.914,0.401,0.599,-0.2628,0.2628,-0.7592,0.371,0,0.1855,Fares Ziam,0.1855
 2024_02_25,Cristian Quinonez,Raoni Barcelos,+140,-150,0.4098,0.5902,0.0794,0.9206,0.446,0.554,-0.3304,0.3304,-0.8094,0.5343,0,0.2004,Raoni Barcelos,0.2004
 2024_02_25,Daniel Da Silva,Edgar Chairez,+375,-435,0.2057,0.7943,0.1976,0.8024,0.278,0.722,-0.0081,0.0081,-0.0614,-0.0131,0,0,,
 2024_02_25,Erik Silva,Muhammad Naimov,+425,-535,0.1844,0.8156,0.0638,0.9362,0.273,0.727,-0.1206,0.1206,-0.6651,0.1112,0,0.1487,,

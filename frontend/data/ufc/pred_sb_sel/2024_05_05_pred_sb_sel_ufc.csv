@@ -1,6 +1,6 @@
 match_date,fighter_1,fighter_2,moneyline_f1,moneyline_f2,implied_prob_f1,implied_prob_f2,model_prob_f1,model_prob_f2,dratings_prob_f1,dratings_prob_f2,edge_f1,edge_f2,ev_f1,ev_f2,kelly_f1,kelly_f2,selected_fighter,selected_kelly
 2024_05_05,Caio Borralho,Paul Craig,-500,+450,0.8209,0.1791,0.9471,0.0529,0.738,0.262,0.1262,-0.1262,0.1365,-0.7091,0.1706,0,,
-2024_05_05,Drakkar Klose,Joaquim Silva,-200,+190,0.6591,0.3409,0.9179,0.0821,0.563,0.437,0.2588,-0.2588,0.3769,-0.7619,0.1884,0,,
+2024_05_05,Drakkar Klose,Joaquim Silva,-200,+190,0.6591,0.3409,0.9179,0.0821,0.563,0.437,0.2588,-0.2588,0.3769,-0.7619,0.1884,0,Drakkar Klose,0.1884
 2024_05_05,Iasmin Lucindo,Karolina Kowalkiewicz,-400,+330,0.7748,0.2252,0.9423,0.0577,0.65,0.35,0.1675,-0.1675,0.1779,-0.7519,0.1779,0,,
 2024_05_05,Ihor Potieria,Michel Pereira,+390,-475,0.1981,0.8019,0.0403,0.9597,0.231,0.769,-0.1578,0.1578,-0.8025,0.1617,0,0.1921,,
 2024_05_05,Joanderson Brito,Jack Shore,-185,+180,0.6451,0.3549,0.6609,0.3391,0.517,0.483,0.0158,-0.0158,0.0181,-0.0505,0.0084,0,,
