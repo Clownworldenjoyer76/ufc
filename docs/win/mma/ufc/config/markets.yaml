@@ -5,7 +5,7 @@ ufc:
     pick_preference: best_model_prob
     # Format: [min_moneyline, max_moneyline] in American odds
     odds_bands:
-      - [-200, 250]
+      - [-199, 250]
     # Only include fighters where (model_prob - implied_prob) falls within at least one band
     edge_bands:
       - [0.00, 1000.00]
