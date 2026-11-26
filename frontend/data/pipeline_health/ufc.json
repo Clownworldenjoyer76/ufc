@@ -10,7 +10,7 @@
   },
   "fatal_errors": [],
   "game_date_new_york": "2026_11_26",
-  "generated_at_utc": "2026-11-26T08:05:53.655844+00:00",
+  "generated_at_utc": "2026-11-26T12:24:40.038743+00:00",
   "paths": {
     "edges": "docs/win/mma/ufc/02_edges/2026_12_05_ufc_edges.csv",
     "features": "docs/win/mma/ufc/01_feature_engineering/2026_12_05_ufc_features.csv",
@@ -92,8 +92,8 @@
     "name": "UFC Pipeline",
     "ref_name": "main",
     "run_attempt": "1",
-    "run_id": "45780193893",
-    "sha": "38c85e1b16849a86ecc7391189a669024aeb177e",
+    "run_id": "45819259353",
+    "sha": "6a9357159ec11b45be4ad68d94374a441d7247bd",
     "status": "success"
   }
 }
