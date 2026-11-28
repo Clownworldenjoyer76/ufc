@@ -29,3 +29,6 @@ __pycache__/
 
 # UFC Documentation
 /UFC_TRAINER_INSTRUCTIONS.md
+
+#Local Run
+/ufc_pipeline.ps1
