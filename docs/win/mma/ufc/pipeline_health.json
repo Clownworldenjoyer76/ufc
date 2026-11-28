@@ -8,11 +8,9 @@
     "selected_bets": 2,
     "sportsbook_fights": 8
   },
-  "fatal_errors": [
-    "UFC workflow status is FAILURE"
-  ],
+  "fatal_errors": [],
   "game_date_new_york": "2026_11_28",
-  "generated_at_utc": "2026-11-28T13:40:32.477785+00:00",
+  "generated_at_utc": "2026-11-28T13:59:49.327588+00:00",
   "paths": {
     "edges": "docs\\win\\mma\\ufc\\02_edges\\2026_12_05_ufc_edges.csv",
     "features": "docs\\win\\mma\\ufc\\01_feature_engineering\\2026_12_05_ufc_features.csv",
@@ -88,7 +86,7 @@
       "status": "STATUS: NO OUTPUT"
     }
   ],
-  "status": "failed",
+  "status": "healthy",
   "warnings": [],
   "workflow": {
     "name": "UFC Pipeline",
@@ -96,6 +94,6 @@
     "run_attempt": "",
     "run_id": "",
     "sha": "",
-    "status": "failure"
+    "status": "success"
   }
 }
