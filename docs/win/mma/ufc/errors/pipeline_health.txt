@@ -1,6 +1,8 @@
-=== UFC PIPELINE HEALTH 2026-11-28T13:59:49.327588+00:00 ===
-status=healthy
+=== UFC PIPELINE HEALTH 2026-11-28T18:59:35.884316+00:00 ===
+status=warning
 workflow_status=success
 report_date=2026_12_05
 fatal_errors=0
-warnings=0
+warnings=2
+WARNING: UFC: 10 bet(s) could not be graded (see docs/win/mma/ufc/errors/unmatched_bets.txt)
+WARNING: UFC: 38 unmapped fighter name(s) (see docs/win/mma/ufc/mappings/no_map_fighter_name.csv)
