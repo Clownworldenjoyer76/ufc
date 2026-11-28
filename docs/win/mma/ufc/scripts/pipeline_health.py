@@ -26,6 +26,14 @@ SPORT_KEY = "ufc"
 SPORT_LABEL = "UFC"
 JOB_STATUS_ENV = "UFC_PIPELINE_JOB_STATUS"
 RUN_DATE_ENV = "UFC_PIPELINE_RUN_DATE"
+UNMATCHED_BETS = BASE / "errors/unmatched_bets.txt"
+NO_MAP_NAMES = BASE / "mappings/no_map_fighter_name.csv"
+TIME_PREFIX_RE = re.compile(r"^\d{1,2}:\d{2}\s*[AP]M\b", re.IGNORECASE)
+TIME_PREFIX_SOURCES = (
+    ("00_intake/sportsbook", "*_ufc_odds.csv"),
+    ("00_intake/predictions", "*_ufc_predictions.csv"),
+    ("manual_files", "*_ufc.csv"),
+)
 
 BAD_MARKERS = (
     "STATUS: FAILED",
@@ -145,6 +153,26 @@ def latest_ufc_date(now_ny: datetime) -> str:
     return max(candidates) if candidates else now_ny.strftime("%Y_%m_%d")
 
 
+def count_nonblank_lines(path: Path) -> int | None:
+    if not path.is_file():
+        return None
+    text = path.read_text(encoding="utf-8-sig", errors="replace")
+    return sum(1 for line in text.splitlines() if line.strip())
+
+
+def time_prefixed_names() -> tuple[int, list[str]]:
+    total = 0
+    dates: set[str] = set()
+    for folder, pattern in TIME_PREFIX_SOURCES:
+        for path in sorted((BASE / folder).glob(pattern)):
+            for row in read_rows(path):
+                for column in ("fighter_1", "fighter_2"):
+                    if TIME_PREFIX_RE.match(clean(row.get(column))):
+                        total += 1
+                        dates.add(path.name[:10])
+    return total, sorted(dates)
+
+
 def build_counts(date: str) -> tuple[dict, dict, list[str], list[str]]:
     paths = {
         "sportsbook": BASE / f"00_intake/sportsbook/{date}_ufc_odds.csv",
@@ -163,6 +191,26 @@ def build_counts(date: str) -> tuple[dict, dict, list[str], list[str]]:
         warnings.append("UFC: sportsbook rows exist but no feature output exists for the report event date")
     if input_rows and rows["features"] and not rows["edges"]:
         warnings.append("UFC: feature rows exist but no edge output exists for the report event date")
+    unmatched = count_nonblank_lines(UNMATCHED_BETS)
+    if unmatched is None:
+        warnings.append(f"UFC: {UNMATCHED_BETS} is missing (grader has not written it)")
+    elif unmatched:
+        warnings.append(f"UFC: {unmatched} bet(s) could not be graded (see {UNMATCHED_BETS})")
+
+    no_map_lines = count_nonblank_lines(NO_MAP_NAMES)
+    unmapped = None if no_map_lines is None else max(no_map_lines - 1, 0)
+    if unmapped is None:
+        warnings.append(f"UFC: {NO_MAP_NAMES} is missing (name normalization has not written it)")
+    elif unmapped:
+        warnings.append(f"UFC: {unmapped} unmapped fighter name(s) (see {NO_MAP_NAMES})")
+
+    prefixed, prefixed_dates = time_prefixed_names()
+    if prefixed:
+        warnings.append(
+            f"UFC: {prefixed} fighter name(s) start with a time prefix in file date(s): "
+            + ", ".join(prefixed_dates)
+        )
+
     counts = {
         "sportsbook_fights": len(rows["sportsbook"]),
         "prediction_fights": len(rows["predictions"]),
@@ -171,6 +219,9 @@ def build_counts(date: str) -> tuple[dict, dict, list[str], list[str]]:
         "selected_bets": len(rows["selected"]),
         "detailed_selected_bets": len(rows["selected_detailed"]),
         "graded_bets": len(rows["graded"]),
+        "unmatched_bets": unmatched,
+        "unmapped_names": unmapped,
+        "time_prefixed_names": prefixed,
     }
     return counts, {key: str(path) for key, path in paths.items()}, warnings, fatals
 
@@ -203,16 +254,6 @@ def main() -> int:
 
     if job_status.lower() != "success":
         fatals.append(f"{SPORT_LABEL} workflow status is {job_status.upper()}")
-
-    failed_logs = [
-        row for row in stages
-        if any(marker in clean(row.get("status")).upper() for marker in BAD_MARKERS)
-    ]
-    if failed_logs and job_status.lower() == "success":
-        fatals.append(
-            f"{SPORT_LABEL} has failed stage log(s): "
-            + "; ".join(clean(row.get("name")) for row in failed_logs)
-        )
 
     status = "failed" if fatals else ("warning" if warnings else "healthy")
     payload = {

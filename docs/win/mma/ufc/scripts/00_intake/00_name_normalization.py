@@ -119,9 +119,8 @@ def main() -> int:
         unmapped = normalize_file(filepath, name_map, lower_map)
         all_unmapped.extend(unmapped)
 
-    if all_unmapped:
-        write_no_map(all_unmapped)
-    else:
+    write_no_map(all_unmapped)
+    if not all_unmapped:
         print("\nAll names matched — no unmapped names.")
 
     print("Done.")

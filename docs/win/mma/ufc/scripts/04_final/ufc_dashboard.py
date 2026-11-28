@@ -39,6 +39,8 @@ def read_csv(path: Path, required: bool = False) -> pd.DataFrame:
             f"{'ERROR' if required else 'WARNING'}: missing {path}",
             file=sys.stderr,
         )
+        if required:
+            sys.exit(1)
         return pd.DataFrame()
 
     try:
@@ -49,6 +51,8 @@ def read_csv(path: Path, required: bool = False) -> pd.DataFrame:
             f"{type(exc).__name__}: {exc}",
             file=sys.stderr,
         )
+        if required:
+            sys.exit(1)
         return pd.DataFrame()
 
 
@@ -83,6 +87,9 @@ def records(df: pd.DataFrame) -> list[dict]:
 
 def build_payload() -> dict:
     summary = read_csv(BASE / "ufc_summary_overall.csv", True)
+    if summary.empty:
+        print(f"ERROR: no rows in {BASE / 'ufc_summary_overall.csv'}", file=sys.stderr)
+        sys.exit(1)
 
     loaded = {}
     report_data = {}

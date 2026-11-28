@@ -38,6 +38,8 @@ DETAILED_DIR = Path("docs/win/mma/ufc/03_select/detailed")
 RESULTS_DIR = Path("docs/win/mma/ufc/manual_files")
 OUT_DIR = Path("docs/win/mma/ufc/04_final/graded")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
+UNMATCHED_FILE = Path("docs/win/mma/ufc/errors/unmatched_bets.txt")
+unmatched_bets: list[str] = []
 
 # --- Clean slate ---
 for stale in OUT_DIR.glob("*_ufc_graded.csv"):
@@ -138,6 +140,9 @@ for det_file in detailed_files:
 
         if not det_f1_norm or not det_f2_norm:
             print(f"WARN {date_str}: blank fighter name in detailed row, skipping")
+            unmatched_bets.append(
+                f"{date_str}|{row.get('fighter_1', '')}|{row.get('fighter_2', '')}|{bet}|blank fighter name"
+            )
             continue
 
         key = frozenset((det_f1_norm, det_f2_norm))
@@ -147,6 +152,9 @@ for det_file in detailed_files:
             print(
                 f"WARN {date_str}: no result match for "
                 f"{row.get('fighter_1')} vs {row.get('fighter_2')}, skipping"
+            )
+            unmatched_bets.append(
+                f"{date_str}|{row.get('fighter_1', '')}|{row.get('fighter_2', '')}|{bet}|no result match"
             )
             continue
 
@@ -165,6 +173,9 @@ for det_file in detailed_files:
             target = res_f2
         else:
             print(f"WARN {date_str}: unknown bet value '{bet}', skipping")
+            unmatched_bets.append(
+                f"{date_str}|{row.get('fighter_1', '')}|{row.get('fighter_2', '')}|{bet}|unknown bet value"
+            )
             continue
 
         match_result = grade_result(target)
@@ -204,3 +215,11 @@ for det_file in detailed_files:
         writer.writerows(graded_rows)
 
     print(f"WROTE {out_file} ({len(graded_rows)} graded bets)")
+
+
+# --- Write unmatched bets (empty file when there are none) ---
+UNMATCHED_FILE.parent.mkdir(parents=True, exist_ok=True)
+UNMATCHED_FILE.write_text(
+    "".join(f"{line}\n" for line in unmatched_bets), encoding="utf-8"
+)
+print(f"WROTE {UNMATCHED_FILE} ({len(unmatched_bets)} unmatched bets)")

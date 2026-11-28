@@ -113,12 +113,6 @@ jobs:
           echo "=== UFC report outputs ==="
           find docs/win/mma/ufc/04_final/reports -type f | sort || true
 
-      - name: UFC Pipeline Health
-        if: always()
-        env:
-          UFC_PIPELINE_JOB_STATUS: ${{ job.status }}
-        run: python docs/win/mma/ufc/scripts/pipeline_health.py
-
       - name: Commit and push all output files
         run: |
           git config user.name "github-actions[bot]"
@@ -132,6 +126,7 @@ jobs:
           git add docs/win/mma/ufc/03_select/
           git add docs/win/mma/ufc/04_final/
           git add ufc_summary_overall.csv 2>/dev/null || true
+          git add docs/win/mma/ufc/errors/unmatched_bets.txt 2>/dev/null || true
           git add frontend/data/dashboards/ufc.json
 
           if git diff --cached --quiet; then
@@ -141,18 +136,6 @@ jobs:
             git pull --rebase --autostash origin main
             git push origin main
           fi
-
-      - name: Commit UFC pipeline health
-        if: always()
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f docs/win/mma/ufc/pipeline_health.json
-          git add docs/win/mma/ufc/errors/pipeline_health.txt
-          git add frontend/data/pipeline_health/ufc.json
-          git diff --cached --quiet || git commit -m "chore: update UFC pipeline health"
-          git pull --rebase --autostash origin main
-          git push origin main
 
       - name: 05 - Build UFC frontend CSVs
         run: |
@@ -170,3 +153,21 @@ jobs:
             git pull --rebase --autostash origin main
             git push origin main
           fi
+
+      - name: UFC Pipeline Health
+        if: always()
+        env:
+          UFC_PIPELINE_JOB_STATUS: ${{ job.status }}
+        run: python docs/win/mma/ufc/scripts/pipeline_health.py
+
+      - name: Commit UFC pipeline health
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f docs/win/mma/ufc/pipeline_health.json
+          git add docs/win/mma/ufc/errors/pipeline_health.txt
+          git add frontend/data/pipeline_health/ufc.json
+          git diff --cached --quiet || git commit -m "chore: update UFC pipeline health"
+          git pull --rebase --autostash origin main
+          git push origin main

@@ -43,6 +43,7 @@ DATE_RE = re.compile(r"^\d{1,2}/\d{1,2}/\d{4}$")
 TIME_RE = re.compile(r"^\d{1,2}:\d{2}\s*[AP]M$", re.IGNORECASE)
 PERCENT_RE = re.compile(r"(\d+(?:\.\d+)?)%")
 MONEYLINE_RE = re.compile(r"^[+-]\d+$")
+GLUED_TIME_RE = re.compile(r"^(\d{1,2}:\d{2}\s*[AP]M)\s+(.+)$", re.IGNORECASE)
 
 IGNORE_LINES = {
     "time",
@@ -140,7 +141,9 @@ def convert_utc_to_nyc_match_date(date_text: str, time_text: str | None) -> str:
             "%m/%d/%Y %I:%M%p",
         )
     else:
-        raw_dt = datetime.strptime(date_text, "%m/%d/%Y")
+        raise ValueError(
+            f"No time found for date {date_text}; cannot convert UTC date to New York date"
+        )
 
     utc_dt = raw_dt.replace(tzinfo=UTC)
     nyc_dt = utc_dt.astimezone(NYC)
@@ -218,9 +221,16 @@ def parse_fights(lines: list[str]) -> list[ParsedFight]:
             time_text = lines[i]
             i += 1
 
+        i, fighter_1_line = next_useful_line(lines, i)
+
+        if time_text is None:
+            glued = GLUED_TIME_RE.match(fighter_1_line)
+            if glued:
+                time_text = glued.group(1)
+                fighter_1_line = glued.group(2)
+
         match_date = convert_utc_to_nyc_match_date(date_text, time_text)
 
-        i, fighter_1_line = next_useful_line(lines, i)
         fighter_1 = clean_fighter_name(fighter_1_line)
         i += 1
 

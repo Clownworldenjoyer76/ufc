@@ -1,4 +1,5 @@
 match_date,fighter_1,fighter_2,win_prob_1,win_prob_2,moneyline_fighter_1,moneyline_fighter_2,result_fighter_1,result_fighter_2
+2026_05_10,Sean Strickland,Khamzat Chimaev,0.211,0.789,+350,-370,Win,Loss
 2026_05_09,Tatsuro Taira,Joshua Van,0.639,0.361,-155,+140,Loss,Win
 2026_05_09,Waldo Cortes-Acosta,Alexander Volkov,0.447,0.553,+125,-125,Loss,Win
 2026_05_09,Joaquin Buckley,Sean Brady,0.448,0.552,-165,+175,Loss,Win

@@ -17,7 +17,9 @@ import csv
 import re
 import sys
 from collections import defaultdict
+from datetime import datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 OUT_DIR = Path("docs/win/mma/ufc/manual_files")
 OUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -129,6 +131,20 @@ def parse_block(block_lines: list[str]) -> dict | None:
     }
 
 
+def utc_block_to_nyc_date_key(year: str, mm: str, dd: str, block_lines: list[str]) -> str | None:
+    """Convert the block's UTC date and time to the New York match date
+    (same rule as ufc_input.py). Returns None when the block has no time line."""
+    for line in block_lines:
+        stripped = line.strip()
+        if TIME_RE.match(stripped):
+            time_text = re.sub(r"\s+", "", stripped.upper())
+            utc_dt = datetime.strptime(
+                f"{mm}/{dd}/{year} {time_text}", "%m/%d/%Y %I:%M%p"
+            ).replace(tzinfo=ZoneInfo("UTC"))
+            return utc_dt.astimezone(ZoneInfo("America/New_York")).strftime("%Y_%m_%d")
+    return None
+
+
 def main() -> int:
     if len(sys.argv) < 2:
         print("Usage: ufc_final_scores.py <dump.txt>")
@@ -149,7 +165,10 @@ def main() -> int:
 
     fights_by_date = defaultdict(list)
     for (year, mm, dd), block_lines in blocks:
-        date_key = f"{year}_{mm}_{dd}"
+        date_key = utc_block_to_nyc_date_key(year, mm, dd, block_lines)
+        if date_key is None:
+            print(f"  Skipped block with no time for {year}_{mm}_{dd}: {block_lines}")
+            continue
         parsed = parse_block(block_lines)
         if not parsed:
             print(f"  Skipped malformed block for {date_key}: {block_lines}")
