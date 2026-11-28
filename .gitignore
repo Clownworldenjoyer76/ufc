@@ -32,3 +32,5 @@ __pycache__/
 
 #Local Run
 /ufc_pipeline.ps1
+/local_logs/local_panda
+/info_instructions
